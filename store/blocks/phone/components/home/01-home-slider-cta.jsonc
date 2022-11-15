@@ -1,0 +1,17 @@
+{
+  "responsive-layout.phone#home__banner-phone": {
+    "children": ["flex-layout.row#home__banner-phone"]
+  },
+  "flex-layout.row#home__banner-phone": {
+    "children": [
+      "image#home__banner_mobile--one",
+      "image#home__banner--two",
+      "image#home__banner--third",
+      "image#home__banner--four"
+    ],
+    "props": {
+      "blockClass": "home__banner-phone",
+      "preserveLayoutOnMobile": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#desktop__navbar--two": {
+    "children": [
+      "rich-text#navbar__one",
+      "rich-text#navbar__two",
+      "rich-text#navbar__three",
+      "rich-text#navbar__four",
+      "rich-text#navbar__five",
+      "rich-text#navbar__six",
+      "rich-text#navbar__seven",
+      "rich-text#navbar__eight"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colJustify": "",
+      "colGap": "5",
+      "blockClass": "desktop__navbar--two"
+    }
+  }
+}
