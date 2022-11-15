@@ -1,0 +1,11 @@
+.buttonLink--showmore__recommendations-button {
+    background-color: transparent !important;
+    border: white solid 1px;
+}
+
+.label--showmore__recommendations-button {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 12px;
+    font-weight: 600;
+}

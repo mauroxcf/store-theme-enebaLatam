@@ -1,0 +1,182 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "children": [
+      "flex-layout.col#desktop"
+    ]
+  },
+  "flex-layout.col#desktop": {
+    "children": [
+      "flex-layout.row#desktop__navbar--one",
+      "flex-layout.row#desktop__navbar--two"
+    ]
+  },
+  "flex-layout.row#desktop__navbar--one": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      /* "flex-layout.col#spacer", */
+      "search-bar",
+      "locale-switcher",
+      "logo#main__heart",
+      "minicart.v2",
+      "logo#main__Login",
+      "login"
+    ]
+  },
+  "flex-layout.row#desktop__navbar--two": {
+    "children": [
+      "rich-text#navbar__one",
+      "rich-text#navbar__two",
+      "rich-text#navbar__three",
+      "rich-text#navbar__four",
+      "rich-text#navbar__five",
+      "rich-text#navbar__six",
+      "rich-text#navbar__seven",
+      "rich-text#navbar__eight"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colJustify": "",
+      "colGap": "5",
+      "blockClass": "desktop__navbar--two"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#main__logo"]
+  },
+  "logo#main__logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/svg/logoeneba.svg",
+      "width": "100",
+      "blockClass": "header-icon"
+    }
+  },
+  "logo#main__heart": {
+    "props": {
+      "title": "Heart",
+      "href": "/",
+      "url": "assets/svg/heartIconMobile.svg",
+      "width": "24",
+      "blockClass": "header-icon"
+    }
+  },
+  "logo#main__Login": {
+    "props": {
+      "title": "Login",
+      "href": "/",
+      "url": "assets/svg/loginIconMobile.svg",
+      "width": "24",
+      "blockClass": "header-icon"
+    }
+  },
+  "logo#main__Search": {
+    "props": {
+      "title": "Search",
+      "href": "/",
+      "url": "assets/svg/searchIconMobile.svg",
+      "width": "24",
+      "blockClass": "header-icon"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo#main__logo",
+      "flex-layout.col#spacer",
+      /* "search-bar", */
+      "logo#main__Search",
+      "logo#main__heart",
+      "minicart.v2",
+      "logo#main__Login"
+      /* "login" */
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  },
+  "rich-text#navbar__one": {
+    "props": {
+      "text": "Tienda"
+    }
+  },
+  "rich-text#navbar__two": {
+    "props": {
+      "text": "Juegos"
+    }
+  },
+  "rich-text#navbar__three": {
+    "props": {
+      "text": "Recomendaciones para ti"
+    }
+  },
+  "rich-text#navbar__four": {
+    "props": {
+      "text": "Tarjetas de regalo"
+    }
+  },
+  "rich-text#navbar__five": {
+    "props": {
+      "text": "Puntos de juegos"
+    }
+  },
+  "rich-text#navbar__six": {
+    "props": {
+      "text": "Xbox"
+    }
+  },
+  "rich-text#navbar__seven": {
+    "props": {
+      "text": "PSN"
+    }
+  },
+  "rich-text#navbar__eight": {
+    "props": {
+      "text": "Nintendo Online"
+    }
+  },
+  "rich-text#navbar__nine": {
+    "props": {
+      "text": "Software"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "flex-layout.row#home__section--five": {
+    "children": [
+        "flex-layout.col#home__section__slider--four"
+    ],
+    "props": {
+        "blockClass": "home__section--five"
+    }
+  },
+  "flex-layout.col#home__section__slider--four": {
+    "children": [
+      "rich-text#home__slider--text--four",
+      /* "slider-layout#home__slider--children--third", */
+      "list-context.product-list#home__slider--children--four",
+      "link#showmore__recommendations--four"
+    ],
+    "props": {
+        "blockClass": "home__slider--one"
+    }
+    },
+    "rich-text#home__slider--text--four": {
+      "props": {
+        "text": "Próximos juegos",
+        "textAlignment": "CENTER",
+        "font": "t-heading-3",
+        "blockClass": "home__slider--text"
+      }
+    },
+    "list-context.product-list#home__slider--children--four": {
+      "blocks": ["product-summary.shelf#home__gift_card"],
+      "children": ["slider-layout#demo-products"]
+    },
+    "product-summary.shelf#home__gift_card": {
+      "children": [
+        "product-summary-image",
+        "product-summary-name",
+        /* "product-summary-description", */
+        "product-summary-price"
+        /* "product-summary-sku-selector" */
+      ]
+    },
+    "slider-layout#demo-products": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+            "tablet": 3,
+            "mobile": 5,
+            "phone": 5
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "home__next_games--shelf"
+      }
+    },
+    "link#showmore__recommendations--four": {
+      "props": {
+        "href": "/recommended-for-you",
+        "label": "Cargar más",
+        "displayMode": "button",
+        "blockClass": "showmore__recommendations-button"
+      }
+    }
+    /* "slider-layout#home__slider--children--third": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "mobile": 3
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "blockClass": "home__slider",
+          "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+          "image#home__slider--one",
+          "image#home__slider--two",
+          "image#home__slider--third",
+          "image#home__slider--fourth",
+          "image#home__slider--five",
+          "image#home__slider--six"
+        ]
+      },
+      "image#home__slider--one": {
+        "props": {
+          "src": "assets/img/home/home-slider04/home-slide01.jpeg"
+        }
+      },
+      "image#home__slider--two": {
+        "props": {
+          "src": "assets/img/home/home-slider04/home-slide02.jpeg"
+        }
+      },
+      "image#home__slider--fourth": {
+        "props": {
+          "src": "assets/img/home/home-slider04/home-slide03.jpeg"
+        }
+      },
+      "image#home__slider--five": {
+        "props": {
+          "src": "assets/img/home/home-slider04/home-slide04.jpeg"
+        }
+      },
+      "image#home__slider--six": {
+        "props": {
+          "src": "assets/img/home/home-slider04/home-slide05.jpeg"
+        }
+      },
+      "image#home__slider--third": {
+        "props": {
+          "src": "assets/img/home/home-slider04/home-slide06.jpeg"
+        }
+      } */
+}
