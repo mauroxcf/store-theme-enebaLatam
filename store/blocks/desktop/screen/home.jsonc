@@ -1,0 +1,11 @@
+{
+  "responsive-layout.desktop#home__desktop": {
+    "children": [
+      "responsive-layout.desktop#home__banner-desktop",
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__section--third",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--five"
+    ]
+  }
+}
