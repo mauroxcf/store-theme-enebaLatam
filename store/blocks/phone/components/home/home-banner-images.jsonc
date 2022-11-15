@@ -1,0 +1,7 @@
+{
+  "image#home__banner_mobile--one": {
+    "props": {
+      "src": "assets/img/home/home-banner01/home-banner_mobile01.jpg"
+    }
+  }
+}
