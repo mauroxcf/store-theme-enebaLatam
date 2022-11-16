@@ -7,3 +7,14 @@
     min-width : auto;
     align-self: center;
 }
+
+.logoLink--menu_logo-icon {
+    align-self: center;
+}
+
+.logoContainer--menu_logo-icon {
+    padding    : 0;
+    min-width  : auto;
+    align-self : center;
+    margin-left: 1.5rem;
+}
