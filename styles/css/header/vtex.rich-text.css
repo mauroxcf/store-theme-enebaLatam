@@ -1,0 +1,23 @@
+.wrapper--mobile__login-sign_in {
+    padding: 4px 48px 4px 48px;
+    border : solid #ffff 1px;
+}
+
+.paragraph--mobile__login-sign_in {
+    margin     : 0;
+    font-size  : 1rem !important;
+    font-weight: 600;
+}
+
+.wrapper--mobile__login-sign_up {
+    padding         : 4px 66px 4px 66px;
+    border          : solid transparent 1px;
+    background-color: #FAD318;
+}
+
+.paragraph--mobile__login-sign_up {
+    margin     : 0;
+    font-size  : 1rem !important;
+    font-weight: 600;
+    color      : black;
+}

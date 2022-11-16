@@ -16,7 +16,7 @@
   "logo#main__heart": {
     "props": {
       "title": "Heart",
-      "href": "/",
+      /* "href": "/", */
       "url": "assets/svg/heartIconMobile.svg",
       "width": "24",
       "blockClass": "header-icon"
@@ -25,7 +25,7 @@
   "logo#main__Login": {
     "props": {
       "title": "Login",
-      "href": "/",
+      /* "href": "/", */
       "url": "assets/svg/loginIconMobile.svg",
       "width": "24",
       "blockClass": "header-icon"
@@ -34,13 +34,10 @@
   "logo#main__Search": {
     "props": {
       "title": "Search",
-      "href": "/",
+      /* "href": "/", */
       "url": "assets/svg/searchIconMobile.svg",
       "width": "24",
       "blockClass": "header-icon"
     }
-  },
-  "drawer": {
-    "children": []
   }
 }
