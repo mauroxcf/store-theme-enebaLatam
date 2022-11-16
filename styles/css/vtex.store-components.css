@@ -1,3 +1,9 @@
 .logoLink--header-icon {
     align-self: center;
 }
+
+.logoContainer--header-icon {
+    padding   : 0;
+    min-width : auto;
+    align-self: center;
+}

@@ -13,8 +13,8 @@
       "locale-switcher",
       "logo#main__heart",
       "minicart.v2",
-      "logo#main__Login",
-      "login"
+      /* "logo#main__Login", */
+      "login#navbar__login-desktop"
     ]
   },
   "flex-layout.col#logo-desktop": {

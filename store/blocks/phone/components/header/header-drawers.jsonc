@@ -1,0 +1,53 @@
+{
+  "drawer#navbar__phone-menu": {
+    "children": []
+  },
+  "drawer#navbar__phone-login": {
+    "blocks": [
+      "drawer-header#phone__drawer-login",
+      "drawer-trigger#phone__login"
+    ],
+    "children": ["flex-layout.row#phone__login-container"],
+    "props": {
+      "slideDirection": "rightToLeft"
+    }
+  },
+  "drawer-header#phone__drawer-login": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "blockClass": "mobile__drawer-login"
+    }
+  },
+  "drawer-trigger#phone__login": {
+    "children": ["logo#main__Login"]
+  },
+  "flex-layout.row#phone__login-container": {
+    "children": ["flex-layout.col#phone__login-buttons"],
+    "props": {
+      "blockClass": "mobile__login-container"
+    }
+  },
+  "flex-layout.col#phone__login-buttons": {
+    "children": [
+      /* "rich-text#phone__login-sign_in", */
+      "login#navbar__login-phone",
+      "rich-text#phone__login-sign_up"
+    ],
+    "props": {
+      "rowGap": "4",
+      "blockClass": "mobile__login-buttons"
+    }
+  },
+  "rich-text#phone__login-sign_in": {
+    "props": {
+      "text": "Iniciar sesión",
+      "blockClass": "mobile__login-sign_in"
+    }
+  },
+  "rich-text#phone__login-sign_up": {
+    "props": {
+      "text": "Registro",
+      "blockClass": "mobile__login-sign_up"
+    }
+  }
+}

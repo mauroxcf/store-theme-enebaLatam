@@ -1,11 +1,10 @@
 .flexRow--main-header-mobile {
-    height: 55px;
+    height          : 55px;
+    background-color: #4618AC;
 }
 
-@media only screen and (min-width: 931px) {
-    .flexRow--main-header-mobile {
-        margin: 20px;
-    }
+.flexRowContent--main-header-mobile {
+    padding: 4px;
 }
 
 .flexRow--desktop__navbar--two {
@@ -15,4 +14,20 @@
 .flexRowContent--desktop__navbar--two {
     max-width: 1200px;
     margin   : 0 auto 50px;
+}
+
+.flexRow--mobile__login-container {
+    width   : 100%;
+    position: relative;
+    bottom  : 40px;
+}
+
+.flexCol--mobile__login-buttons {
+    align-items: center;
+}
+
+@media only screen and (min-width: 931px) {
+    .flexRow--main-header-mobile {
+        margin: 20px;
+    }
 }
