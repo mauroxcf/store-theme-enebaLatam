@@ -1,7 +1,4 @@
 {
-  "drawer#navbar__phone-menu": {
-    "children": []
-  },
   "drawer#navbar__phone-login": {
     "blocks": [
       "drawer-header#phone__drawer-login",
@@ -9,7 +6,8 @@
     ],
     "children": ["flex-layout.row#phone__login-container"],
     "props": {
-      "slideDirection": "rightToLeft"
+      "slideDirection": "rightToLeft",
+      "blockClass": "phone__drawer_login"
     }
   },
   "drawer-header#phone__drawer-login": {

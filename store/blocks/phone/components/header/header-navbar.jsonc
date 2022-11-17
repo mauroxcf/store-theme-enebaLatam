@@ -12,7 +12,7 @@
       /* "login#navbar__login-phone" */
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "main-header-phone",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true,

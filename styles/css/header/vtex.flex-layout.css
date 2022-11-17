@@ -1,9 +1,9 @@
-.flexRow--main-header-mobile {
+.flexRow--main-header-phone {
     height          : 55px;
     background-color: #4618AC;
 }
 
-.flexRowContent--main-header-mobile {
+.flexRowContent--main-header-phone {
     padding: 4px;
 }
 
@@ -12,8 +12,7 @@
 }
 
 .flexRowContent--desktop__navbar--two {
-    max-width: 1200px;
-    margin   : 0 auto 50px;
+    margin: 0 auto 50px;
 }
 
 .flexRow--mobile__login-container {
@@ -26,8 +25,12 @@
     align-items: center;
 }
 
+.flexCol--desktop__navbar--two {
+    background-color: #330e82;
+}
+
 @media only screen and (min-width: 931px) {
-    .flexRow--main-header-mobile {
+    .flexRow--main-header-phone {
         margin: 20px;
     }
 }

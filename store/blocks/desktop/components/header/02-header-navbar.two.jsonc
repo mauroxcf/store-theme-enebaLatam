@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#desktop__navbar--two": {
+    "children": ["menu#header__desktop-menu"],
+    "props": {
+      "blockClass": "desktop__navbar--two"
+    }
+  },
+  "menu#header__desktop-menu": {
+    "children": [
+      "menu-item#shop",
+      "menu-item#games",
+      "menu-item#gift_cards",
+      "menu-item#game_points",
+      "menu-item#xbox",
+      "menu-item#psn",
+      "menu-item#nintendo_online",
+      "menu-item#software"
+    ]
+  }
+}

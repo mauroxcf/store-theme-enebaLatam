@@ -1,0 +1,192 @@
+{
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tienda",
+        "text": "TIENDA"
+      }
+    }
+  },
+  "menu-item#games": {
+    "props": {
+      "id": "menu-item-games",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Juegos",
+        "text": "JUEGOS"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms"]
+  },
+  "submenu.accordion#department__platforms": {
+    "children": ["menu#department__platforms"]
+  },
+  "menu#department__platforms": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#category__steam", "menu-item#category__origin"]
+  },
+  "menu-item#category__steam": {
+    "props": {
+      "id": "category-steam",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Steam",
+        "text": "STEAM"
+      }
+    }
+  },
+  "menu-item#category__origin": {
+    "props": {
+      "id": "category-origin",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Origin",
+        "text": "ORIGIN"
+      }
+    }
+  },
+  "menu-item#gift_cards": {
+    "props": {
+      "id": "menu-item-gift_cards",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tarjetas de regalo",
+        "text": "TARJETAS DE REGALO"
+      }
+    },
+    "blocks": ["submenu.accordion#department__gift-cards"]
+  },
+  "submenu.accordion#department__gift-cards": {
+    "children": ["menu#department__gift-cards"]
+  },
+  "menu#department__gift-cards": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__gift_cards-game",
+      "menu-item#category__e-cards"
+    ]
+  },
+  "menu-item#category__gift_cards-game": {
+    "props": {
+      "id": "category-cards-game",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "GiftCards",
+        "text": "TARJETAS DE REGALO PARA JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__e-cards": {
+    "props": {
+      "id": "category-e-cards",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Etarjetas",
+        "text": "ETARJETAS"
+      }
+    }
+  },
+  "menu-item#game_points": {
+    "props": {
+      "id": "menu-item-game_points",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Puntos de juego",
+        "text": "PUNTOS DE JUEGO"
+      }
+    }
+  },
+  "menu-item#xbox": {
+    "props": {
+      "id": "menu-item-xbox",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Xbox",
+        "text": "XBOX"
+      }
+    }
+  },
+  "menu-item#psn": {
+    "props": {
+      "id": "menu-item-psn",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Psn",
+        "text": "PSN"
+      }
+    }
+  },
+  "menu-item#nintendo_online": {
+    "props": {
+      "id": "menu-item-nintendo_online",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nintendo online",
+        "text": "NINTENDO ONLINE"
+      }
+    }
+  },
+  "menu-item#software": {
+    "props": {
+      "id": "menu-item-software",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Software",
+        "text": "SOFTWARE"
+      }
+    }
+  }
+}

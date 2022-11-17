@@ -3,12 +3,21 @@
     align-self: center;
 }
 
-.drawerContent {
+.drawerContent--phone__drawer_login {
     background-color: #330e82;
 }
 
 .drawerHeader--mobile__drawer-login {
     flex-direction: row-reverse;
+}
+
+.drawerHeader--phone__drawer_header-menu {
+    justify-content: space-between;
+}
+
+.drawerHeader--phone__drawer_header-menu :first-child {
+    color  : #ffff;
+    z-index: 1;
 }
 
 .drawerHeader--mobile__drawer-login :first-child {
