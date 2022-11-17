@@ -1,4 +1,10 @@
 {
+  "flex-layout.row#desktop__navbar--two": {
+    "children": ["menu#header__desktop-menu"],
+    "props": {
+      "blockClass": "desktop__navbar--two"
+    }
+  },
   "menu#header__desktop-menu": {
     "children": [
       "menu-item#shop",

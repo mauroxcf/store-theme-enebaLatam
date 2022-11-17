@@ -1,14 +1,14 @@
 {
   "header-layout.desktop": {
-    "children": ["flex-layout.row#desktop"]
+    "children": ["flex-layout.row#header__desktop"]
   },
-  "flex-layout.row#desktop": {
-    "children": ["flex-layout.col#desktop"]
+  "flex-layout.row#header__desktop": {
+    "children": ["flex-layout.col#header__desktop"]
   },
-  "flex-layout.col#desktop": {
+  "flex-layout.col#header__desktop": {
     "children": [
       "flex-layout.row#desktop__navbar--one",
-      "menu#header__desktop-menu"
+      "flex-layout.row#desktop__navbar--two"
     ]
   }
 }
