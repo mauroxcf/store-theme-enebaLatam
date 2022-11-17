@@ -1,8 +1,5 @@
 {
-  "menu#header__phone-menu": {
-    "props": {
-      "orientation": "vertical"
-    },
+  "menu#header__desktop-menu": {
     "children": [
       "menu-item#shop",
       "menu-item#games",

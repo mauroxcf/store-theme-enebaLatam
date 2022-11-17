@@ -8,7 +8,7 @@
   "flex-layout.col#desktop": {
     "children": [
       "flex-layout.row#desktop__navbar--one",
-      "flex-layout.row#desktop__navbar--two"
+      "menu#header__desktop-menu"
     ]
   }
 }
