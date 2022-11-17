@@ -38,17 +38,9 @@
         "noFollow": true,
         "tagTitle": "Juegos",
         "text": "JUEGOS"
-      },
-      /* "iconProps": {
-        "id": "bnd-logo",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconPosition": "right", */
-      "blocks": ["submenu.accordion#department__platforms"]
-    }
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms"]
   },
   "submenu.accordion#department__platforms": {
     "children": ["menu#department__platforms"]
@@ -98,6 +90,47 @@
         "noFollow": false,
         "tagTitle": "Tarjetas de regalo",
         "text": "TARJETAS DE REGALO"
+      }
+    },
+    "blocks": ["submenu.accordion#department__gift-cards"]
+  },
+  "submenu.accordion#department__gift-cards": {
+    "children": ["menu#department__gift-cards"]
+  },
+  "menu#department__gift-cards": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__gift_cards-game",
+      "menu-item#category__e-cards"
+    ]
+  },
+  "menu-item#category__gift_cards-game": {
+    "props": {
+      "id": "category-cards-game",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "GiftCards",
+        "text": "TARJETAS DE REGALO PARA JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__e-cards": {
+    "props": {
+      "id": "category-e-cards",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Etarjetas",
+        "text": "ETARJETAS"
       }
     }
   },
