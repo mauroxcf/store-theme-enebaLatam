@@ -9,7 +9,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       /* "flex-layout.col#spacer", */
-      "search-bar",
+      "search-bar#header__search",
       "locale-switcher",
       "logo#main__heart",
       "minicart.v2",
