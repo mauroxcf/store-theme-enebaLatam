@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Metropolis';
+    src        : url(assets/fonts/metropolis/Metropolis-Black.ttf),
+        url(assets/fonts/metropolis/Metropolis-BlackItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-Bold.ttf),
+        url(assets/fonts/metropolis/Metropolis-BoldItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-ExtraBold.ttf),
+        url(assets/fonts/metropolis/Metropolis-ExtraBoldItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-ExtraLight.ttf),
+        url(assets/fonts/metropolis/Metropolis-ExtraLightItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-Light.ttf),
+        url(assets/fonts/metropolis/Metropolis-LightItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-Medium.ttf),
+        url(assets/fonts/metropolis/Metropolis-MediumItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-Regular.ttf),
+        url(assets/fonts/metropolis/Metropolis-RegularItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-SemiBold.ttf),
+        url(assets/fonts/metropolis/Metropolis-SemiBoldItalic.ttf),
+        url(assets/fonts/metropolis/Metropolis-Thin.ttf),
+        url(assets/fonts/metropolis/Metropolis-ThinItalic.ttf);
+
+}
