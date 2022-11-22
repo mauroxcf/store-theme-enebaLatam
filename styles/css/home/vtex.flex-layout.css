@@ -14,6 +14,11 @@
     background-color: #330e82;
 }
 
+.flexRow--home__section--five :global(.vtex-store-components-3-x-container) {
+    margin-left : 16px;
+    margin-right: 16px;
+}
+
 .flexRowContent--home__popularcards_mobile {
     display: flex;
 }
