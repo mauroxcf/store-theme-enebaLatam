@@ -22,3 +22,21 @@
 .flexRowContent--home__popularcards_mobile {
     display: flex;
 }
+
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 45% !important;
+}
+
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n) {
+    width: 50% !important;
+}
+
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(3n) {
+    width   : auto !important;
+    position: relative;
+    bottom  : 8px;
+}
+
+.flexColChild--section__slider--four:nth-child(3n) {
+    align-self: center;
+}

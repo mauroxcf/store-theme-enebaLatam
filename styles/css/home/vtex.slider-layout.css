@@ -19,7 +19,7 @@
 }
 
 .sliderTrack--home__next_games--shelf :global(.vtex-slider-layout-0-x-slide) {
-    width           : fit-content !important;
+    width           : 100% !important;
     background-color: #1F0A4E;
     align-self      : center;
 }
@@ -31,3 +31,5 @@
 :global(.vtex-product-summary-2-x-containerNormal) {
     max-width: none !important;
 }
+
+/* el width de sliderTrack--home__next_games--shelf :global(.vtex-slider-layout-0-x-slide) cambia en desktop */
