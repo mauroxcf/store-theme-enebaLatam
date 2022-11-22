@@ -8,7 +8,9 @@
   "flex-layout.col#home__section__slider--four": {
     "children": [
       "rich-text#home__slider--text--four",
-      "list-context.product-list#home__slider--children--four",
+      "responsive-layout.phone#home__slider--children--four",
+      "responsive-layout.tablet#home__slider--children--four",
+      "responsive-layout.desktop#home__slider--children--four",
       "link#showmore__recommendations--four"
     ],
     "props": {
@@ -21,62 +23,6 @@
       "textAlignment": "CENTER",
       "font": "t-heading-3",
       "blockClass": "home__slider--text"
-    }
-  },
-  "list-context.product-list#home__slider--children--four": {
-    "blocks": ["product-summary.shelf#home__gift_card"],
-    "children": ["slider-layout#demo-products"]
-  },
-  "product-summary.shelf#home__gift_card": {
-    "children": ["flex-layout.row#product__container"]
-  },
-  "flex-layout.row#product__container": {
-    "children": [
-      "flex-layout.col#product__image",
-      "flex-layout.col#product__information",
-      "logo#product__button-like"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "product__container"
-    }
-  },
-  "flex-layout.col#product__image": {
-    "children": ["product-summary-image#shelf"]
-  },
-  "product-summary-image#shelf": {
-    "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1"
-    }
-  },
-  "flex-layout.col#product__information": {
-    "children": [
-      "product-summary-name",
-      "rich-text#product__summary-region",
-      "rich-text#product__summary-at",
-      "product-selling-price"
-    ]
-  },
-  "rich-text#product__summary-region": {
-    "props": {
-      "text": "GLOBAL",
-      "blockClass": "product__summary-region"
-    }
-  },
-  "rich-text#product__summary-at": {
-    "props": {
-      "text": "Desde",
-      "blockClass": "product__summary-at"
-    }
-  },
-  "logo#product__button-like": {
-    "props": {
-      "title": "LikeButton",
-      "url": "assets/svg/productLikeButton.svg",
-      "width": "100",
-      "height": 44.8,
-      "blockClass": "product-like-icon"
     }
   },
   "slider-layout#demo-products": {
