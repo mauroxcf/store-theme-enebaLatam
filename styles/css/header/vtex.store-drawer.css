@@ -24,3 +24,19 @@
     color  : #ffff;
     z-index: 1;
 }
+
+/* Searchbar drawer */
+.drawerHeader--phone__drawer-searchbar {
+    justify-content: space-between;
+    border         : solid black 1px;
+}
+
+.drawerHeader--phone__drawer-searchbar :global(.vtex-store-drawer-0-x-closeIconButton) {
+    color  : #ffff;
+    z-index: 1;
+}
+
+.drawerHeader--phone__drawer-searchbar :global(.vtex-input-prefix__group) {
+    border        : none;
+    flex-direction: row-reverse;
+}

@@ -3,13 +3,11 @@
     "children": [
       "drawer#navbar__phone-menu",
       "logo#main__logo",
-      /* "flex-layout.col#spacer", */
-      /* "search-bar", */
-      "logo#main__Search",
+      "flex-layout.col#spacer",
+      "drawer#navbar__phone-searchbar",
       "logo#main__heart",
       "minicart.v2",
       "drawer#navbar__phone-login"
-      /* "login#navbar__login-phone" */
     ],
     "props": {
       "blockClass": "main-header-phone",
