@@ -7,14 +7,14 @@
   },
   "menu#header__desktop-menu": {
     "children": [
-      "menu-item#shop",
-      "menu-item#games",
-      "menu-item#gift_cards"
-      /* "menu-item#game_points",
-      "menu-item#xbox",
-      "menu-item#psn",
-      "menu-item#nintendo_online",
-      "menu-item#software" */
+      "menu-item#shop-desktop",
+      "menu-item#games-desktop",
+      "menu-item#gift_cards-desktop",
+      "menu-item#game_points-desktop",
+      "menu-item#xbox-desktop",
+      "menu-item#psn-desktop",
+      "menu-item#nintendo_online-desktop",
+      "menu-item#software-desktop"
     ],
     "props": {
       "blockClass": "desktop__menu-items"

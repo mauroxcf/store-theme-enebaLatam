@@ -1,0 +1,193 @@
+{
+  "submenu#department__platforms-level2-desktop": {
+    "children": ["menu#department__platforms-level2-desktop"]
+  },
+  "menu#department__platforms-level2-desktop": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop__submenu-lvl2"
+    },
+    "children": [
+      "menu-item#category__steam-games-desktop",
+      "menu-item#category__xbox-games-desktop",
+      "menu-item#category__psn-games-desktop",
+      "menu-item#category__nintendo-games-desktop",
+      "menu-item#category__origin-games-desktop",
+      "menu-item#category__ubisoft-games-desktop",
+      "menu-item#category__epic-games-desktop",
+      "menu-item#category__gog-games-desktop",
+      "menu-item#category__battle-games-desktop",
+      "menu-item#category__other-games-desktop",
+      "menu-item#category__next-games-desktop",
+      "menu-item#category__dlcs-desktop"
+    ]
+  },
+  "menu-item#category__steam-games-desktop": {
+    "props": {
+      "id": "category__steam-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Steam juegos",
+        "text": "STEAM JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__xbox-games-desktop": {
+    "props": {
+      "id": "category__xbox-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Xbox juegos",
+        "text": "XBOX JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__psn-games-desktop": {
+    "props": {
+      "id": "category__psn-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Psn juegos",
+        "text": "PSN JUEGOS | DIGITAL"
+      }
+    }
+  },
+  "menu-item#category__nintendo-games-desktop": {
+    "props": {
+      "id": "category__nintendo-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nintendo switch juegos",
+        "text": "NINTENDO SWITCH JUEGOS | DIGITAL"
+      }
+    }
+  },
+  "menu-item#category__origin-games-desktop": {
+    "props": {
+      "id": "category__origin-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Origin juegos",
+        "text": "ORIGIN JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__ubisoft-games-desktop": {
+    "props": {
+      "id": "category__origin-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ubisoft juegos",
+        "text": "UBISOFT CONNECT JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__epic-games-desktop": {
+    "props": {
+      "id": "category__epic-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "epic juegos",
+        "text": "EPIC GAMES JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__gog-games-desktop": {
+    "props": {
+      "id": "category__gog-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Gog juegos",
+        "text": "GOG JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__battle-games-desktop": {
+    "props": {
+      "id": "category__battle-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Battle net juegos",
+        "text": "BATTLE.NET JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__other-games-desktop": {
+    "props": {
+      "id": "category__other-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Otros juegos",
+        "text": "OTROS JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__next-games-desktop": {
+    "props": {
+      "id": "category__next-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Próximos juegos",
+        "text": "PRÓXIMOS JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__dlcs-desktop": {
+    "props": {
+      "id": "category__dlc",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dlcs",
+        "text": "DLCS"
+      }
+    }
+  }
+}

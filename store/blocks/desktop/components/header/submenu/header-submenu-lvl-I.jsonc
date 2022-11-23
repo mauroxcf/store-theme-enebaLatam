@@ -1,0 +1,92 @@
+{
+  "submenu#department__platforms-level1-desktop": {
+    "children": ["menu#department__platforms-desktop"]
+  },
+  "menu#department__platforms-desktop": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "desktop__submenu-lvl1"
+    },
+    "children": [
+      "menu-item#category__platforms-desktop",
+      "menu-item#category__genre-desktop",
+      "menu-item#category__genre-desktop",
+      "menu-item#category__popularity-desktop"
+    ]
+  },
+  "menu-item#category__platforms-desktop": {
+    "props": {
+      "id": "category__platforms",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Plataformas",
+        "text": "PLATAFORMAS"
+      }
+    },
+    "blocks": ["submenu#department__platforms-level2-desktop"]
+  },
+  "menu-item#category__genre-desktop": {
+    "props": {
+      "id": "category__genre",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por género",
+        "text": "DESCUBRIR POR GENERO"
+      }
+    },
+    "blocks": ["submenu#department__platforms-level2-desktop"]
+  },
+  "menu-item#category__collection-desktop": {
+    "props": {
+      "id": "category__collection",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por colección",
+        "text": "DESCUBRIR POR COLECCIÓN"
+      }
+    },
+    "blocks": ["submenu#department__platforms-level2-desktop"]
+  },
+  "menu-item#category__precio-desktop": {
+    "props": {
+      "id": "category__precio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por precio",
+        "text": "DESCUBRIR POR PRECIO"
+      }
+    },
+    "blocks": ["submenu#department__platforms-level2-desktop"]
+  },
+  "menu-item#category__popularity-desktop": {
+    "props": {
+      "id": "category__popularity",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por popularidad",
+        "text": "DESCUBRIR POR POPULARIDAD"
+      }
+    },
+    "blocks": ["submenu#department__platforms-level2-desktop"]
+  }
+}
