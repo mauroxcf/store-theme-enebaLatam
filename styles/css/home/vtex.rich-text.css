@@ -16,8 +16,24 @@
     margin-right: auto;
 }
 
+.paragraph--product__summary-region {
+    color: #00CF9F;
+}
+
+.paragraph--product__summary-at {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 @media only screen and (max-width: 600px) {
     .paragraph {
         font-size: 1.25rem;
+    }
+
+    .paragraph--product__summary-region {
+        font-size: 0.75rem;
+    }
+
+    .paragraph--product__summary-at {
+        font-size: 0.75rem;
     }
 }

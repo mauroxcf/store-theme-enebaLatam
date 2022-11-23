@@ -26,11 +26,7 @@
     }
   },
   "flex-layout.col#phone__login-buttons": {
-    "children": [
-      /* "rich-text#phone__login-sign_in", */
-      "login#navbar__login-phone",
-      "rich-text#phone__login-sign_up"
-    ],
+    "children": ["login#navbar__login-phone", "rich-text#phone__login-sign_up"],
     "props": {
       "rowGap": "4",
       "blockClass": "mobile__login-buttons"

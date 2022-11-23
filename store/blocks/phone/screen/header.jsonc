@@ -1,6 +1,15 @@
 {
   "header-layout.mobile": {
+    "children": [
+      "responsive-layout.phone#header__sticky-mobile",
+      "responsive-layout.tablet#header__tablet"
+    ]
+  },
+  "responsive-layout.phone#header__sticky-mobile": {
     "children": ["sticky-layout#mobile"]
+  },
+  "responsive-layout.tablet#header__tablet": {
+    "children": ["flex-layout.row#header__desktop"]
   },
   "sticky-layout#mobile": {
     "children": ["flex-layout.row#phone"]

@@ -6,8 +6,9 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "iconLabel": "Iniciar sesión"
+      "showIconProfile": false,
+      "iconLabel": "Iniciar sesión",
+      "labelClasses": "login__label-phone"
     }
   }
 }

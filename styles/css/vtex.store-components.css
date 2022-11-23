@@ -8,6 +8,11 @@
     align-self: center;
 }
 
+.logoContainer--product-like-icon {
+    padding  : 0;
+    min-width: auto;
+}
+
 .logoLink--menu_logo-icon {
     align-self: center;
 }

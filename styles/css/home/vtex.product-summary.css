@@ -1,0 +1,44 @@
+.nameContainer {
+    justify-content: initial;
+    padding        : 0;
+}
+
+.installmentContainer {
+    text-align: left;
+}
+
+.sellingPriceContainer {
+    text-align: left;
+}
+
+.price_listPriceContainer {
+    text-align: left;
+}
+
+.priceContainer {
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .brandName {
+        font-size: 0.75rem;
+    }
+
+    /* .price_sellingPriceLabel {
+        font-size: 0.75rem;
+    }
+
+    .installmentContainer {
+        font-size: 0.75rem;
+    } */
+
+    .imageStackContainer {
+        height: 133px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .imageStackContainer {
+        height: 100px;
+    }
+}
