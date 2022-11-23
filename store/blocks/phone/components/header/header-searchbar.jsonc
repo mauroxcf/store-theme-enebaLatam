@@ -1,0 +1,18 @@
+{
+  "search-bar#header__search-phone": {
+    "blocks": ["autocomplete-result-list.v2#search-phone"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "",
+      "hasIconLeft": false,
+      "autoFocus": true
+    }
+  },
+  "autocomplete-result-list.v2#search-phone": {
+    "blocks": ["product-summary"],
+    "props": {
+      "productLayout": "VERTICAL",
+      "autocompleteWidth": "100%"
+    }
+  }
+}

@@ -40,6 +40,11 @@
     text-transform: none;
 }
 
+/* Searchbar container phone */
+.flexRow--phone__searchbar-container {
+    flex-grow: 1;
+}
+
 @media only screen and (min-width: 931px) {
     .flexRow--main-header-phone {
         margin: 20px;
