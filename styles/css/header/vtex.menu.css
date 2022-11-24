@@ -20,3 +20,17 @@
 .menuContainerNav--desktop__menu-items :global(.vtex-menu-2-x-submenu) {
     justify-content: initial;
 }
+
+.menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContainer) {
+    margin-left : 1rem;
+    margin-right: 1rem;
+}
+
+.menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size: 14px;
+    cursor   : pointer;
+}
+
+.menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContent):hover {
+    color: yellow;
+}
