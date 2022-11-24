@@ -1,3 +1,13 @@
+.flexRow--header__desktop :global(.vtex-store-components-3-x-container) {
+    padding-left : 0;
+    padding-right: 0;
+}
+
+.flexRowContent--desktop__navbar--one {
+    padding-left : 1rem;
+    padding-right: 1rem;
+}
+
 .flexRow--main-header-phone {
     height          : 55px;
     background-color: #4618AC;
