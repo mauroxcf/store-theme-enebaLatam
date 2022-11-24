@@ -37,10 +37,6 @@
     bottom  : 8px;
 }
 
-/* .flexColChild--section__slider--four:nth-child(3n) {
-    align-self: center;
-} */
-
 .flexColChild--section__slider--four:nth-child(5n) {
     align-self   : center;
     margin-top   : 2.5rem;
