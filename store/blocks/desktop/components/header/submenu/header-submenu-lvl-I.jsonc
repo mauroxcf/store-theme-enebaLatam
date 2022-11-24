@@ -25,7 +25,8 @@
         "noFollow": false,
         "tagTitle": "Plataformas",
         "text": "PLATAFORMAS"
-      }
+      },
+      "onMountBehavior": "open"
     },
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
@@ -40,7 +41,8 @@
         "noFollow": false,
         "tagTitle": "Descubrir por género",
         "text": "DESCUBRIR POR GENERO"
-      }
+      },
+      "onMountBehavior": "open"
     },
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
@@ -55,7 +57,8 @@
         "noFollow": false,
         "tagTitle": "Descubrir por colección",
         "text": "DESCUBRIR POR COLECCIÓN"
-      }
+      },
+      "onMountBehavior": "open"
     },
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
@@ -70,7 +73,8 @@
         "noFollow": false,
         "tagTitle": "Descubrir por precio",
         "text": "DESCUBRIR POR PRECIO"
-      }
+      },
+      "onMountBehavior": "open"
     },
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
@@ -85,7 +89,8 @@
         "noFollow": false,
         "tagTitle": "Descubrir por popularidad",
         "text": "DESCUBRIR POR POPULARIDAD"
-      }
+      },
+      "onMountBehavior": "open"
     },
     "blocks": ["submenu#department__platforms-level2-desktop"]
   }

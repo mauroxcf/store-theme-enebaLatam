@@ -3,7 +3,9 @@
 }
 
 .menuContainerNav--desktop__menu-items :global(.vtex-menu-2-x-submenuWrapper) {
-    width: 100vw;
+    width           : 100vw;
+    background-color: #1F0A4E;
+    border          : none;
 }
 
 .menuContainer--desktop__submenu-lvl1 {
