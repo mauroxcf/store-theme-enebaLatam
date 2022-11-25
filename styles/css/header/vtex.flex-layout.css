@@ -3,7 +3,7 @@
     padding-right: 0;
 }
 
-.flexRowContent--desktop__navbar--one {
+.flexRowContent--desktop__navbar-options {
     padding-left : 1rem;
     padding-right: 1rem;
 }
@@ -17,11 +17,11 @@
     padding: 4px;
 }
 
-.flexRow--desktop__navbar--two {
+.flexRow--desktop__navbar-menu {
     background-color: #330e82;
 }
 
-.flexRowContent--desktop__navbar--two {
+.flexRowContent--desktop__navbar-menu {
     margin: 0 auto 50px;
 }
 
@@ -35,7 +35,7 @@
     align-items: center;
 }
 
-.flexCol--desktop__navbar--two {
+.flexCol--desktop__navbar-menu {
     background-color: #330e82;
 }
 

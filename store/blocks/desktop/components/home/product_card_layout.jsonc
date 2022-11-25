@@ -1,14 +1,12 @@
 {
-  "responsive-layout.desktop#home__slider--children--four": {
-    "children": [
-      "list-context.product-list#home__slider--children--four-desktop"
-    ]
+  "responsive-layout.desktop#product__shelf-content": {
+    "children": ["list-context.product-list#product__shelf-content--desktop"]
   },
-  "list-context.product-list#home__slider--children--four-desktop": {
-    "blocks": ["product-summary.shelf#home__gift_card-desktop"],
-    "children": ["slider-layout#demo-products"]
+  "list-context.product-list#product__shelf-content--desktop": {
+    "blocks": ["product-summary.shelf#product__shelf-context-desktop"],
+    "children": ["slider-layout#product__shelf-layout"]
   },
-  "product-summary.shelf#home__gift_card-desktop": {
+  "product-summary.shelf#product__shelf-context-desktop": {
     "children": ["flex-layout.col#product__container-desktop"]
   },
   "flex-layout.col#product__container-desktop": {
@@ -18,35 +16,6 @@
     ],
     "props": {
       "blockClass": "product__container"
-    }
-  },
-  "flex-layout.col#product__image": {
-    "children": ["product-summary-image#shelf"]
-  },
-  "product-summary-image#shelf": {
-    "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1"
-    }
-  },
-  "flex-layout.col#product__information": {
-    "children": [
-      "product-summary-name",
-      "rich-text#product__summary-region",
-      "rich-text#product__summary-at",
-      "product-selling-price"
-    ]
-  },
-  "rich-text#product__summary-region": {
-    "props": {
-      "text": "GLOBAL",
-      "blockClass": "product__summary-region"
-    }
-  },
-  "rich-text#product__summary-at": {
-    "props": {
-      "text": "Desde",
-      "blockClass": "product__summary-at"
     }
   }
 }

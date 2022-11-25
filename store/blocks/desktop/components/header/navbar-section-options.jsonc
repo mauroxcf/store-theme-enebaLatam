@@ -1,23 +1,26 @@
 {
-  "flex-layout.row#desktop__navbar--two": {
-    "children": ["menu#header__desktop-menu"],
+  "flex-layout.row#desktop__navbar-options": {
     "props": {
-      "blockClass": "desktop__navbar--two"
-    }
-  },
-  "menu#header__desktop-menu": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "desktop__navbar-options"
+    },
     "children": [
-      "menu-item#shop-desktop",
-      "menu-item#games-desktop",
-      "menu-item#gift_cards-desktop",
-      "menu-item#game_points-desktop",
-      "menu-item#xbox-desktop",
-      "menu-item#psn-desktop",
-      "menu-item#nintendo_online-desktop",
-      "menu-item#software-desktop"
-    ],
+      "flex-layout.col#logo-desktop",
+      /* "flex-layout.col#spacer", */
+      "search-bar#header__search",
+      "locale-switcher",
+      "logo#main__heart",
+      "minicart.v2",
+      "login#navbar__login-desktop"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
     "props": {
-      "blockClass": "desktop__menu-items"
-    }
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#main__logo"]
   }
 }

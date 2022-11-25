@@ -1,11 +1,12 @@
 {
   "responsive-layout.phone#home__phone": {
     "children": [
-    "responsive-layout.phone#home__banner-phone",
-    "flex-layout.row#home__section_mobile--one",
-    "flex-layout.row#home__section--two",
-    "flex-layout.row#home__section--third",
-    "flex-layout.row#home__section--four",
-    "flex-layout.row#home__section--five"]
+      "responsive-layout.phone#home__banner-phone",
+      "flex-layout.row#popular_cards",
+      "flex-layout.row#recommendations-shelf",
+      "flex-layout.row#best_games-shelf",
+      "flex-layout.row#gif_cards-shelf",
+      "flex-layout.row#next_game-shelf"
+    ]
   }
 }

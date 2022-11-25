@@ -1,0 +1,31 @@
+{
+  "flex-layout.col#product__image": {
+    "children": ["product-summary-image#shelf"]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1"
+    }
+  },
+  "flex-layout.col#product__information": {
+    "children": [
+      "product-summary-name",
+      "rich-text#product__summary-region",
+      "rich-text#product__summary-at",
+      "product-selling-price"
+    ]
+  },
+  "rich-text#product__summary-region": {
+    "props": {
+      "text": "GLOBAL",
+      "blockClass": "product__summary-region"
+    }
+  },
+  "rich-text#product__summary-at": {
+    "props": {
+      "text": "Desde",
+      "blockClass": "product__summary-at"
+    }
+  }
+}

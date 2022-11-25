@@ -1,23 +1,23 @@
 {
-  "flex-layout.row#home__section--five": {
-    "children": ["flex-layout.col#home__section__slider--four"],
+  "flex-layout.row#next_game-shelf": {
+    "children": ["flex-layout.col#next_game-container"],
     "props": {
-      "blockClass": "home__section--five"
+      "blockClass": "next_game-shelf"
     }
   },
-  "flex-layout.col#home__section__slider--four": {
+  "flex-layout.col#next_game-container": {
     "children": [
-      "rich-text#home__slider--text--four",
-      "responsive-layout.phone#home__slider--children--four",
-      "responsive-layout.tablet#home__slider--children--four",
-      "responsive-layout.desktop#home__slider--children--four",
-      "link#showmore__recommendations--four"
+      "rich-text#next_game-title",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
+      "link#showmore__next-game"
     ],
     "props": {
-      "blockClass": "section__slider--four"
+      "blockClass": "container__shelf"
     }
   },
-  "rich-text#home__slider--text--four": {
+  "rich-text#next_game-title": {
     "props": {
       "text": "Próximos juegos",
       "textAlignment": "CENTER",
@@ -25,7 +25,7 @@
       "blockClass": "home__slider--text"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#product__shelf-layout": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -38,9 +38,9 @@
       "blockClass": "home__next_games--shelf"
     }
   },
-  "link#showmore__recommendations--four": {
+  "link#showmore__next-game": {
     "props": {
-      "href": "/recommended-for-you",
+      "href": "/next_game",
       "label": "Cargar más",
       "displayMode": "button",
       "blockClass": "showmore__recommendations-button"

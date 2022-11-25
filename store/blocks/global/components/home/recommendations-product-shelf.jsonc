@@ -1,23 +1,23 @@
 {
-  "flex-layout.row#home__section--two": {
-    "children": ["flex-layout.col#home__section__slider--one"],
+  "flex-layout.row#recommendations-shelf": {
+    "children": ["flex-layout.col#recommendations__container"],
     "props": {
-      "blockClass": "home__section--two"
+      "blockClass": "recommendations-shelf"
     }
   },
-  "flex-layout.col#home__section__slider--one": {
+  "flex-layout.col#recommendations__container": {
     "children": [
-      "rich-text#home__slider--text",
-      "responsive-layout.phone#home__slider--children--four",
-      "responsive-layout.tablet#home__slider--children--four",
-      "responsive-layout.desktop#home__slider--children--four",
+      "rich-text#recommendations__title",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
       "link#showmore__recommendations"
     ],
     "props": {
-      "blockClass": "section__slider--four"
+      "blockClass": "container__shelf"
     }
   },
-  "rich-text#home__slider--text": {
+  "rich-text#recommendations__title": {
     "props": {
       "text": "Recomendaciones para ti",
       "textAlignment": "CENTER",

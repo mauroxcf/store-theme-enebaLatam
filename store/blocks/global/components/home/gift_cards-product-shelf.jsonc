@@ -1,23 +1,23 @@
 {
-  "flex-layout.row#home__section--four": {
-    "children": ["flex-layout.col#home__section__slider--third"],
+  "flex-layout.row#gif_cards-shelf": {
+    "children": ["flex-layout.col#gift_cards__container"],
     "props": {
-      "blockClass": "home__section--four"
+      "blockClass": "gif_cards-shelf"
     }
   },
-  "flex-layout.col#home__section__slider--third": {
+  "flex-layout.col#gift_cards__container": {
     "children": [
-      "rich-text#home__slider--text--third",
-      "responsive-layout.phone#home__slider--children--four",
-      "responsive-layout.tablet#home__slider--children--four",
-      "responsive-layout.desktop#home__slider--children--four",
-      "link#showmore__recommendations--third"
+      "rich-text#gift_cards-title",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
+      "link#showmore__gift_cards"
     ],
     "props": {
-      "blockClass": "section__slider--four"
+      "blockClass": "container__shelf"
     }
   },
-  "rich-text#home__slider--text--third": {
+  "rich-text#gift_cards-title": {
     "props": {
       "text": "Tarjetas regalo más vendidas (Código digital)",
       "textAlignment": "CENTER",
@@ -25,9 +25,9 @@
       "blockClass": "home__slider--text"
     }
   },
-  "link#showmore__recommendations--third": {
+  "link#showmore__gift_cards": {
     "props": {
-      "href": "/recommended-for-you",
+      "href": "/gift-cards",
       "label": "Cargar más",
       "displayMode": "button",
       "blockClass": "showmore__recommendations-button"

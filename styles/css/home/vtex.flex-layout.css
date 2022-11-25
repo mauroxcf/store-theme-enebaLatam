@@ -6,15 +6,15 @@
     align-self: center;
 }
 
-.flexRow--home__section--third {
+.flexRow--best_games-shelf {
     background-color: #330e82;
 }
 
-.flexRow--home__section--five {
+.flexRow--next_game-shelf {
     background-color: #330e82;
 }
 
-.flexRow--home__section--five :global(.vtex-store-components-3-x-container) {
+.flexRow--next_game-shelf :global(.vtex-store-components-3-x-container) {
     margin-left : 16px;
     margin-right: 16px;
 }
@@ -37,7 +37,7 @@
     bottom  : 8px;
 }
 
-.flexColChild--section__slider--four:nth-child(5n) {
+.flexColChild--container__shelf:nth-child(5n) {
     align-self   : center;
     margin-top   : 2.5rem;
     margin-bottom: 2.5rem;

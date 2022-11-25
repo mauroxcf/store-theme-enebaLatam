@@ -1,23 +1,23 @@
 {
-  "flex-layout.row#home__section--third": {
-    "children": ["flex-layout.col#home__section__slider--two"],
+  "flex-layout.row#best_games-shelf": {
+    "children": ["flex-layout.col#best_games-container"],
     "props": {
-      "blockClass": "home__section--third"
+      "blockClass": "best_games-shelf"
     }
   },
-  "flex-layout.col#home__section__slider--two": {
+  "flex-layout.col#best_games-container": {
     "children": [
-      "rich-text#home__slider--text--two",
-      "responsive-layout.phone#home__slider--children--four",
-      "responsive-layout.tablet#home__slider--children--four",
-      "responsive-layout.desktop#home__slider--children--four",
-      "link#showmore__recommendations--two"
+      "rich-text#best_games-container",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
+      "link#showmore__best_games"
     ],
     "props": {
-      "blockClass": "section__slider--four"
+      "blockClass": "container__shelf"
     }
   },
-  "rich-text#home__slider--text--two": {
+  "rich-text#best_games-container": {
     "props": {
       "text": "Los mejores juegos (Digital)",
       "textAlignment": "CENTER",
@@ -25,9 +25,9 @@
       "blockClass": "home__slider--text"
     }
   },
-  "link#showmore__recommendations--two": {
+  "link#showmore__best_games": {
     "props": {
-      "href": "/recommended-for-you",
+      "href": "/best_games",
       "label": "Cargar más",
       "displayMode": "button",
       "blockClass": "showmore__recommendations-button"

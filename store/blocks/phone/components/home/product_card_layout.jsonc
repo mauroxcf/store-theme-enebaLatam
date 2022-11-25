@@ -1,12 +1,12 @@
 {
-  "responsive-layout.phone#home__slider--children--four": {
-    "children": ["list-context.product-list#home__slider--children--four-phone"]
+  "responsive-layout.phone#product__shelf-content": {
+    "children": ["list-context.product-list#product__shelf-context--phone"]
   },
-  "list-context.product-list#home__slider--children--four-phone": {
-    "blocks": ["product-summary.shelf#home__gift_card-phone"],
-    "children": ["slider-layout#demo-products"]
+  "list-context.product-list#product__shelf-context--phone": {
+    "blocks": ["product-summary.shelf#product__shelf-context-phone"],
+    "children": ["slider-layout#product__shelf-layout"]
   },
-  "product-summary.shelf#home__gift_card-phone": {
+  "product-summary.shelf#product__shelf-context-phone": {
     "children": ["flex-layout.row#product__container-phone"]
   },
   "flex-layout.row#product__container-phone": {
@@ -18,35 +18,6 @@
     "props": {
       "preserveLayoutOnMobile": true,
       "blockClass": "product__container"
-    }
-  },
-  "flex-layout.col#product__image": {
-    "children": ["product-summary-image#shelf"]
-  },
-  "product-summary-image#shelf": {
-    "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1"
-    }
-  },
-  "flex-layout.col#product__information": {
-    "children": [
-      "product-summary-name",
-      "rich-text#product__summary-region",
-      "rich-text#product__summary-at",
-      "product-selling-price"
-    ]
-  },
-  "rich-text#product__summary-region": {
-    "props": {
-      "text": "GLOBAL",
-      "blockClass": "product__summary-region"
-    }
-  },
-  "rich-text#product__summary-at": {
-    "props": {
-      "text": "Desde",
-      "blockClass": "product__summary-at"
     }
   },
   "logo#product__button-like": {
