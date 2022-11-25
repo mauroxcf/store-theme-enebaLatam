@@ -1,91 +1,36 @@
 {
   "flex-layout.row#home__section--third": {
-    "children": [
-        "flex-layout.col#home__section__slider--two"
-    ],
+    "children": ["flex-layout.col#home__section__slider--two"],
     "props": {
-        "blockClass": "home__section--third"
+      "blockClass": "home__section--third"
     }
   },
   "flex-layout.col#home__section__slider--two": {
     "children": [
       "rich-text#home__slider--text--two",
-      "slider-layout#home__slider--children--two",
+      "responsive-layout.phone#home__slider--children--four",
+      "responsive-layout.tablet#home__slider--children--four",
+      "responsive-layout.desktop#home__slider--children--four",
       "link#showmore__recommendations--two"
     ],
     "props": {
-        "blockClass": "home__slider--one"
+      "blockClass": "section__slider--four"
     }
-    },
-    "rich-text#home__slider--text--two": {
-      "props": {
-        "text": "Los mejores juegos (Digital)",
-        "textAlignment": "CENTER",
-        "font": "t-heading-3",
-        "blockClass": "home__slider--text"
-      }
-    },
-    "slider-layout#home__slider--children--two": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 3,
-            "mobile": 5,
-            "phone": 5
-          },
-          "infinite": true,
-          "showNavigationArrows": "never",
-          "blockClass": "home__slider",
-          "autoplay": {
-            "timeout": 3000,
-            "stopOnHover": true
-          }
-        },
-        "children": [
-          "image#home__slider-digital--one",
-          "image#home__slider-digital--two",
-          "image#home__slider-digital--third",
-          "image#home__slider-digital--fourth",
-          "image#home__slider-digital--five",
-          "image#home__slider-digital--six"
-        ]
-      },
-      "link#showmore__recommendations--two": {
-        "props": {
-          "href": "/recommended-for-you",
-          "label": "Cargar más",
-          "displayMode": "button",
-          "blockClass": "showmore__recommendations-button"
-        }
-      },
-      "image#home__slider-digital--one": {
-        "props": {
-          "src": "assets/img/home/home-slider03/home-slide01.jpeg"
-        }
-      },
-      "image#home__slider-digital--two": {
-        "props": {
-          "src": "assets/img/home/home-slider03/home-slide02.jpeg"
-        }
-      },
-      "image#home__slider-digital--fourth": {
-        "props": {
-          "src": "assets/img/home/home-slider03/home-slide03.jpeg"
-        }
-      },
-      "image#home__slider-digital--five": {
-        "props": {
-          "src": "assets/img/home/home-slider03/home-slide04.jpeg"
-        }
-      },
-      "image#home__slider-digital--six": {
-        "props": {
-          "src": "assets/img/home/home-slider03/home-slide05.jpeg"
-        }
-      },
-      "image#home__slider-digital--third": {
-        "props": {
-          "src": "assets/img/home/home-slider03/home-slide06.jpg"
-        }
-      }
+  },
+  "rich-text#home__slider--text--two": {
+    "props": {
+      "text": "Los mejores juegos (Digital)",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "home__slider--text"
+    }
+  },
+  "link#showmore__recommendations--two": {
+    "props": {
+      "href": "/recommended-for-you",
+      "label": "Cargar más",
+      "displayMode": "button",
+      "blockClass": "showmore__recommendations-button"
+    }
+  }
 }
