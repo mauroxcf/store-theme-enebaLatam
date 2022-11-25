@@ -34,7 +34,6 @@
   "logo#main__Search": {
     "props": {
       "title": "Search",
-      /* "href": "/", */
       "url": "assets/svg/searchIconMobile.svg",
       "width": "24",
       "blockClass": "header-icon"

@@ -1,4 +1,10 @@
 {
+  "responsive-layout.phone#header__sticky-mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#phone"]
+  },
   "flex-layout.row#phone": {
     "children": [
       "drawer#navbar__phone-menu",
