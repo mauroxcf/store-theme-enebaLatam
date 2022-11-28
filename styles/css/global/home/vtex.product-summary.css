@@ -18,19 +18,3 @@
 .priceContainer {
     padding: 0;
 }
-
-@media only screen and (max-width: 600px) {
-    .brandName {
-        font-size: 0.75rem;
-    }
-
-    .imageStackContainer {
-        height: 133px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .imageStackContainer {
-        height: 100px;
-    }
-}

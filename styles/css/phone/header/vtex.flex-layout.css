@@ -1,13 +1,3 @@
-.flexRow--header__desktop :global(.vtex-store-components-3-x-container) {
-    padding-left : 0;
-    padding-right: 0;
-}
-
-.flexRowContent--desktop__navbar-options {
-    padding-left : 1rem;
-    padding-right: 1rem;
-}
-
 .flexRow--main-header-phone {
     height          : 55px;
     background-color: #4618AC;
@@ -15,14 +5,6 @@
 
 .flexRowContent--main-header-phone {
     padding: 4px;
-}
-
-.flexRow--desktop__navbar-menu {
-    background-color: #330e82;
-}
-
-.flexRowContent--desktop__navbar-menu {
-    margin: 0 auto 50px;
 }
 
 .flexRow--mobile__login-container {
@@ -33,10 +15,6 @@
 
 .flexCol--mobile__login-buttons {
     align-items: center;
-}
-
-.flexCol--desktop__navbar-menu {
-    background-color: #330e82;
 }
 
 .flexColChild--mobile__login-buttons :global(.vtex-login-2-x-label) {
