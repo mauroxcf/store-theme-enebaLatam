@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    .paragraph {
+        font-size: 1.25rem;
+    }
+
+    .paragraph--product__summary-region {
+        font-size: 0.75rem;
+    }
+
+    .paragraph--product__summary-at {
+        font-size: 0.75rem;
+    }
+}

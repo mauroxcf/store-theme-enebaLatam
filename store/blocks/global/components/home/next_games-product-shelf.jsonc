@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#next_game-shelf": {
+    "children": ["flex-layout.col#next_game-container"],
+    "props": {
+      "blockClass": "next_game-shelf"
+    }
+  },
+  "flex-layout.col#next_game-container": {
+    "children": [
+      "rich-text#next_game-title",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
+      "link#showmore__next-game"
+    ],
+    "props": {
+      "blockClass": "container__shelf"
+    }
+  },
+  "rich-text#next_game-title": {
+    "props": {
+      "text": "Próximos juegos",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "shelf__title"
+    }
+  },
+  /* "slider-layout#product__shelf-layout": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "mobile": 5,
+        "phone": 5
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__next_games--shelf"
+    }
+  }, */
+  "link#showmore__next-game": {
+    "props": {
+      "href": "/next_game",
+      "label": "Cargar más",
+      "displayMode": "button",
+      "blockClass": "showmore__recommendations-button"
+    }
+  }
+}

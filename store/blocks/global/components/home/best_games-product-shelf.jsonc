@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#best_games-shelf": {
+    "children": ["flex-layout.col#best_games-container"],
+    "props": {
+      "blockClass": "best_games-shelf"
+    }
+  },
+  "flex-layout.col#best_games-container": {
+    "children": [
+      "rich-text#best_games-title",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
+      "link#showmore__best_games"
+    ],
+    "props": {
+      "blockClass": "container__shelf"
+    }
+  },
+  "rich-text#best_games-title": {
+    "props": {
+      "text": "Los mejores juegos (Digital)",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "shelf__title"
+    }
+  },
+  "link#showmore__best_games": {
+    "props": {
+      "href": "/best_games",
+      "label": "Cargar más",
+      "displayMode": "button",
+      "blockClass": "showmore__recommendations-button"
+    }
+  }
+}

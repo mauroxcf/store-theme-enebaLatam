@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#recommendations-shelf": {
+    "children": ["flex-layout.col#recommendations__container"],
+    "props": {
+      "blockClass": "recommendations-shelf"
+    }
+  },
+  "flex-layout.col#recommendations__container": {
+    "children": [
+      "rich-text#recommendations__title",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
+      "link#showmore__recommendations"
+    ],
+    "props": {
+      "blockClass": "container__shelf"
+    }
+  },
+  "rich-text#recommendations__title": {
+    "props": {
+      "text": "Recomendaciones para ti",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "shelf__title"
+    }
+  },
+  "link#showmore__recommendations": {
+    "props": {
+      "href": "/recommended-for-you",
+      "label": "Mostrar todo",
+      "displayMode": "button",
+      "blockClass": "showmore__recommendations-button"
+    }
+  }
+}

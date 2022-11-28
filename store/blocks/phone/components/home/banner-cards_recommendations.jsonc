@@ -1,0 +1,47 @@
+{
+  "flex-layout.row#popular_cards": {
+    "children": ["flex-layout.col#popular_cards"]
+  },
+  "flex-layout.col#popular_cards": {
+    "children": [
+      "rich-text#home__section_mobile--popularcards",
+      "flex-layout.row#home__popularcards_mobile"
+    ],
+    "props": {
+      "blockClass": "popular_cards"
+    }
+  },
+  "flex-layout.row#home__popularcards_mobile": {
+    "children": [
+      "image#popular_cards-img-one",
+      "image#popular_cards-img-two",
+      "image#popular_cards-img-third"
+    ],
+    "props": {
+      "blockClass": "home__popularcards_mobile"
+    }
+  },
+  "rich-text#home__section_mobile--popularcards": {
+    "props": {
+      "text": "Tarjetas de regalo populares",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "home__section_mobile--popularcards"
+    }
+  },
+  "image#popular_cards-img-one": {
+    "props": {
+      "src": "assets/img/home/home-cardsrow01/home-card01.webp"
+    }
+  },
+  "image#popular_cards-img-two": {
+    "props": {
+      "src": "assets/img/home/home-cardsrow01/home-card02.webp"
+    }
+  },
+  "image#popular_cards-img-third": {
+    "props": {
+      "src": "assets/img/home/home-cardsrow01/home-card03.webp"
+    }
+  }
+}

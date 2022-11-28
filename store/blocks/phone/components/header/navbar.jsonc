@@ -1,0 +1,26 @@
+{
+  "responsive-layout.phone#header__sticky-mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#phone"]
+  },
+  "flex-layout.row#phone": {
+    "children": [
+      "drawer#navbar__phone-menu",
+      "logo#main__logo",
+      "flex-layout.col#spacer",
+      "drawer#navbar__phone-searchbar",
+      "logo#main__heart",
+      "minicart.v2",
+      "drawer#navbar__phone-login"
+    ],
+    "props": {
+      "blockClass": "main-header-phone",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colSizing": "auto"
+    }
+  }
+}

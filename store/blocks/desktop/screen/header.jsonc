@@ -4,17 +4,5 @@
   },
   "responsive-layout.desktop#header__desktop": {
     "children": ["flex-layout.row#header__desktop"]
-  },
-  "flex-layout.row#header__desktop": {
-    "children": ["flex-layout.col#header__desktop"],
-    "props": {
-      "blockClass": "header__desktop"
-    }
-  },
-  "flex-layout.col#header__desktop": {
-    "children": [
-      "flex-layout.row#desktop__navbar--one",
-      "flex-layout.row#desktop__navbar--two"
-    ]
   }
 }
