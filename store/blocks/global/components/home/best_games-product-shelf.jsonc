@@ -7,7 +7,7 @@
   },
   "flex-layout.col#best_games-container": {
     "children": [
-      "rich-text#best_games-container",
+      "rich-text#best_games-title",
       "responsive-layout.phone#product__shelf-content",
       "responsive-layout.tablet#product__shelf-content",
       "responsive-layout.desktop#product__shelf-content",
@@ -17,12 +17,12 @@
       "blockClass": "container__shelf"
     }
   },
-  "rich-text#best_games-container": {
+  "rich-text#best_games-title": {
     "props": {
       "text": "Los mejores juegos (Digital)",
       "textAlignment": "CENTER",
       "font": "t-heading-3",
-      "blockClass": "home__slider--text"
+      "blockClass": "shelf__title"
     }
   },
   "link#showmore__best_games": {

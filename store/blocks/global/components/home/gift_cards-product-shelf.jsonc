@@ -22,7 +22,7 @@
       "text": "Tarjetas regalo más vendidas (Código digital)",
       "textAlignment": "CENTER",
       "font": "t-heading-3",
-      "blockClass": "home__slider--text"
+      "blockClass": "shelf__title"
     }
   },
   "link#showmore__gift_cards": {

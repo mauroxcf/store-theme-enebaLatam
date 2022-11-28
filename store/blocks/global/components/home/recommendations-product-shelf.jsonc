@@ -22,7 +22,7 @@
       "text": "Recomendaciones para ti",
       "textAlignment": "CENTER",
       "font": "t-heading-3",
-      "blockClass": "home__slider--text"
+      "blockClass": "shelf__title"
     }
   },
   "link#showmore__recommendations": {

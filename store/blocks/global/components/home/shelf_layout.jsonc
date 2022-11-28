@@ -1,0 +1,15 @@
+{
+  "slider-layout#product__shelf-layout": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "mobile": 5,
+        "phone": 5
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__shelf-layout"
+    }
+  }
+}

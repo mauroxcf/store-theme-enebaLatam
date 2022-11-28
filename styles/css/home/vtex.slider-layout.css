@@ -1,9 +1,9 @@
-.sliderLayoutContainer--home__slider {
+.sliderLayoutContainer--home__shelf-layout {
     max-width: 1200px;
     margin   : 0 auto 50px;
 }
 
-.paginationDotsContainer--home__slider {
+.paginationDotsContainer--home__shelf-layout {
     transform: translateY(30px);
 }
 
@@ -11,17 +11,17 @@
     max-height: initial !important;
 }
 
-.sliderLayoutContainer--home__next_games--shelf :global(.vtex-slider-layout-0-x-sliderTrack--home__next_games--shelf) {
+.sliderLayoutContainer--home__shelf-layout :global(.vtex-slider-layout-0-x-sliderTrack--home__shelf-layout) {
     gap: 1rem;
 }
 
-.sliderTrack--home__next_games--shelf :global(.vtex-slider-layout-0-x-slide) {
+.sliderTrack--home__shelf-layout :global(.vtex-slider-layout-0-x-slide) {
     width           : 100% !important;
     background-color: #1F0A4E;
     align-self      : center;
 }
 
-.sliderTrack--home__next_games--shelf :global(.vtex-flex-layout-0-x-flexRowContent) {
+.sliderTrack--home__shelf-layout :global(.vtex-flex-layout-0-x-flexRowContent) {
     gap: 8px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .sliderLayoutContainer--home__next_games--shelf :global(.vtex-slider-layout-0-x-sliderTrack--home__next_games--shelf) {
+    .sliderLayoutContainer--home__shelf-layout :global(.vtex-slider-layout-0-x-sliderTrack--home__shelf-layout) {
         transform     : translateX(0px) !important;
         flex-direction: column;
         width         : 100% !important;

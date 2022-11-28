@@ -22,10 +22,10 @@
       "text": "Próximos juegos",
       "textAlignment": "CENTER",
       "font": "t-heading-3",
-      "blockClass": "home__slider--text"
+      "blockClass": "shelf__title"
     }
   },
-  "slider-layout#product__shelf-layout": {
+  /* "slider-layout#product__shelf-layout": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -37,7 +37,7 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "home__next_games--shelf"
     }
-  },
+  }, */
   "link#showmore__next-game": {
     "props": {
       "href": "/next_game",
