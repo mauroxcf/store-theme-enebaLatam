@@ -38,4 +38,9 @@
     :global(.vtex-store-components-3-x-logoImage--header__logo-icon) {
         width: 155px;
     }
+
+    :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-input-prefix__group) {
+        height        : 55px;
+        flex-direction: row-reverse;
+    }
 }
