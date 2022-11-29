@@ -6,8 +6,8 @@
 .flexRowContent--desktop__navbar-options {
     padding-left   : 1rem;
     padding-right  : 1rem;
-    margin-top     : 1.25rem;
-    margin-bottom  : 1.25rem;
+    margin-top     : 1rem;
+    margin-bottom  : 1rem;
     gap            : 1rem;
     justify-content: initial !important;
 }

@@ -43,4 +43,8 @@
         height        : 55px;
         flex-direction: row-reverse;
     }
+
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+        padding: 0;
+    }
 }
