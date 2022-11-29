@@ -10,7 +10,7 @@
       "href": "/",
       "url": "assets/svg/logoeneba.svg",
       "width": "100",
-      "blockClass": "header-icon"
+      "blockClass": "header__logo-icon"
     }
   },
   "logo#main__heart": {

@@ -7,7 +7,7 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel": "Iniciar sesión"
+      "iconLabel": "Iniciar sesión | Registro"
     }
   }
 }

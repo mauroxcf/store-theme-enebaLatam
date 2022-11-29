@@ -8,6 +8,16 @@
     align-self: center;
 }
 
+.logoLink--header__logo-icon {
+    align-self: center;
+}
+
+.logoContainer--header__logo-icon {
+    padding   : 0;
+    min-width : auto;
+    align-self: center;
+}
+
 .logoContainer--product-like-icon {
     padding  : 0;
     min-width: auto;
@@ -22,4 +32,10 @@
     min-width  : auto;
     align-self : center;
     margin-left: 1.5rem;
+}
+
+@media only screen and (min-width: 1025px) {
+    :global(.vtex-store-components-3-x-logoImage--header__logo-icon) {
+        width: 155px;
+    }
 }
