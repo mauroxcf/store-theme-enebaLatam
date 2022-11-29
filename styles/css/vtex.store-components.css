@@ -8,6 +8,16 @@
     align-self: center;
 }
 
+.logoLink--header__logo-icon {
+    align-self: center;
+}
+
+.logoContainer--header__logo-icon {
+    padding   : 0;
+    min-width : auto;
+    align-self: center;
+}
+
 .logoContainer--product-like-icon {
     padding  : 0;
     min-width: auto;
@@ -22,4 +32,19 @@
     min-width  : auto;
     align-self : center;
     margin-left: 1.5rem;
+}
+
+@media only screen and (min-width: 1025px) {
+    :global(.vtex-store-components-3-x-logoImage--header__logo-icon) {
+        width: 155px;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarInnerContainer) :global(.vtex-input-prefix__group) {
+        height        : 55px;
+        flex-direction: row-reverse;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+        padding: 0;
+    }
 }
