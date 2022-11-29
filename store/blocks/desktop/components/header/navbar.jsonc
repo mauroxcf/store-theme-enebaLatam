@@ -1,0 +1,5 @@
+{
+  "responsive-layout.desktop#header__desktop": {
+    "children": ["flex-layout.row#header__desktop"]
+  }
+}
