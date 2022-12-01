@@ -1,0 +1,65 @@
+{
+  "logo#payment__eneba": {
+    "props": {
+      "title": "payment eneba",
+      "url": "assets/svg/payments/eneba.svg",
+      "width": 61,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__visa": {
+    "props": {
+      "title": "payment visa",
+      "url": "assets/svg/payments/visa_mastercard.svg",
+      "width": 61,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__paypal": {
+    "props": {
+      "title": "payment paypal",
+      "url": "assets/svg/payments/paypal.svg",
+      "width": 55,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__pse": {
+    "props": {
+      "title": "payment pse",
+      "url": "assets/svg/payments/pse.svg",
+      "width": 28,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__efecty": {
+    "props": {
+      "title": "payment efecty",
+      "url": "assets/svg/payments/efecty.svg",
+      "width": 28,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__payvalida": {
+    "props": {
+      "title": "payment payvalida",
+      "url": "assets/svg/payments/pay_valida.svg",
+      "width": 72,
+      "height": 20,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__efecty_gana_baloto_cash": {
+    "props": {
+      "title": "payment efecty gana baloto cash",
+      "url": "assets/svg/payments/efecty_gana_baloto_cash.svg",
+      "width": 40,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  }
+}

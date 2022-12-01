@@ -34,6 +34,12 @@
     margin-left: 1.5rem;
 }
 
+.logoContainer--payment-icon {
+    min-width     : initial;
+    padding-top   : 2px;
+    padding-bottom: 2px;
+}
+
 @media only screen and (min-width: 1025px) {
     :global(.vtex-store-components-3-x-logoImage--header__logo-icon) {
         width: 155px;

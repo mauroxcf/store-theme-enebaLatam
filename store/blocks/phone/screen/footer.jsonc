@@ -1,0 +1,8 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "responsive-layout.phone#footer"
+      /* "responsive-layout.tablet#footer" */
+    ]
+  }
+}
