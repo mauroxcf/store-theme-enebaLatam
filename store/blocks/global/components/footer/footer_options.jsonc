@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#footer__options-phone": {
+    "children": [
+      "flex-layout.col#footer__about_eneba",
+      "flex-layout.col#footer__about_eneba",
+      "flex-layout.col#footer__about_eneba",
+      "flex-layout.col#footer__about_eneba"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "footer__options-phone",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer__about_eneba": {
+    "children": [
+      "rich-text#about_eneba__title",
+      "link#footer__about_us",
+      "link#footer__about_us",
+      "link#footer__about_us"
+    ]
+  },
+  "rich-text#about_eneba__title": {
+    "props": {
+      "text": "Sobre Eneba"
+    }
+  },
+  "link#footer__about_us": {
+    "props": {
+      "href": "/about_us",
+      "label": "Sobre nosotros",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  }
+}
