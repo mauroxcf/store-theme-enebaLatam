@@ -1,0 +1,11 @@
+{
+  "responsive-layout.tablet#footer": {
+    "children": ["flex-layout.row#footer__container-tablet"]
+  },
+  "flex-layout.row#footer__container-tablet": {
+    "children": ["flex-layout.col#footer__container-tablet"]
+  },
+  "flex-layout.col#footer__container-tablet": {
+    "children": ["flex-layout.row#footer__payments-container"]
+  }
+}

@@ -1,4 +1,20 @@
 {
+  "flex-layout.row#footer__payments-container": {
+    "children": [
+      "logo#payment__eneba",
+      "logo#payment__visa",
+      "logo#payment__paypal",
+      "logo#payment__pse",
+      "logo#payment__efecty",
+      "logo#payment__payvalida",
+      "logo#payment__efecty_gana_baloto_cash"
+    ],
+    "props": {
+      "blockClass": "footer__payments-container",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
   "logo#payment__eneba": {
     "props": {
       "title": "payment eneba",

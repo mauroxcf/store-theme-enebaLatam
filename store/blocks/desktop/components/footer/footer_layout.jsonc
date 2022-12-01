@@ -1,5 +1,8 @@
 {
   "flex-layout.row#footer__container-desktop": {
-    "children": []
+    "children": ["flex-layout.col#footer__container-desktop"]
+  },
+  "flex-layout.col#footer__container-desktop": {
+    "children": ["flex-layout.row#footer__payments-container"]
   }
 }
