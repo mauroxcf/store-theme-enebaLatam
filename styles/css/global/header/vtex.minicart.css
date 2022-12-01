@@ -6,3 +6,20 @@
     width : 24px;
     height: 25px;
 }
+
+:global(.vtex-minicart-2-x-closeIconButton) {
+    color: white;
+}
+
+.minicartTitle {
+    text-transform: lowercase;
+}
+
+.minicartCheckoutButton--checkout__button :global(.vtex-button) {
+    background-color: #FAD318;
+    color           : black;
+}
+
+.minicartCheckoutButton--checkout__button :global(.vtex-button__label) {
+    font-size: 0;
+}

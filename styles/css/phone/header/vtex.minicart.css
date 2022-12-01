@@ -1,0 +1,20 @@
+.minicartTitle::before {
+    content       : "Tu ";
+    text-transform: capitalize;
+}
+
+.minicartProductListContainer {
+    background-color: #3f159a;
+    padding         : 1rem;
+}
+
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent) {
+    background-color: #330e82;
+}
+
+.minicartCheckoutButton--checkout__button :global(.vtex-button__label)::before {
+    content       : "Continuar con la compra";
+    font-size     : 15px;
+    text-transform: capitalize;
+    font-weight   : 600;
+}

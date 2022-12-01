@@ -37,6 +37,10 @@
     bottom  : 8px;
 }
 
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(4n) {
+    width: 25% !important;
+}
+
 .flexColChild--container__shelf:nth-child(5n) {
     align-self   : center;
     margin-top   : 2.5rem;
