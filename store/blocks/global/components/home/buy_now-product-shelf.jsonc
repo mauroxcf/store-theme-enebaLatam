@@ -9,8 +9,8 @@
     "children": [
       "rich-text#buy_now-title",
       "responsive-layout.phone#product__shelf_with_minicart-content",
-      "responsive-layout.tablet#product__shelf-content",
-      "responsive-layout.desktop#product__shelf-content",
+      "responsive-layout.tablet#product__shelf_with_minicart-content",
+      "responsive-layout.desktop#product__shelf_with_minicart-content",
       "link#showmore__buy_now"
     ],
     "props": {
