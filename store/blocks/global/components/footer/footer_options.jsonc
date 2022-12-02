@@ -1,28 +1,19 @@
 {
-  "flex-layout.row#footer__options-phone": {
-    "children": [
-      "flex-layout.col#footer__about_eneba",
-      "flex-layout.col#footer__about_eneba",
-      "flex-layout.col#footer__about_eneba",
-      "flex-layout.col#footer__about_eneba"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "footer__options-phone",
-      "colSizing": "auto"
-    }
-  },
   "flex-layout.col#footer__about_eneba": {
     "children": [
       "rich-text#about_eneba__title",
       "link#footer__about_us",
-      "link#footer__about_us",
-      "link#footer__about_us"
-    ]
+      "link#footer__contact_us",
+      "link#footer__careers"
+    ],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
   },
   "rich-text#about_eneba__title": {
     "props": {
-      "text": "Sobre Eneba"
+      "text": "Sobre Eneba",
+      "blockClass": "footer__option-title"
     }
   },
   "link#footer__about_us": {
@@ -31,6 +22,195 @@
       "label": "Sobre nosotros",
       "blockClass": "footer__option",
       "displayMode": "anchor"
+    }
+  },
+  "link#footer__contact_us": {
+    "props": {
+      "href": "/contact_us",
+      "label": "Contáctanos",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "link#footer__careers": {
+    "props": {
+      "href": "/careers",
+      "label": "Empleo",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "flex-layout.col#footer__buy": {
+    "children": [
+      "rich-text#buy__title",
+      "link#footer__how_buy",
+      "link#footer__list_games",
+      "link#footer__collections"
+    ],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
+  },
+  "rich-text#buy__title": {
+    "props": {
+      "text": "Comprar",
+      "blockClass": "footer__option-title"
+    }
+  },
+  "link#footer__how_buy": {
+    "props": {
+      "href": "/how_buy",
+      "label": "Cómo comprar",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "link#footer__list_games": {
+    "props": {
+      "href": "/list_games",
+      "label": "Lista de juegos",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "link#footer__collections": {
+    "props": {
+      "href": "/collections",
+      "label": "Colecciones",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "flex-layout.col#footer__help": {
+    "children": [
+      "rich-text#help__title",
+      "link#footer__faq",
+      "link#footer__activate_game",
+      "link#footer__ticket"
+    ],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
+  },
+  "rich-text#help__title": {
+    "props": {
+      "text": "Ayuda",
+      "blockClass": "footer__option-title"
+    }
+  },
+  "link#footer__faq": {
+    "props": {
+      "href": "/faq",
+      "label": "FAQ",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "link#footer__activate_game": {
+    "props": {
+      "href": "/activate_game",
+      "label": "Cómo activar el juego",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "link#footer__ticket": {
+    "props": {
+      "href": "/ticket",
+      "label": "Crear un ticket",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "flex-layout.col#community": {
+    "children": [
+      "rich-text#community__title",
+      "link#footer__blog",
+      "link#footer__giveaways",
+      "link#footer__affiliate"
+    ],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
+  },
+  "rich-text#community__title": {
+    "props": {
+      "text": "Comunidad",
+      "blockClass": "footer__option-title"
+    }
+  },
+  "link#footer__blog": {
+    "props": {
+      "href": "/blog",
+      "label": "Blog",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "link#footer__giveaways": {
+    "props": {
+      "href": "/giveaways",
+      "label": "Sorteos",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "link#footer__affiliate": {
+    "props": {
+      "href": "/affiliate",
+      "label": "Conviértete en afiliado",
+      "blockClass": "footer__option",
+      "displayMode": "anchor"
+    }
+  },
+  "flex-layout.col#professional": {
+    "children": ["rich-text#professional__title", "link#footer__sells_eneba"],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
+  },
+  "rich-text#professional__title": {
+    "props": {
+      "text": "Profesional",
+      "blockClass": "footer__option-title"
+    }
+  },
+  "link#footer__sells_eneba": {
+    "props": {
+      "href": "/sells_eneba",
+      "label": "Vende en Eneba",
+      "blockClass": "footer__option-button",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "small"
+      }
+    }
+  },
+  "flex-layout.col#follow_us": {
+    "children": [
+      "rich-text#follow_us__title",
+      "flex-layout.row#follow_us-social_network"
+    ],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
+  },
+  "rich-text#follow_us__title": {
+    "props": {
+      "text": "Seguirnos",
+      "blockClass": "footer__option-title"
+    }
+  },
+  "flex-layout.row#follow_us-social_network": {
+    "children": [
+      "logo#social__facebook",
+      "logo#social__twitter",
+      "logo#social__instagram",
+      "logo#social__twitch"
+    ],
+    "props": {
+      "blockClass": "follow_us-social_network",
+      "preserveLayoutOnMobile": true
     }
   }
 }
