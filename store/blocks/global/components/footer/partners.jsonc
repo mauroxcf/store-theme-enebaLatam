@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#footer__partners": {
+    "children": ["flex-layout.col#footer__partners"],
+    "props": {
+      "blockClass": "footer__partners-container"
+    }
+  },
+  "flex-layout.col#footer__partners": {
+    "children": [
+      "rich-text#partners__title",
+      "flex-layout.row#partners__logos-container"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#partners__title": {
+    "props": {
+      "text": "Un orgulloso socio de",
+      "blockClass": "footer__partner-title"
+    }
+  },
+  "flex-layout.row#partners__logos-container": {
+    "children": ["logo#partners__konami", "logo#partners__team17"],
+    "props": {
+      /* "blockClass": "partners__logos-container", */
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "logo#partners__konami": {
+    "props": {
+      "title": "konami",
+      "url": "assets/svg/footer/konami.svg",
+      "height": 32,
+      "width": 120,
+      "blockClass": "partner-icon"
+    }
+  },
+  "logo#partners__team17": {
+    "props": {
+      "title": "team17",
+      "url": "assets/svg/footer/team17.svg",
+      "height": 32,
+      "width": 120,
+      "blockClass": "partner-icon"
+    }
+  }
+}

@@ -18,7 +18,13 @@
     }
   },
   "flex-layout.col#footer__content-phone": {
-    "children": ["flex-layout.row#footer__options-phone"]
+    "children": [
+      "flex-layout.row#footer__options-phone",
+      "flex-layout.row#footer__partners"
+    ],
+    "props": {
+      "blockClass": "content__container-phone"
+    }
   },
   "flex-layout.row#footer__options-phone": {
     "children": [

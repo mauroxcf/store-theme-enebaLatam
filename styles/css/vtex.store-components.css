@@ -48,6 +48,10 @@
     padding-right : 1rem;
 }
 
+.logoContainer--partner-icon {
+    max-width: none;
+}
+
 @media only screen and (min-width: 1025px) {
     :global(.vtex-store-components-3-x-logoImage--header__logo-icon) {
         width: 155px;
