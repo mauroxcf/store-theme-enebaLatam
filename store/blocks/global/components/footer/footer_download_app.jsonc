@@ -1,0 +1,41 @@
+{
+  "flex-layout.col#app__download": {
+    "children": [
+      "rich-text#app__download-title",
+      "flex-layout.row#app__download-icons"
+    ],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
+  },
+  "rich-text#app__download-title": {
+    "props": {
+      "text": "Descargar la app de Eneba",
+      "blockClass": "footer__option-title"
+    }
+  },
+  "flex-layout.row#app__download-icons": {
+    "children": ["flex-layout.col#app__download-icons"]
+  },
+  "flex-layout.col#app__download-icons": {
+    "children": ["logo#app__android", "logo#app__apple"]
+  },
+  "logo#app__android": {
+    "props": {
+      "title": "android",
+      "url": "assets/svg/footer/appAndroid.svg",
+      "height": 40,
+      "width": 136,
+      "blockClass": "appDownload-icon"
+    }
+  },
+  "logo#app__apple": {
+    "props": {
+      "title": "apple",
+      "url": "assets/svg/footer/appApple.svg",
+      "height": 40,
+      "width": 136,
+      "blockClass": "appDownload-icon"
+    }
+  }
+}

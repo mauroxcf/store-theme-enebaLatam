@@ -20,7 +20,10 @@
   "flex-layout.col#footer__content-phone": {
     "children": [
       "flex-layout.row#footer__options-phone",
-      "flex-layout.row#footer__partners"
+      "flex-layout.col#trustpilot",
+      "flex-layout.row#footer__partners",
+      "locale-switcher",
+      "flex-layout.row#footer__copyright"
     ],
     "props": {
       "blockClass": "content__container-phone"
@@ -34,7 +37,7 @@
       "flex-layout.col#community",
       "flex-layout.col#professional",
       "flex-layout.col#follow_us",
-      "flex-layout.col#trustpilot"
+      "flex-layout.col#app__download"
     ],
     "props": {
       "preserveLayoutOnMobile": true,

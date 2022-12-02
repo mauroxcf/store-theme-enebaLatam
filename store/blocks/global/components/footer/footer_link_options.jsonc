@@ -212,17 +212,5 @@
       "blockClass": "follow_us-social_network",
       "preserveLayoutOnMobile": true
     }
-  },
-  "flex-layout.col#trustpilot": {
-    "children": ["rich-text#trustpilot__title", "logo#social__trustpilot"],
-    "props": {
-      "blockClass": "footer__option-container"
-    }
-  },
-  "rich-text#trustpilot__title": {
-    "props": {
-      "text": "Ver nuestros comentarios en",
-      "blockClass": "footer__option-title"
-    }
   }
 }

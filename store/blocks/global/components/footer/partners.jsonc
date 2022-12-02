@@ -23,7 +23,6 @@
   "flex-layout.row#partners__logos-container": {
     "children": ["logo#partners__konami", "logo#partners__team17"],
     "props": {
-      /* "blockClass": "partners__logos-container", */
       "preserveLayoutOnMobile": true,
       "colSizing": "auto"
     }
