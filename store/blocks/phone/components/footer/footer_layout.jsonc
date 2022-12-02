@@ -27,7 +27,8 @@
       "flex-layout.col#footer__help",
       "flex-layout.col#community",
       "flex-layout.col#professional",
-      "flex-layout.col#follow_us"
+      "flex-layout.col#follow_us",
+      "flex-layout.col#trustpilot"
     ],
     "props": {
       "preserveLayoutOnMobile": true,

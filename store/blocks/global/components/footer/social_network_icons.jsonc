@@ -34,5 +34,13 @@
       "height": 28,
       "blockClass": "social-icon"
     }
+  },
+  "logo#social__trustpilot": {
+    "props": {
+      "title": "trustpilot",
+      "url": "assets/svg/social_networks/trustpilot.svg",
+      "height": 34,
+      "blockClass": "social-icon"
+    }
   }
 }
