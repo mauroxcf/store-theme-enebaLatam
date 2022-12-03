@@ -1,0 +1,38 @@
+.flexRow--footer__content {
+    padding         : 20px 20px 50px;
+    margin          : 0;
+    background-color: #1F0A4E;
+}
+
+.flexRowContent--footer__options {
+    flex-wrap      : wrap;
+    justify-content: space-between;
+    max-width      : 1200px;
+}
+
+.flexRowContent--follow_us-social_network :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexCol--content__container {
+    gap: 1.125rem;
+}
+
+.flexRowContent--footer__payments-container {
+    justify-content : center;
+    padding         : 0.313rem;
+    overflow-x      : hidden;
+    background-color: white;
+    flex-wrap       : wrap;
+}
+
+.flexRow--footer__partners-container {
+    padding-top   : 1rem;
+    padding-bottom: 1rem;
+    border-top    : solid 1px white;
+    border-bottom : solid 1px white;
+}
+
+.flexRowContent--partners__logos-container {
+    justify-content: center;
+}

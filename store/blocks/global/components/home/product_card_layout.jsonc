@@ -13,7 +13,8 @@
       "product-summary-name",
       "rich-text#product__summary-region",
       "rich-text#product__summary-at",
-      "product-selling-price"
+      "product-selling-price",
+      "add-to-cart-button"
     ]
   },
   "rich-text#product__summary-region": {

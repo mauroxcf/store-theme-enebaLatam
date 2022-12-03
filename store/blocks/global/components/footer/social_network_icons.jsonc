@@ -1,0 +1,38 @@
+{
+  "logo#social__facebook": {
+    "props": {
+      "title": "facebook",
+      "url": "assets/svg/social_networks/facebook.svg",
+      "width": 28,
+      "height": 28,
+      "blockClass": "social-icon"
+    }
+  },
+  "logo#social__twitter": {
+    "props": {
+      "title": "twitter",
+      "url": "assets/svg/social_networks/twitter.svg",
+      "width": 28,
+      "height": 28,
+      "blockClass": "social-icon"
+    }
+  },
+  "logo#social__instagram": {
+    "props": {
+      "title": "instagram",
+      "url": "assets/svg/social_networks/instagram.svg",
+      "width": 28,
+      "height": 28,
+      "blockClass": "social-icon"
+    }
+  },
+  "logo#social__twitch": {
+    "props": {
+      "title": "twitch",
+      "url": "assets/svg/social_networks/twitch.svg",
+      "width": 28,
+      "height": 28,
+      "blockClass": "social-icon"
+    }
+  }
+}

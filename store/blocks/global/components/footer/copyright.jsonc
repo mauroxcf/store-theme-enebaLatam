@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#footer__copyright": {
+    "children": ["flex-layout.col#footer__copyright"]
+  },
+  "flex-layout.col#footer__copyright": {
+    "children": [
+      "rich-text#copyright__first-paragraph",
+      "rich-text#copyright__second-paragraph",
+      "rich-text#copyright__third-paragraph"
+    ]
+  },
+  "rich-text#copyright__first-paragraph": {
+    "props": {
+      "text": "Copyright © 2022 Eneba. Todos los derechos reservados. SA “Helis play”, C/Gyneju 4-333, Vilnius, República de Lituania",
+      "blockClass": "copyright__first-paragraph"
+    }
+  },
+  "rich-text#copyright__second-paragraph": {
+    "props": {
+      "text": "Términos y Condiciones, Aviso de Privacidad,",
+      "blockClass": "copyright__second-paragraph"
+    }
+  },
+  "rich-text#copyright__third-paragraph": {
+    "props": {
+      "text": "Preferencias de las cookies.",
+      "blockClass": "copyright__third-paragraph"
+    }
+  }
+}

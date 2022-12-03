@@ -1,0 +1,29 @@
+.wrapper--footer__option-title :global(.vtex-rich-text-0-x-paragraph) {
+    font-size  : 13px;
+    font-weight: 600;
+}
+
+.container--footer__partner-title {
+    justify-content: center;
+}
+
+.paragraph--footer__partner-title {
+    font-size  : 14px !important;
+    font-weight: 600;
+}
+
+.paragraph--copyright__first-paragraph {
+    margin   : 0;
+    font-size: 12px !important;
+    color    : #ADA1C8;
+}
+
+.paragraph--copyright__second-paragraph {
+    margin   : 0;
+    font-size: 12px !important;
+}
+
+.paragraph--copyright__third-paragraph {
+    margin   : 0;
+    font-size: 12px !important;
+}
