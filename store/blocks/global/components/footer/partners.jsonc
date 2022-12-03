@@ -24,7 +24,8 @@
     "children": ["logo#partners__konami", "logo#partners__team17"],
     "props": {
       "preserveLayoutOnMobile": true,
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass": "partners__logos-container"
     }
   },
   "logo#partners__konami": {

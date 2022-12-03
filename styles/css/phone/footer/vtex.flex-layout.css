@@ -1,19 +1,5 @@
-.flexRow--footer__content-phone {
-    padding         : 20px 20px 50px;
-    margin          : 0;
-    background-color: #1F0A4E;
-}
-
-.flexRowContent--footer__options-phone {
-    flex-wrap      : wrap;
-    justify-content: space-between;
-    max-width      : 1200px;
-}
-
-.flexRowContent--footer__options-phone :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: 50% !important;
-}
-
-.flexRowContent--follow_us-social_network :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: auto !important;
+@media only screen and (min-width: 600px) {
+    .flexRowContent--footer__options-phone :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 25% !important;
+    }
 }
