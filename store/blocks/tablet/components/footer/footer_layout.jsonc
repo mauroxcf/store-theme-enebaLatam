@@ -8,7 +8,7 @@
   "flex-layout.col#footer__container-tablet": {
     "children": [
       "flex-layout.row#footer__payments-container",
-      "flex-layout.row#footer__content-phone"
+      "flex-layout.row#footer__content"
     ]
   }
 }

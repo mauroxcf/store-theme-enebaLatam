@@ -1,10 +1,10 @@
-.flexRow--footer__content-phone {
+.flexRow--footer__content {
     padding         : 20px 20px 50px;
     margin          : 0;
     background-color: #1F0A4E;
 }
 
-.flexRowContent--footer__options-phone {
+.flexRowContent--footer__options {
     flex-wrap      : wrap;
     justify-content: space-between;
     max-width      : 1200px;
@@ -14,7 +14,7 @@
     width: auto !important;
 }
 
-.flexCol--content__container-phone {
+.flexCol--content__container {
     gap: 1.125rem;
 }
 

@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#footer__content": {
+    "children": ["flex-layout.col#footer__content"],
+    "props": {
+      "blockClass": "footer__content"
+    }
+  },
+  "flex-layout.col#footer__content": {
+    "children": [
+      "flex-layout.row#footer__options",
+      "flex-layout.col#trustpilot",
+      "flex-layout.row#footer__partners",
+      "locale-switcher",
+      "flex-layout.row#footer__copyright"
+    ],
+    "props": {
+      "blockClass": "content__container"
+    }
+  },
+  "flex-layout.row#footer__options": {
+    "children": [
+      "flex-layout.col#footer__about_eneba",
+      "flex-layout.col#footer__buy",
+      "flex-layout.col#footer__help",
+      "flex-layout.col#community",
+      "flex-layout.col#professional",
+      "flex-layout.col#follow_us",
+      "flex-layout.col#app__download"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "footer__options",
+      "colSizing": "auto"
+    }
+  }
+}

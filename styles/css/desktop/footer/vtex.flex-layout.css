@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1280px) {
-    .flexRowContent--footer__options-phone :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    .flexRowContent--footer__options :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: auto !important;
     }
 }
