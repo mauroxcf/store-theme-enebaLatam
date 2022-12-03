@@ -1,14 +1,17 @@
 {
   "flex-layout.col#product__image": {
+    "title": "product image content",
     "children": ["product-summary-image#shelf"]
   },
   "product-summary-image#shelf": {
+    "title": "product image summary",
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1"
     }
   },
   "flex-layout.col#product__information": {
+    "title": "product information content",
     "children": [
       "product-summary-name",
       "rich-text#product__summary-region",
@@ -18,12 +21,14 @@
     ]
   },
   "rich-text#product__summary-region": {
+    "title": "region text",
     "props": {
       "text": "GLOBAL",
       "blockClass": "product__summary-region"
     }
   },
   "rich-text#product__summary-at": {
+    "title": "at text",
     "props": {
       "text": "Desde",
       "blockClass": "product__summary-at"

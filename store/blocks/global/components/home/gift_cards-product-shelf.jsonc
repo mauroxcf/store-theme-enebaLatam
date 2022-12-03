@@ -1,11 +1,13 @@
 {
   "flex-layout.row#gif_cards-shelf": {
+    "title": "gift cards shelf container",
     "children": ["flex-layout.col#gift_cards__container"],
     "props": {
       "blockClass": "gif_cards-shelf"
     }
   },
   "flex-layout.col#gift_cards__container": {
+    "title": "gift cards shelf content",
     "children": [
       "rich-text#gift_cards-title",
       "responsive-layout.phone#product__shelf-content",
@@ -18,6 +20,7 @@
     }
   },
   "rich-text#gift_cards-title": {
+    "title": "gift cards title",
     "props": {
       "text": "Tarjetas regalo más vendidas (Código digital)",
       "textAlignment": "CENTER",
@@ -26,6 +29,7 @@
     }
   },
   "link#showmore__gift_cards": {
+    "title": "gift cards show more button",
     "props": {
       "href": "/gift-cards",
       "label": "Cargar más",

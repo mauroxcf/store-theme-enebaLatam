@@ -1,5 +1,6 @@
 {
   "store.home": {
+    "title": "home responsive layout",
     "blocks": [
       "responsive-layout.desktop#home__desktop",
       "responsive-layout.tablet#home__tablet",

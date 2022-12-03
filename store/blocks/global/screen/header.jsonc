@@ -1,8 +1,10 @@
 {
   "header": {
+    "title": "header responsive layout",
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
+    "title": "header full responsive layout",
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   }
 }

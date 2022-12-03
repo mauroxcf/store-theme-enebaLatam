@@ -1,11 +1,13 @@
 {
   "flex-layout.row#next_game-shelf": {
+    "title": "next game shelf container",
     "children": ["flex-layout.col#next_game-container"],
     "props": {
       "blockClass": "next_game-shelf"
     }
   },
   "flex-layout.col#next_game-container": {
+    "title": "next game shelf content",
     "children": [
       "rich-text#next_game-title",
       "responsive-layout.phone#product__shelf-content",
@@ -18,6 +20,7 @@
     }
   },
   "rich-text#next_game-title": {
+    "title": "next game title",
     "props": {
       "text": "Próximos juegos",
       "textAlignment": "CENTER",
@@ -25,20 +28,8 @@
       "blockClass": "shelf__title"
     }
   },
-  /* "slider-layout#product__shelf-layout": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "mobile": 5,
-        "phone": 5
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "home__next_games--shelf"
-    }
-  }, */
   "link#showmore__next-game": {
+    "title": "next game show more button",
     "props": {
       "href": "/next_game",
       "label": "Cargar más",

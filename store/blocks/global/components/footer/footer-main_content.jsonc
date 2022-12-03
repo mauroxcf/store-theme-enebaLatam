@@ -1,11 +1,13 @@
 {
   "flex-layout.row#footer__content": {
+    "title": "footer container",
     "children": ["flex-layout.col#footer__content"],
     "props": {
       "blockClass": "footer__content"
     }
   },
   "flex-layout.col#footer__content": {
+    "title": "footer content",
     "children": [
       "flex-layout.row#footer__options",
       "flex-layout.col#trustpilot",
@@ -18,6 +20,7 @@
     }
   },
   "flex-layout.row#footer__options": {
+    "title": "footer options content",
     "children": [
       "flex-layout.col#footer__about_eneba",
       "flex-layout.col#footer__buy",
