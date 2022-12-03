@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#header__desktop": {
+    "title": "header in desktop",
     "children": ["flex-layout.row#header__desktop"]
   }
 }

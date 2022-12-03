@@ -1,11 +1,13 @@
 {
   "flex-layout.row#desktop__navbar-menu": {
+    "title": "section menu container",
     "children": ["menu#header__desktop-menu"],
     "props": {
       "blockClass": "desktop__navbar-menu"
     }
   },
   "menu#header__desktop-menu": {
+    "title": "menu item list",
     "children": [
       "menu-item#shop-desktop",
       "menu-item#games-desktop",

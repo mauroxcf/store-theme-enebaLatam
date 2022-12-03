@@ -1,5 +1,6 @@
 {
   "header-layout.desktop": {
+    "title": "header layout desktop",
     "children": ["responsive-layout.desktop#header__desktop"]
   }
 }

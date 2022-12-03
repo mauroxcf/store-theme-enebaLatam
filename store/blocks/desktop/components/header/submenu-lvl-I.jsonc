@@ -1,8 +1,10 @@
 {
   "submenu#department__platforms-level1-desktop": {
+    "title": "submenu container",
     "children": ["menu#department__platforms-desktop"]
   },
   "menu#department__platforms-desktop": {
+    "title": "submenu item list",
     "props": {
       "orientation": "vertical",
       "blockClass": "desktop__submenu-lvl1"
@@ -15,6 +17,7 @@
     ]
   },
   "menu-item#category__platforms-desktop": {
+    "title": "platforms category item",
     "props": {
       "id": "category__platforms",
       "type": "custom",
@@ -31,6 +34,7 @@
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
   "menu-item#category__genre-desktop": {
+    "title": "genre category item",
     "props": {
       "id": "category__genre",
       "type": "custom",
@@ -47,6 +51,7 @@
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
   "menu-item#category__collection-desktop": {
+    "title": "collection category item",
     "props": {
       "id": "category__collection",
       "type": "custom",
@@ -63,6 +68,7 @@
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
   "menu-item#category__precio-desktop": {
+    "title": "price category item",
     "props": {
       "id": "category__precio",
       "type": "custom",
@@ -79,6 +85,7 @@
     "blocks": ["submenu#department__platforms-level2-desktop"]
   },
   "menu-item#category__popularity-desktop": {
+    "title": "popularity category item",
     "props": {
       "id": "category__popularity",
       "type": "custom",
