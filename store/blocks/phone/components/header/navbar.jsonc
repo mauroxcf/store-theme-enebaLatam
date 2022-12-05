@@ -1,11 +1,14 @@
 {
   "responsive-layout.phone#header__sticky-mobile": {
+    "title": "header in phone",
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
+    "title": "header sticky layout",
     "children": ["flex-layout.row#phone"]
   },
   "flex-layout.row#phone": {
+    "title": "header content",
     "children": [
       "drawer#navbar__phone-menu",
       "logo#main__logo",

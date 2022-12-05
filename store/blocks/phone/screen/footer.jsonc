@@ -1,5 +1,6 @@
 {
   "footer-layout.mobile": {
+    "title": "footer mobile",
     "children": [
       "responsive-layout.phone#footer",
       "responsive-layout.tablet#footer"

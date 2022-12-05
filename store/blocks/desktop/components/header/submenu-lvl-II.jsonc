@@ -1,8 +1,10 @@
 {
   "submenu#department__platforms-level2-desktop": {
+    "title": "platform sub item container",
     "children": ["menu#department__platforms-level2-desktop"]
   },
   "menu#department__platforms-level2-desktop": {
+    "title": "platform subitem list",
     "props": {
       "orientation": "vertical",
       "blockClass": "desktop__submenu-lvl2"
@@ -23,6 +25,7 @@
     ]
   },
   "menu-item#category__steam-games-desktop": {
+    "title": "steam category subitem",
     "props": {
       "id": "category__steam-games",
       "type": "custom",
@@ -37,6 +40,7 @@
     }
   },
   "menu-item#category__xbox-games-desktop": {
+    "title": "xbox category subitem",
     "props": {
       "id": "category__xbox-games",
       "type": "custom",
@@ -51,6 +55,7 @@
     }
   },
   "menu-item#category__psn-games-desktop": {
+    "title": "psn category subitem",
     "props": {
       "id": "category__psn-games",
       "type": "custom",
@@ -65,6 +70,7 @@
     }
   },
   "menu-item#category__nintendo-games-desktop": {
+    "title": "nintendo category subitem",
     "props": {
       "id": "category__nintendo-games",
       "type": "custom",
@@ -79,6 +85,7 @@
     }
   },
   "menu-item#category__origin-games-desktop": {
+    "title": "origin category subitem",
     "props": {
       "id": "category__origin-games",
       "type": "custom",
@@ -93,6 +100,7 @@
     }
   },
   "menu-item#category__ubisoft-games-desktop": {
+    "title": "ubisoft category subitem",
     "props": {
       "id": "category__origin-games",
       "type": "custom",
@@ -107,6 +115,7 @@
     }
   },
   "menu-item#category__epic-games-desktop": {
+    "title": "epic category subitem",
     "props": {
       "id": "category__epic-games",
       "type": "custom",
@@ -121,6 +130,7 @@
     }
   },
   "menu-item#category__gog-games-desktop": {
+    "title": "gog category subitem",
     "props": {
       "id": "category__gog-games",
       "type": "custom",
@@ -135,6 +145,7 @@
     }
   },
   "menu-item#category__battle-games-desktop": {
+    "title": "battle games category subitem",
     "props": {
       "id": "category__battle-games",
       "type": "custom",
@@ -149,6 +160,7 @@
     }
   },
   "menu-item#category__other-games-desktop": {
+    "title": "other games category subitem",
     "props": {
       "id": "category__other-games",
       "type": "custom",
@@ -163,6 +175,7 @@
     }
   },
   "menu-item#category__next-games-desktop": {
+    "title": "next games category subitem",
     "props": {
       "id": "category__next-games",
       "type": "custom",
@@ -177,6 +190,7 @@
     }
   },
   "menu-item#category__dlcs-desktop": {
+    "title": "dlcs category subitem",
     "props": {
       "id": "category__dlc",
       "type": "custom",

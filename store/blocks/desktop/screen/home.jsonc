@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#home__desktop": {
+    "title": "home layout desktop",
     "children": [
       "responsive-layout.desktop#home__banner-desktop",
       "flex-layout.row#recommendations-shelf",

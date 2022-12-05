@@ -1,8 +1,10 @@
 {
   "submenu.accordion#department__platforms-level1": {
+    "title": "submenu container",
     "children": ["menu#department__platforms"]
   },
   "menu#department__platforms": {
+    "title": "submenu item list",
     "props": {
       "orientation": "vertical"
     },
@@ -14,6 +16,7 @@
     ]
   },
   "menu-item#category__platforms": {
+    "title": "platforms category item",
     "props": {
       "id": "category__platforms",
       "type": "custom",
@@ -29,6 +32,7 @@
     "blocks": ["submenu.accordion#department__platforms-level2"]
   },
   "menu-item#category__genre": {
+    "title": "genre category item",
     "props": {
       "id": "category__genre",
       "type": "custom",
@@ -44,6 +48,7 @@
     "blocks": ["submenu.accordion#department__platforms-level2"]
   },
   "menu-item#category__collection": {
+    "title": "collection category item",
     "props": {
       "id": "category__collection",
       "type": "custom",
@@ -59,6 +64,7 @@
     "blocks": ["submenu.accordion#department__platforms-level2"]
   },
   "menu-item#category__precio": {
+    "title": "price category item",
     "props": {
       "id": "category__precio",
       "type": "custom",
@@ -74,6 +80,7 @@
     "blocks": ["submenu.accordion#department__platforms-level2"]
   },
   "menu-item#category__popularity": {
+    "title": "popularity category item",
     "props": {
       "id": "category__popularity",
       "type": "custom",

@@ -1,5 +1,6 @@
 {
   "login#navbar__login-desktop": {
+    "title": "login desktop ",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",

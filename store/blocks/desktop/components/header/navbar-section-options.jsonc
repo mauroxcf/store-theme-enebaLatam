@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__navbar-options": {
+    "title": "navbar options container",
     "props": {
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -11,6 +12,7 @@
     "children": ["flex-layout.col#options__one", "flex-layout.col#options__two"]
   },
   "flex-layout.col#options__one": {
+    "title": "options one container",
     "children": ["flex-layout.row#options__one"],
     "props": {
       "blockClass": "options__one-container",
@@ -18,6 +20,7 @@
     }
   },
   "flex-layout.row#options__one": {
+    "title": "options one inner container",
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#searchbar-desktop"
@@ -29,12 +32,14 @@
     }
   },
   "flex-layout.col#logo-desktop": {
+    "title": "navbar logo",
     "props": {
       "verticalAlign": "middle"
     },
     "children": ["logo#main__logo"]
   },
   "flex-layout.col#searchbar-desktop": {
+    "title": "navbar searchbar",
     "props": {
       "verticalAlign": "middle",
       "width": "grow"
@@ -42,12 +47,14 @@
     "children": ["search-bar#header__search"]
   },
   "flex-layout.col#options__two": {
+    "title": "options two container",
     "children": ["flex-layout.row#options__two"],
     "props": {
       "blockClass": "options__two-container"
     }
   },
   "flex-layout.row#options__two": {
+    "title": "options two inner container",
     "children": [
       "locale-switcher",
       "logo#main__heart",

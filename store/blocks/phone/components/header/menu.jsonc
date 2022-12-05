@@ -1,5 +1,6 @@
 {
   "drawer#navbar__phone-menu": {
+    "title": "drawer menu phone",
     "blocks": ["drawer-header#phone__drawer-menu"],
     "children": ["menu#header__phone-menu"],
     "props": {
@@ -7,12 +8,14 @@
     }
   },
   "drawer-header#phone__drawer-menu": {
+    "title": "drawer menu header",
     "children": ["logo#menu__logo", "drawer-close-button"],
     "props": {
       "blockClass": "phone__drawer_header-menu"
     }
   },
   "logo#menu__logo": {
+    "title": "menu logo eneba",
     "props": {
       "title": "Logo",
       "href": "/",
@@ -22,6 +25,7 @@
     }
   },
   "menu#header__phone-menu": {
+    "title": "menu item list",
     "props": {
       "orientation": "vertical"
     },

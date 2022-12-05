@@ -1,45 +1,54 @@
 {
   "rich-text#navbar__one": {
+    "title": "store title",
     "props": {
       "text": "Tienda"
     }
   },
   "rich-text#navbar__two": {
+    "title": "games title",
     "props": {
       "text": "Juegos"
     }
   },
   "rich-text#navbar__three": {
+    "title": "recommendations title",
     "props": {
       "text": "Recomendaciones para ti"
     }
   },
   "rich-text#navbar__four": {
+    "title": "gift card title",
     "props": {
       "text": "Tarjetas de regalo"
     }
   },
   "rich-text#navbar__five": {
+    "title": "game points title",
     "props": {
       "text": "Puntos de juegos"
     }
   },
   "rich-text#navbar__six": {
+    "title": "xbox title",
     "props": {
       "text": "Xbox"
     }
   },
   "rich-text#navbar__seven": {
+    "title": "PSN title",
     "props": {
       "text": "PSN"
     }
   },
   "rich-text#navbar__eight": {
+    "title": "nintendo online title",
     "props": {
       "text": "Nintendo Online"
     }
   },
   "rich-text#navbar__nine": {
+    "title": "software title",
     "props": {
       "text": "Software"
     }

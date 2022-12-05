@@ -1,5 +1,6 @@
 {
   "logo#social__facebook": {
+    "title": "facebook logo",
     "props": {
       "title": "facebook",
       "url": "assets/svg/social_networks/facebook.svg",
@@ -9,6 +10,7 @@
     }
   },
   "logo#social__twitter": {
+    "title": "twitter logo",
     "props": {
       "title": "twitter",
       "url": "assets/svg/social_networks/twitter.svg",
@@ -18,6 +20,7 @@
     }
   },
   "logo#social__instagram": {
+    "title": "instagram logo",
     "props": {
       "title": "instagram",
       "url": "assets/svg/social_networks/instagram.svg",
@@ -27,6 +30,7 @@
     }
   },
   "logo#social__twitch": {
+    "title": "twitch logo",
     "props": {
       "title": "twitch",
       "url": "assets/svg/social_networks/twitch.svg",
