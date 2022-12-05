@@ -1,0 +1,42 @@
+.menuContainerNav--desktop__menu-items :global(.vtex-menu-2-x-submenuContainer) {
+    position: initial !important;
+}
+
+.menuContainerNav--desktop__menu-items :global(.vtex-menu-2-x-submenuWrapper) {
+    width           : 100vw;
+    background-color: #1F0A4E;
+    border          : none;
+}
+
+.menuContainer--desktop__submenu-lvl1 {
+    flex-direction: row;
+}
+
+.menuContainer--desktop__submenu-lvl1 :global(.vtex-menu-2-x-submenuWrapper) {
+    position: relative;
+    width   : auto !important;
+}
+
+.menuContainerNav--desktop__menu-items :global(.vtex-menu-2-x-submenu) {
+    justify-content: initial;
+}
+
+.menuContainer--desktop__menu-items {
+    max-width   : 1200px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContainer) {
+    margin-left : 1rem;
+    margin-right: 1rem;
+}
+
+.menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size: 14px;
+    cursor   : pointer;
+}
+
+.menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContent):hover {
+    color: yellow;
+}

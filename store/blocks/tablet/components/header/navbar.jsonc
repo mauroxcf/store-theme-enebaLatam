@@ -1,0 +1,6 @@
+{
+  "responsive-layout.tablet#header__tablet": {
+    "title": "header tablet",
+    "children": ["sticky-layout#mobile"]
+  }
+}

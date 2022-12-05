@@ -1,0 +1,20 @@
+.nameContainer {
+    justify-content: initial;
+    padding        : 0;
+}
+
+.installmentContainer {
+    text-align: left;
+}
+
+.sellingPriceContainer {
+    text-align: left;
+}
+
+.price_listPriceContainer {
+    text-align: left;
+}
+
+.priceContainer {
+    padding: 0;
+}

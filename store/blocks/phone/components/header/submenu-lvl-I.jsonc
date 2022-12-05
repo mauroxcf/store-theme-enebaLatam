@@ -1,0 +1,98 @@
+{
+  "submenu.accordion#department__platforms-level1": {
+    "title": "submenu container",
+    "children": ["menu#department__platforms"]
+  },
+  "menu#department__platforms": {
+    "title": "submenu item list",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__platforms",
+      "menu-item#category__genre",
+      "menu-item#category__genre",
+      "menu-item#category__popularity"
+    ]
+  },
+  "menu-item#category__platforms": {
+    "title": "platforms category item",
+    "props": {
+      "id": "category__platforms",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Plataformas",
+        "text": "PLATAFORMAS"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level2"]
+  },
+  "menu-item#category__genre": {
+    "title": "genre category item",
+    "props": {
+      "id": "category__genre",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por género",
+        "text": "DESCUBRIR POR GENERO"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level2"]
+  },
+  "menu-item#category__collection": {
+    "title": "collection category item",
+    "props": {
+      "id": "category__collection",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por colección",
+        "text": "DESCUBRIR POR COLECCIÓN"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level2"]
+  },
+  "menu-item#category__precio": {
+    "title": "price category item",
+    "props": {
+      "id": "category__precio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por precio",
+        "text": "DESCUBRIR POR PRECIO"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level2"]
+  },
+  "menu-item#category__popularity": {
+    "title": "popularity category item",
+    "props": {
+      "id": "category__popularity",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descubrir por popularidad",
+        "text": "DESCUBRIR POR POPULARIDAD"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level2"]
+  }
+}

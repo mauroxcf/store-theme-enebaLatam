@@ -1,8 +1,9 @@
 {
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "title": "header mobile",
+    "children": [
+      "responsive-layout.phone#header__sticky-mobile",
+      "responsive-layout.tablet#header__tablet"
+    ]
   }
 }

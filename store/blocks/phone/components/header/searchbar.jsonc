@@ -1,0 +1,53 @@
+{
+  "drawer#navbar__phone-searchbar": {
+    "title": "phone searchbar drawer",
+    "blocks": [
+      "drawer-header#phone__drawer-searchbar",
+      "drawer-trigger#phone__searchbar"
+    ],
+    "props": {
+      "slideDirection": "vertical",
+      "blockClass": "phone__drawer-searchbar",
+      "isFullWidth": true
+    }
+  },
+  "drawer-header#phone__drawer-searchbar": {
+    "title": "header drawer phone",
+    "children": [
+      "flex-layout.row#phone__searchbar-container",
+      "drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "phone__drawer-searchbar"
+    }
+  },
+  "drawer-trigger#phone__searchbar": {
+    "title": "drawer trigger phone",
+    "children": ["logo#main__Search"]
+  },
+  "flex-layout.row#phone__searchbar-container": {
+    "title": "searchbar container phone",
+    "children": ["search-bar#header__search-phone"],
+    "props": {
+      "blockClass": "phone__searchbar-container"
+    }
+  },
+  "search-bar#header__search-phone": {
+    "title": "searchbar content phone",
+    "blocks": ["autocomplete-result-list.v2#search-phone"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "",
+      "hasIconLeft": false,
+      "autoFocus": true
+    }
+  },
+  "autocomplete-result-list.v2#search-phone": {
+    "title": "autocomplete phone",
+    "blocks": ["product-summary"],
+    "props": {
+      "productLayout": "VERTICAL",
+      "autocompleteWidth": "100%"
+    }
+  }
+}

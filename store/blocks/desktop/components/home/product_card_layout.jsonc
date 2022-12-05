@@ -1,0 +1,25 @@
+{
+  "responsive-layout.desktop#product__shelf-content": {
+    "title": "shelf container desktop",
+    "children": ["list-context.product-list#product__shelf-content--desktop"]
+  },
+  "list-context.product-list#product__shelf-content--desktop": {
+    "title": "shelf context desktop",
+    "blocks": ["product-summary.shelf#product__shelf-context-desktop"],
+    "children": ["slider-layout#product__shelf-layout"]
+  },
+  "product-summary.shelf#product__shelf-context-desktop": {
+    "title": "shelf product summary desktop",
+    "children": ["flex-layout.col#product__container-desktop"]
+  },
+  "flex-layout.col#product__container-desktop": {
+    "title": "product card layout container",
+    "children": [
+      "flex-layout.col#product__image",
+      "flex-layout.col#product__information"
+    ],
+    "props": {
+      "blockClass": "product__container"
+    }
+  }
+}

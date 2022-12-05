@@ -1,0 +1,25 @@
+{
+  "responsive-layout.tablet#product__shelf-content": {
+    "title": "product shelf tablet container",
+    "children": ["list-context.product-list#product__shelf-context--tablet"]
+  },
+  "list-context.product-list#product__shelf-context--tablet": {
+    "title": "product list tablet container",
+    "blocks": ["product-summary.shelf#product__shelf-context-tablet"],
+    "children": ["slider-layout#product__shelf-layout"]
+  },
+  "product-summary.shelf#product__shelf-context-tablet": {
+    "title": "product summary tablet container",
+    "children": ["flex-layout.col#product__container-tablet"]
+  },
+  "flex-layout.col#product__container-tablet": {
+    "title": "product summary shelf tablet content",
+    "children": [
+      "flex-layout.col#product__image",
+      "flex-layout.col#product__information"
+    ],
+    "props": {
+      "blockClass": "product__container"
+    }
+  }
+}

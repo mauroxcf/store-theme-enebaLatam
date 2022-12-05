@@ -1,0 +1,45 @@
+{
+  "flex-layout.col#spacer": {
+    "title": "space",
+    "props": {
+      "width": "grow"
+    }
+  },
+  "logo#main__logo": {
+    "title": "eneba logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/svg/logoeneba.svg",
+      "width": "100",
+      "blockClass": "header__logo-icon"
+    }
+  },
+  "logo#main__heart": {
+    "title": "like logo",
+    "props": {
+      "title": "Heart",
+      "url": "assets/svg/heartIconMobile.svg",
+      "width": "24",
+      "blockClass": "header-icon"
+    }
+  },
+  "logo#main__Login": {
+    "title": "login logo",
+    "props": {
+      "title": "Login",
+      "url": "assets/svg/loginIconMobile.svg",
+      "width": "24",
+      "blockClass": "header-icon"
+    }
+  },
+  "logo#main__Search": {
+    "title": "search logo",
+    "props": {
+      "title": "Search",
+      "url": "assets/svg/searchIconMobile.svg",
+      "width": "24",
+      "blockClass": "header-icon"
+    }
+  }
+}

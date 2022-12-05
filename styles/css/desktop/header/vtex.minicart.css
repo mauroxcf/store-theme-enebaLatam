@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1200px) {
+    .minicartTitle::before {
+        content       : "Mi " !important;
+        text-transform: capitalize;
+    }
+
+    .minicartTitle {
+        font-size: 1.25rem !important;
+    }
+
+    .minicartTitle::after {
+        content       : " de compras ";
+        text-transform: lowercase;
+    }
+
+    .minicartProductListContainer {
+        background-color: transparent !important;
+        padding         : 1rem;
+        border-top      : solid white 1px;
+        border-bottom   : solid white 1px;
+    }
+
+    .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent) {
+        background-color: transparent !important;
+    }
+
+    .minicartCheckoutButton--checkout__button :global(.vtex-button__label)::before {
+        content: "Ver carrito" !important;
+    }
+}

@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#footer__payments-container": {
+    "title": "footer payments content",
+    "children": [
+      "logo#payment__eneba",
+      "logo#payment__visa",
+      "logo#payment__paypal",
+      "logo#payment__pse",
+      "logo#payment__efecty",
+      "logo#payment__payvalida",
+      "logo#payment__efecty_gana_baloto_cash"
+    ],
+    "props": {
+      "blockClass": "footer__payments-container",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "logo#payment__eneba": {
+    "title": "eneba wallet logo",
+    "props": {
+      "title": "payment eneba",
+      "url": "assets/svg/payments/eneba.svg",
+      "width": 61,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__visa": {
+    "title": "visa logo",
+    "props": {
+      "title": "payment visa",
+      "url": "assets/svg/payments/visa_mastercard.svg",
+      "width": 61,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__paypal": {
+    "title": "paypal logo",
+    "props": {
+      "title": "payment paypal",
+      "url": "assets/svg/payments/paypal.svg",
+      "width": 55,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__pse": {
+    "title": "pse logo",
+    "props": {
+      "title": "payment pse",
+      "url": "assets/svg/payments/pse.svg",
+      "width": 28,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__efecty": {
+    "title": "efecty logo",
+    "props": {
+      "title": "payment efecty",
+      "url": "assets/svg/payments/efecty.svg",
+      "width": 28,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__payvalida": {
+    "title": "payvalida logo",
+    "props": {
+      "title": "payment payvalida",
+      "url": "assets/svg/payments/pay_valida.svg",
+      "width": 72,
+      "height": 20,
+      "blockClass": "payment-icon"
+    }
+  },
+  "logo#payment__efecty_gana_baloto_cash": {
+    "title": "efecty logo",
+    "props": {
+      "title": "payment efecty gana baloto cash",
+      "url": "assets/svg/payments/efecty_gana_baloto_cash.svg",
+      "width": 40,
+      "height": 21,
+      "blockClass": "payment-icon"
+    }
+  }
+}

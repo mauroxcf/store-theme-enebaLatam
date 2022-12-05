@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#trustpilot": {
+    "title": "trustpilot container",
+    "children": ["flex-layout.row#trustpilot"]
+  },
+  "flex-layout.row#trustpilot": {
+    "title": "trustpilot inner container",
+    "children": ["flex-layout.col#trustpilot__container"]
+  },
+  "flex-layout.col#trustpilot__container": {
+    "title": "trustpilot content",
+    "children": ["rich-text#trustpilot__title", "logo#social__trustpilot"],
+    "props": {
+      "blockClass": "footer__option-container"
+    }
+  },
+  "rich-text#trustpilot__title": {
+    "title": "trustpilot title",
+    "props": {
+      "text": "Ver nuestros comentarios en",
+      "blockClass": "footer__option-title"
+    }
+  },
+  "logo#social__trustpilot": {
+    "title": "trustpilot logo",
+    "props": {
+      "title": "trustpilot",
+      "url": "assets/svg/social_networks/trustpilot.svg",
+      "height": 34,
+      "blockClass": "social-icon"
+    }
+  }
+}

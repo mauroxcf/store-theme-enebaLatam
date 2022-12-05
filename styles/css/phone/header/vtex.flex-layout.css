@@ -1,0 +1,34 @@
+.flexRow--main-header-phone {
+    height          : 55px;
+    background-color: #4618AC;
+}
+
+.flexRowContent--main-header-phone {
+    padding: 4px;
+}
+
+.flexRow--mobile__login-container {
+    width   : 100%;
+    position: relative;
+    bottom  : 40px;
+}
+
+.flexCol--mobile__login-buttons {
+    align-items: center;
+}
+
+.flexColChild--mobile__login-buttons :global(.vtex-login-2-x-label) {
+    margin        : 0;
+    font-size     : 1rem !important;
+    font-weight   : 600;
+    color         : white;
+    display       : block;
+    padding       : 8px 48px 8px 46px;
+    border        : solid white 1px;
+    text-transform: none;
+}
+
+/* Searchbar container phone */
+.flexRow--phone__searchbar-container {
+    flex-grow: 1;
+}

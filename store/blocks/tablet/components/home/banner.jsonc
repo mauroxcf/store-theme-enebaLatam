@@ -1,0 +1,6 @@
+{
+  "responsive-layout.tablet#home__banner-tablet": {
+    "title": "home tablet",
+    "children": ["flex-layout.row#home__banner-desktop"]
+  }
+}

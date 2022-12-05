@@ -1,0 +1,128 @@
+{
+  "menu-item#shop": {
+    "title": "item shop",
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tienda",
+        "text": "TIENDA"
+      }
+    }
+  },
+  "menu-item#games": {
+    "title": "item games",
+    "props": {
+      "id": "menu-item-games",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Juegos",
+        "text": "JUEGOS"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level1"]
+  },
+  "menu-item#gift_cards": {
+    "title": "item gift cards",
+    "props": {
+      "id": "menu-item-gift_cards",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tarjetas de regalo",
+        "text": "TARJETAS DE REGALO"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level1"]
+  },
+  "menu-item#game_points": {
+    "title": "item game points",
+    "props": {
+      "id": "menu-item-game_points",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Puntos de juego",
+        "text": "PUNTOS DE JUEGO"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level1"]
+  },
+  "menu-item#xbox": {
+    "title": "item xbox",
+    "props": {
+      "id": "menu-item-xbox",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Xbox",
+        "text": "XBOX"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level1"]
+  },
+  "menu-item#psn": {
+    "title": "item PSN",
+    "props": {
+      "id": "menu-item-psn",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Psn",
+        "text": "PSN"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level1"]
+  },
+  "menu-item#nintendo_online": {
+    "title": "item nintendo online",
+    "props": {
+      "id": "menu-item-nintendo_online",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nintendo online",
+        "text": "NINTENDO ONLINE"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level1"]
+  },
+  "menu-item#software": {
+    "title": "item software",
+    "props": {
+      "id": "menu-item-software",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Software",
+        "text": "SOFTWARE"
+      }
+    },
+    "blocks": ["submenu.accordion#department__platforms-level1"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#header__desktop": {
+    "title": "header desktop container",
+    "children": ["flex-layout.col#header__desktop"],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  },
+  "flex-layout.col#header__desktop": {
+    "title": "header desktop inner container",
+    "children": [
+      "flex-layout.row#desktop__navbar-options",
+      "flex-layout.row#desktop__navbar-menu"
+    ]
+  }
+}

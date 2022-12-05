@@ -1,0 +1,26 @@
+{
+  "image#home__banner--one": {
+    "title": "banner image one",
+    "props": {
+      "src": "assets/img/home/home-banner01/home-banner01.jpg"
+    }
+  },
+  "image#home__banner--two": {
+    "title": "banner image two",
+    "props": {
+      "src": "assets/img/home/home-banner01/home-banner02.jpg"
+    }
+  },
+  "image#home__banner--third": {
+    "title": "banner image third",
+    "props": {
+      "src": "assets/img/home/home-banner01/home-banner03.jpg"
+    }
+  },
+  "image#home__banner--four": {
+    "title": "banner image four",
+    "props": {
+      "src": "assets/img/home/home-banner01/home-banner04.jpeg"
+    }
+  }
+}

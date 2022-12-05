@@ -1,0 +1,20 @@
+{
+  "search-bar#header__search": {
+    "title": "searchbar",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "",
+      "hasIconLeft": false,
+      "autocompleteFullWidth": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "title": "search bar autocomplete",
+    "blocks": ["product-summary"],
+    "props": {
+      "productLayout": "VERTICAL",
+      "autocompleteWidth": "100%"
+    }
+  }
+}

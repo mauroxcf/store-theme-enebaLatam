@@ -1,0 +1,48 @@
+.flexCol--home__slider--one {
+    margin-bottom: 2rem;
+}
+
+.flexCol--home__slider--one :last-child {
+    align-self: center;
+}
+
+.flexRow--best_games-shelf {
+    background-color: #330e82;
+}
+
+.flexRow--next_game-shelf {
+    background-color: #330e82;
+}
+
+.flexRow--next_game-shelf :global(.vtex-store-components-3-x-container) {
+    margin-left : 16px;
+    margin-right: 16px;
+}
+
+.flexRowContent--home__popularcards_mobile {
+    display: flex;
+}
+
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 45% !important;
+}
+
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2n) {
+    width: 50% !important;
+}
+
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(3n) {
+    width   : auto !important;
+    position: relative;
+    bottom  : 8px;
+}
+
+.flexRowContent--product__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(4n) {
+    width: 25% !important;
+}
+
+.flexColChild--container__shelf:nth-child(5n) {
+    align-self   : center;
+    margin-top   : 2.5rem;
+    margin-bottom: 2.5rem;
+}

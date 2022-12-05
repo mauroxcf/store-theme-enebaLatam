@@ -1,14 +1,6 @@
 {
   "header-layout.desktop": {
-    "children": ["flex-layout.row#desktop"]
-  },
-  "flex-layout.row#desktop": {
-    "children": ["flex-layout.col#desktop"]
-  },
-  "flex-layout.col#desktop": {
-    "children": [
-      "flex-layout.row#desktop__navbar--one",
-      "flex-layout.row#desktop__navbar--two"
-    ]
+    "title": "header layout desktop",
+    "children": ["responsive-layout.desktop#header__desktop"]
   }
 }

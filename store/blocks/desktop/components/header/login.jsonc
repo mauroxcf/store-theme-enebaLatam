@@ -1,0 +1,14 @@
+{
+  "login#navbar__login-desktop": {
+    "title": "login desktop ",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Iniciar sesión | Registro"
+    }
+  }
+}

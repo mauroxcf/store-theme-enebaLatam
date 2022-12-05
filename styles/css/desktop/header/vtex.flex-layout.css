@@ -1,0 +1,47 @@
+.flexRow--header__desktop :global(.vtex-store-components-3-x-container) {
+    padding-left : 0;
+    padding-right: 0;
+}
+
+.flexRowContent--desktop__navbar-options {
+    padding-left   : 1rem;
+    padding-right  : 1rem;
+    margin-top     : 1rem;
+    margin-bottom  : 1rem;
+    gap            : 1rem;
+    justify-content: initial !important;
+}
+
+.flexColChild--options__two-container {
+    display    : flex;
+    align-items: center;
+}
+
+.flexRowContent--options__one {
+    justify-content: initial !important;
+    gap            : 1rem;
+}
+
+.flexRowContent--desktop__navbar-options :global(.vtex-login-2-x-label) {
+    text-transform: capitalize;
+    color         : white;
+
+}
+
+.flexRow--desktop__navbar-menu {
+    background-color: #330e82;
+}
+
+.flexRowContent--desktop__navbar-menu {
+    margin: 0 auto 50px;
+}
+
+.flexCol--desktop__navbar-menu {
+    background-color: #330e82;
+}
+
+.flexRowContent--header__desktop :global(.vtex-flex-layout-0-x-flexColChild):first-child {
+    width     : 100%;
+    max-width : 1200px;
+    align-self: center;
+}

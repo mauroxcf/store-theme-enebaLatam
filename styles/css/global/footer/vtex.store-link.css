@@ -1,0 +1,14 @@
+.link--footer__option {
+    text-decoration: none;
+    color          : white;
+    font-weight    : 200;
+    font-size      : 12px;
+}
+
+.link--footer__option-button {
+    text-decoration: none;
+    color          : white;
+    font-weight    : 200;
+    font-size      : 12px;
+    text-transform : capitalize;
+}

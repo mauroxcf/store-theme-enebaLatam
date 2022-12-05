@@ -1,0 +1,206 @@
+{
+  "submenu.accordion#department__platforms-level2": {
+    "title": "platform sub item container",
+    "children": ["menu#department__platforms-level2"]
+  },
+  "menu#department__platforms-level2": {
+    "title": "platform subitem list",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__steam-games",
+      "menu-item#category__xbox-games",
+      "menu-item#category__psn-games",
+      "menu-item#category__nintendo-games",
+      "menu-item#category__origin-games",
+      "menu-item#category__ubisoft-games",
+      "menu-item#category__epic-games",
+      "menu-item#category__gog-games",
+      "menu-item#category__battle-games",
+      "menu-item#category__other-games",
+      "menu-item#category__next-games",
+      "menu-item#category__dlcs"
+    ]
+  },
+  "menu-item#category__steam-games": {
+    "title": "steam category subitem",
+    "props": {
+      "id": "category__steam-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Steam juegos",
+        "text": "STEAM JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__xbox-games": {
+    "title": "xbox category subitem",
+    "props": {
+      "id": "category__xbox-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Xbox juegos",
+        "text": "XBOX JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__psn-games": {
+    "title": "psn category subitem",
+    "props": {
+      "id": "category__psn-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Psn juegos",
+        "text": "PSN JUEGOS | DIGITAL"
+      }
+    }
+  },
+  "menu-item#category__nintendo-games": {
+    "title": "nintendo category subitem",
+    "props": {
+      "id": "category__nintendo-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nintendo switch juegos",
+        "text": "NINTENDO SWITCH JUEGOS | DIGITAL"
+      }
+    }
+  },
+  "menu-item#category__origin-games": {
+    "title": "origin category subitem",
+    "props": {
+      "id": "category__origin-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Origin juegos",
+        "text": "ORIGIN JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__ubisoft-games": {
+    "title": "ubisoft category subitem",
+    "props": {
+      "id": "category__origin-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ubisoft juegos",
+        "text": "UBISOFT CONNECT JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__epic-games": {
+    "title": "epic category subitem",
+    "props": {
+      "id": "category__epic-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "epic juegos",
+        "text": "EPIC GAMES JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__gog-games": {
+    "title": "gog category subitem",
+    "props": {
+      "id": "category__gog-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Gog juegos",
+        "text": "GOG JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__battle-games": {
+    "title": "battle games category subitem",
+    "props": {
+      "id": "category__battle-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Battle net juegos",
+        "text": "BATTLE.NET JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__other-games": {
+    "title": "other games category subitem",
+    "props": {
+      "id": "category__other-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Otros juegos",
+        "text": "OTROS JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__next-games": {
+    "title": "next games category subitem",
+    "props": {
+      "id": "category__next-games",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Próximos juegos",
+        "text": "PRÓXIMOS JUEGOS"
+      }
+    }
+  },
+  "menu-item#category__dlcs": {
+    "title": "dlcs category subitem",
+    "props": {
+      "id": "category__dlc",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dlcs",
+        "text": "DLCS"
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "drawer#navbar__phone-login": {
+    "title": "login drawer",
+    "blocks": [
+      "drawer-header#phone__drawer-login",
+      "drawer-trigger#phone__login"
+    ],
+    "children": ["flex-layout.row#phone__login-container"],
+    "props": {
+      "slideDirection": "rightToLeft",
+      "blockClass": "phone__drawer_login"
+    }
+  },
+  "drawer-header#phone__drawer-login": {
+    "title": "login drawer  header",
+    "children": ["drawer-close-button"],
+    "props": {
+      "blockClass": "mobile__drawer-login"
+    }
+  },
+  "drawer-trigger#phone__login": {
+    "title": "login drawer trigger",
+    "children": ["logo#main__Login"]
+  },
+  "flex-layout.row#phone__login-container": {
+    "title": "login drawer container",
+    "children": ["flex-layout.col#phone__login-buttons"],
+    "props": {
+      "blockClass": "mobile__login-container"
+    }
+  },
+  "flex-layout.col#phone__login-buttons": {
+    "title": "login drawer content",
+    "children": ["login#navbar__login-phone", "rich-text#phone__login-sign_up"],
+    "props": {
+      "rowGap": "4",
+      "blockClass": "mobile__login-buttons"
+    }
+  },
+  "rich-text#phone__login-sign_in": {
+    "title": "sign in title",
+    "props": {
+      "text": "Iniciar sesión",
+      "blockClass": "mobile__login-sign_in"
+    }
+  },
+  "rich-text#phone__login-sign_up": {
+    "title": "sign up title",
+    "props": {
+      "text": "Registro",
+      "blockClass": "mobile__login-sign_up"
+    }
+  },
+  "login#navbar__login-phone": {
+    "title": "login phone",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "iconLabel": "Iniciar sesión",
+      "labelClasses": "login__label-phone"
+    }
+  }
+}

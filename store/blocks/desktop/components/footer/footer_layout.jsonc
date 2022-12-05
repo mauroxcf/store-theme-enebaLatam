@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#footer__container-desktop": {
+    "title": "footer desktop container",
+    "children": ["flex-layout.col#footer__container-desktop"]
+  },
+  "flex-layout.col#footer__container-desktop": {
+    "title": "footer desktop inner container",
+    "children": [
+      "flex-layout.row#footer__payments-container",
+      "flex-layout.row#footer__content"
+    ]
+  }
+}

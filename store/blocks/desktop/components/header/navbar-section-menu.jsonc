@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#desktop__navbar-menu": {
+    "title": "section menu container",
+    "children": ["menu#header__desktop-menu"],
+    "props": {
+      "blockClass": "desktop__navbar-menu"
+    }
+  },
+  "menu#header__desktop-menu": {
+    "title": "menu item list",
+    "children": [
+      "menu-item#shop-desktop",
+      "menu-item#games-desktop",
+      "menu-item#gift_cards-desktop",
+      "menu-item#game_points-desktop",
+      "menu-item#xbox-desktop",
+      "menu-item#psn-desktop",
+      "menu-item#nintendo_online-desktop",
+      "menu-item#software-desktop"
+    ],
+    "props": {
+      "blockClass": "desktop__menu-items"
+    }
+  }
+}

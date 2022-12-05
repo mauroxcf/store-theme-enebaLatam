@@ -1,0 +1,17 @@
+{
+  "responsive-layout.phone#footer": {
+    "title": "footer responsive layout",
+    "children": ["flex-layout.row#footer__container-phone"]
+  },
+  "flex-layout.row#footer__container-phone": {
+    "title": "footer phone layout",
+    "children": ["flex-layout.col#footer__container-phone"]
+  },
+  "flex-layout.col#footer__container-phone": {
+    "title": "footer phone container",
+    "children": [
+      "flex-layout.row#footer__payments-container",
+      "flex-layout.row#footer__content"
+    ]
+  }
+}

@@ -1,5 +1,0 @@
-{
-  "responsive-layout.tablet#home__banner-tablet": {
-    "children": ["flex-layout.row#home__banner-desktop"]
-  }
-}

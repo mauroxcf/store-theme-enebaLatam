@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#buy_now-shelf": {
+    "title": "buy now shelf container",
+    "children": ["flex-layout.col#buy_now__container"],
+    "props": {
+      "blockClass": "buy_now-shelf"
+    }
+  },
+  "flex-layout.col#buy_now__container": {
+    "title": "buy now shelf content",
+    "children": [
+      "rich-text#buy_now-title",
+      "responsive-layout.phone#product__shelf-content",
+      "responsive-layout.tablet#product__shelf-content",
+      "responsive-layout.desktop#product__shelf-content",
+      "link#showmore__buy_now"
+    ],
+    "props": {
+      "blockClass": "container__shelf"
+    }
+  },
+  "rich-text#buy_now-title": {
+    "title": "buy now title",
+    "props": {
+      "text": "Compra inmediata Black Sale",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "shelf__title"
+    }
+  },
+  "link#showmore__buy_now": {
+    "title": "buy now show more button",
+    "props": {
+      "href": "/buy-now",
+      "label": "Cargar más",
+      "displayMode": "button",
+      "blockClass": "showmore__recommendations-button"
+    }
+  }
+}
