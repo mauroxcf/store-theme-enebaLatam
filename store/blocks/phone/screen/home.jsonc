@@ -1,5 +1,6 @@
 {
   "responsive-layout.phone#home__phone": {
+    "title": "home phone",
     "children": [
       "responsive-layout.phone#home__banner-phone",
       "flex-layout.row#popular_cards",

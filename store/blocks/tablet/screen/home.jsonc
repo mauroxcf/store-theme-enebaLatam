@@ -1,5 +1,6 @@
 {
   "responsive-layout.tablet#home__tablet": {
+    "title": "home tablet",
     "children": [
       "responsive-layout.tablet#home__banner-tablet",
       "flex-layout.row#recommendations-shelf",

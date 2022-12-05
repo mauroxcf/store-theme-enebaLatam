@@ -1,5 +1,6 @@
 {
   "minicart.v2": {
+    "title": "minicart component",
     "props": {
       "variation": "popup",
       "itemCountMode": "total",
@@ -14,16 +15,20 @@
     }
   },
   "minicart-base-content": {
+    "title": "minicart content",
     "blocks": ["minicart-empty-state"],
     "children": ["minicart-product-list", "flex-layout.row#minicart__footer"]
   },
   "minicart-empty-state": {
+    "title": "minicart empty container",
     "children": ["flex-layout.row#minicart__empty"]
   },
   "flex-layout.row#minicart__empty": {
+    "title": "minicart empty inner container",
     "children": ["flex-layout.col#minicart__empty"]
   },
   "flex-layout.col#minicart__empty": {
+    "title": "minicart content",
     "children": [
       "icon-cart#minicart-empty-state",
       "rich-text#minicart-default-empty-state"
@@ -35,23 +40,27 @@
     }
   },
   "icon-cart#minicart-empty-state": {
+    "title": "minicart icon",
     "props": {
       "size": 64,
       "blockClass": "minicart-empty-state"
     }
   },
   "rich-text#minicart-default-empty-state": {
+    "title": "minicart empty text",
     "props": {
       "text": "Tu carrito esta vació."
     }
   },
   "flex-layout.row#minicart__footer": {
+    "title": "minicart footer",
     "props": {
       "blockClass": "minicart-footer"
     },
     "children": ["flex-layout.col#minicart__footer"]
   },
   "flex-layout.col#minicart__footer": {
+    "title": "minicart footer content",
     "children": [
       "minicart-summary",
       "rich-text#promotion__text",
@@ -59,20 +68,25 @@
     ]
   },
   "minicart-product-list": {
+    "title": "minicart product list",
     "blocks": ["product-list#minicart"]
   },
   "product-list#minicart": {
+    "title": "product list",
     "blocks": ["product-list-content-mobile"]
   },
   "minicart-summary": {
+    "title": "minicart summary",
     "blocks": ["checkout-summary.compact#minicart"]
   },
   "rich-text#promotion__text": {
+    "title": "promotion title",
     "props": {
       "text": "No olvides participar en las promociones de dia sin IVA"
     }
   },
   "minicart-checkout-button": {
+    "title": "minicart checkout button",
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform",
       "blockClass": "checkout__button"
@@ -80,12 +94,14 @@
   },
 
   "checkout-summary.compact#minicart": {
+    "title": "checkout summary",
     "children": ["summary-totalizers#minicart"],
     "props": {
       "totalizersToShow": ["Items", "Discounts"]
     }
   },
   "summary-totalizers#minicart": {
+    "title": "summary totalizer",
     "props": {
       "showTotal": true,
       "showDeliveryTotal": false

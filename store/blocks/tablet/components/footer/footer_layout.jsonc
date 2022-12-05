@@ -1,11 +1,14 @@
 {
   "responsive-layout.tablet#footer": {
+    "title": "footer tablet",
     "children": ["flex-layout.row#footer__container-tablet"]
   },
   "flex-layout.row#footer__container-tablet": {
+    "title": "footer tablet container",
     "children": ["flex-layout.col#footer__container-tablet"]
   },
   "flex-layout.col#footer__container-tablet": {
+    "title": "footer tablet content",
     "children": [
       "flex-layout.row#footer__payments-container",
       "flex-layout.row#footer__content"
