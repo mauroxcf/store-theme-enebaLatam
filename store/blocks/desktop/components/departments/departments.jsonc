@@ -1,0 +1,79 @@
+{
+  "search-result-layout.desktop#department": {
+    "title": "search result layout department desktop",
+    "children": ["flex-layout.row#category__results"],
+    "props": {
+      "preventRouteChange": true,
+      "blockClass": "category__results-container"
+    }
+  },
+  "flex-layout.row#category__results": {
+    "title": "category result container",
+    "children": ["flex-layout.col#category__results"]
+  },
+  "flex-layout.col#category__results": {
+    "title": "category result content",
+    "children": [
+      "flex-layout.row#category__breadcrumb",
+      "flex-layout.row#category__title",
+      "flex-layout.row#category__results-content",
+      "flex-layout.row#category__paragraph"
+    ],
+    "props": {
+      "blockClass": "category__results-content"
+    }
+  },
+  "flex-layout.row#category__breadcrumb": {
+    "title": "breadcrumb container",
+    "children": ["breadcrumb.search"]
+  },
+  "flex-layout.row#category__title": {
+    "title": "category title container",
+    "children": ["rich-text#category__title"]
+  },
+  "rich-text#category__title": {
+    "title": "category title",
+    "props": {
+      "text": "Comprar juegos",
+      "blockClass": "category__title"
+    }
+  },
+  "flex-layout.row#category__results-content": {
+    "title": "category filter and content container",
+    "children": [
+      "flex-layout.col#category__results--filter",
+      "flex-layout.col#category__results--content"
+    ]
+  },
+  "flex-layout.col#category__results--filter": {
+    "title": "category filter navigator",
+    "children": ["filter-navigator.v3"],
+    "props": { "width": "25%", "blockClass": "category__results--filter" }
+  },
+  "flex-layout.col#category__results--content": {
+    "title": "category search content",
+    "children": ["search-content#result__content--products"],
+    "props": { "width": "75%" }
+  },
+  "search-content#result__content--products": {
+    "title": "search content products",
+    "blocks": ["gallery#department", "not-found"]
+  },
+  "gallery#department": {
+    "title": "gallery layout products",
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#product__shelf-context-desktop"
+    }
+  }
+}
