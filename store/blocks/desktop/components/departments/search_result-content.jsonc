@@ -22,7 +22,7 @@
           }
         }
       ],
-      "GeneralGrid": "product-summary.shelf#product__shelf-context-desktop"
+      "GeneralGrid": "product-summary.shelf#product__shelf-plp-desktop"
     }
   }
 }

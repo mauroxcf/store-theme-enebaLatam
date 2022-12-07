@@ -1,7 +1,7 @@
 {
   "product-summary.shelf#product__shelf-plp-desktop": {
     "title": "shelf product summary plp desktop",
-    "children": ["flex-layout.col#product__container-desktop"]
+    "children": ["flex-layout.col#product__container-plp-desktop"]
   },
   "flex-layout.col#product__container-plp-desktop": {
     "title": "product card layout plp container",
