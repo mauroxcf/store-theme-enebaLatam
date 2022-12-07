@@ -11,9 +11,28 @@
 }
 
 .flexCol--phone__contact_us-ticket--content {
-    gap: 2rem;
+    gap           : 2rem;
+    padding-bottom: 60px;
+    border-bottom : solid 1px white;
 }
 
 .flexRowContent--ticket-link_button--container {
     background-color: #FAD318;
+}
+
+.flexRowContent--phone__contact_us-container :global(.vtex-rich-text-0-x-paragraph) {
+    padding: 0;
+    margin : 0;
+}
+
+.flexRow--phone__contact_us-email--container {
+    margin-top: 60px;
+}
+
+.flexCol--phone__contact_us-email--content {
+    gap: 2.5rem;
+}
+
+.flexCol--phone__email-item--content {
+    gap: 0.5rem;
 }

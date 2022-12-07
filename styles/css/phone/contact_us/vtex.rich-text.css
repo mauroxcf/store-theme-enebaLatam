@@ -1,7 +1,5 @@
 .wrapper--ticket__title :global(.vtex-rich-text-0-x-paragraph) {
-    padding       : 0;
-    margin        : 0;
-    font-size     : 24px;
+    font-size     : 24px !important;
     text-transform: uppercase;
     font-weight   : 700;
 }
@@ -15,4 +13,14 @@
 .paragraph--ticket__content :global(.vtex-rich-text-0-x-link) {
     text-decoration: initial;
     color          : #FAD318;
+}
+
+.paragraph--email__section-title {
+    font-size  : 16px !important;
+    font-weight: 700;
+}
+
+.paragraph--email__section-text {
+    font-size: 13px !important;
+    color    : #ADA1C8;
 }
