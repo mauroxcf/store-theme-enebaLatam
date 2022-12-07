@@ -1,0 +1,7 @@
+.flexColChild--category__results--filter :global(.vtex-search-result-3-x-filters--layout) {
+    margin: 0;
+}
+
+.flexCol--category__results-content-phone {
+    gap: 1rem;
+}

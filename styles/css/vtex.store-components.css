@@ -58,6 +58,11 @@
     padding-right: 0;
 }
 
+.logoContainer--filter-icon {
+    min-width: initial;
+    padding  : 0;
+}
+
 .logoImage--appDownload-icon {
     max-width: none;
 }

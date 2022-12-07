@@ -1,0 +1,26 @@
+.openIconContainer--phone__drawer_filter {
+    width                     : 25px !important;
+    height                    : 50px;
+    padding                   : 0;
+    background-color          : white;
+    border-top-right-radius   : 900px;
+    border-bottom-right-radius: 900px;
+    display                   : flex;
+    justify-content           : center;
+    align-items               : center;
+}
+
+.drawerHeader--mobile__drawer-filter {
+    display: none;
+}
+
+.openIconContainer--phone__drawer_filter {
+    position: fixed;
+    left    : 0;
+    top     : 18%;
+}
+
+.opened--phone__drawer_filter {
+    min-width       : initial !important;
+    background-color: #5825CC;
+}

@@ -1,0 +1,123 @@
+{
+  "search-result-layout.mobile#department": {
+    "title": "search result layout department mobile",
+    "children": ["flex-layout.row#category__results-mobile"],
+    "props": {
+      "preventRouteChange": true,
+      "blockClass": "category__results-container"
+    }
+  },
+  "flex-layout.row#category__results-mobile": {
+    "title": "category result container",
+    "children": [
+      "drawer#phone__category_result-filter",
+      "flex-layout.col#category__results-phone"
+    ]
+  },
+  "drawer#phone__category_result-filter": {
+    "title": "drawer category result filter",
+    "blocks": [
+      "drawer-header#phone__drawer-filter",
+      "drawer-trigger#phone__filter"
+    ],
+    "children": ["flex-layout.row#phone__category_result-filter"],
+    "props": {
+      "blockClass": "phone__drawer_filter",
+      "slideDirection": "leftToRight",
+      "maxWidth": 250
+    }
+  },
+  "drawer-header#phone__drawer-filter": {
+    "title": "filter drawer header",
+    "children": ["drawer-close-button"],
+    "props": {
+      "blockClass": "mobile__drawer-filter"
+    }
+  },
+  "drawer-trigger#phone__filter": {
+    "title": "filter drawer trigger",
+    "children": ["logo#category__filter"]
+  },
+  "flex-layout.row#phone__icon_filter-container": {
+    "title": "icon filter container",
+    "children": ["logo#category__filter"],
+    "props": {
+      "blockClass": "category_filter-icon"
+    }
+  },
+  "logo#category__filter": {
+    "title": "filter phone icon",
+    "props": {
+      "title": "filter",
+      "url": "assets/svg/departments/filterIconMobile.svg",
+      "blockClass": "filter-icon"
+    }
+  },
+  "flex-layout.row#phone__category_result-filter": {
+    "children": ["flex-layout.col#category__results--filter-phone"]
+  },
+  "flex-layout.col#category__results--filter-phone": {
+    "title": "category filter navigator",
+    "children": ["filter-navigator.v3#phone"],
+    "props": { "blockClass": "category__results--filter-phone" }
+  },
+  "filter-navigator.v3#phone": {
+    "props": {
+      "layout": "desktop"
+    }
+  },
+  "flex-layout.col#category__results-phone": {
+    "title": "category result content",
+    "children": [
+      "flex-layout.row#category__breadcrumb",
+      "flex-layout.row#category__title-phone",
+      "flex-layout.row#category__results-content-phone",
+      "flex-layout.row#category__paragraph-phone"
+    ],
+    "props": {
+      "blockClass": "category__results-content-phone"
+    }
+  },
+  "flex-layout.row#category__title-phone": {
+    "title": "category title container",
+    "children": ["rich-text#category__title-phone"]
+  },
+  "rich-text#category__title-phone": {
+    "title": "category title",
+    "props": {
+      "text": "Comprar juegos",
+      "blockClass": "category__title-phone"
+    }
+  },
+  "flex-layout.row#category__results-content-phone": {
+    "title": "category filter and content container",
+    "children": ["flex-layout.col#category__results--content-phone"]
+  },
+  "flex-layout.col#category__results--content-phone": {
+    "title": "category search content",
+    "children": ["search-content#result__content--products-phone"],
+    "props": { "width": "75%" }
+  },
+  "search-content#result__content--products-phone": {
+    "title": "search content products",
+    "blocks": ["gallery#department-phone", "not-found"]
+  },
+  "gallery#department-phone": {
+    "title": "gallery layout products",
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#product__shelf-context-plp-phone",
+      "blockClass": "department__gallery-phone"
+    }
+  }
+}

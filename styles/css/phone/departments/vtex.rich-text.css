@@ -1,0 +1,15 @@
+.wrapper--category__paragraph-phone :global(.vtex-rich-text-0-x-link) {
+    text-decoration: initial;
+    color          : #FAD318;
+}
+
+.wrapper--category__paragraph-phone :global(.vtex-rich-text-0-x-paragraph) {
+    margin   : 0;
+    font-size: 1rem;
+}
+
+.paragraph--category__title-phone {
+    font-size  : 24px !important;
+    font-weight: 700;
+    margin     : 0;
+}

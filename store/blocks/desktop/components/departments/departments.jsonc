@@ -23,10 +23,6 @@
       "blockClass": "category__results-content"
     }
   },
-  "flex-layout.row#category__breadcrumb": {
-    "title": "breadcrumb container",
-    "children": ["breadcrumb.search"]
-  },
   "flex-layout.row#category__title": {
     "title": "category title container",
     "children": ["rich-text#category__title"]
