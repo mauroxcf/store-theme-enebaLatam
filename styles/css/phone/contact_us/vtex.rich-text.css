@@ -1,0 +1,18 @@
+.wrapper--ticket__title :global(.vtex-rich-text-0-x-paragraph) {
+    padding       : 0;
+    margin        : 0;
+    font-size     : 24px;
+    text-transform: uppercase;
+    font-weight   : 700;
+}
+
+.paragraph--ticket__content {
+    padding  : 0;
+    margin   : 0;
+    font-size: 16px !important;
+}
+
+.paragraph--ticket__content :global(.vtex-rich-text-0-x-link) {
+    text-decoration: initial;
+    color          : #FAD318;
+}

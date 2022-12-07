@@ -1,0 +1,19 @@
+.flexRow--phone__contact_us-container {
+    padding: 0 20px;
+}
+
+.flexRow--phone__contact_us-container :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--phone__contact_us-container {
+    padding: 40px 0 60px;
+}
+
+.flexCol--phone__contact_us-ticket--content {
+    gap: 2rem;
+}
+
+.flexRowContent--ticket-link_button--container {
+    background-color: #FAD318;
+}
