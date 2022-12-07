@@ -1,13 +1,13 @@
 {
   "search-result-layout.desktop#department": {
     "title": "search result layout department desktop",
-    "children": ["flex-layout.row#category__results"],
+    "children": ["flex-layout.row#category__results-desktop"],
     "props": {
       "preventRouteChange": true,
       "blockClass": "category__results-container"
     }
   },
-  "flex-layout.row#category__results": {
+  "flex-layout.row#category__results-desktop": {
     "title": "category result container",
     "children": ["flex-layout.col#category__results"]
   },
@@ -45,31 +45,5 @@
     "title": "category filter navigator",
     "children": ["filter-navigator.v3"],
     "props": { "width": "25%", "blockClass": "category__results--filter" }
-  },
-  "flex-layout.col#category__results--content": {
-    "title": "category search content",
-    "children": ["search-content#result__content--products"],
-    "props": { "width": "75%" }
-  },
-  "search-content#result__content--products": {
-    "title": "search content products",
-    "blocks": ["gallery#department", "not-found"]
-  },
-  "gallery#department": {
-    "title": "gallery layout products",
-    "props": {
-      "layouts": [
-        {
-          "name": "general-grid",
-          "component": "GeneralGrid",
-          "itemsPerRow": {
-            "desktop": 4,
-            "tablet": 3,
-            "phone": 2
-          }
-        }
-      ],
-      "GeneralGrid": "product-summary.shelf#product__shelf-context-desktop"
-    }
   }
 }

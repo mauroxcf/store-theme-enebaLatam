@@ -16,5 +16,15 @@
       "search-result-layout.mobile#department",
       "search-not-found-layout"
     ]
+  },
+  "search-result-layout.mobile#department": {
+    "title": "search result layout department phone and tablet",
+    "children": [
+      "responsive-layout.phone#category__results-phone",
+      "responsive-layout.tablet#category__results-tablet"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
   }
 }
