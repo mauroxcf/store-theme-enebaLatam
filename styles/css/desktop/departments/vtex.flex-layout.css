@@ -1,0 +1,19 @@
+.flexCol--product__container {
+    background-color: #1F0A4E;
+}
+
+.flexCol--category__results-content {
+    gap: 2rem;
+}
+
+.flexCol--category__results--filter {
+    background-color: #5825CC;
+    padding         : 1.25rem;
+    box-shadow      : rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.flexRowContent--category__paragraph {
+    background-color: #5825CC;
+    padding         : 1rem;
+    box-shadow      : rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

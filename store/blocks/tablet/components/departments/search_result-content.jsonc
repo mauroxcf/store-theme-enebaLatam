@@ -1,0 +1,19 @@
+{
+  "flex-layout.col#category__results-tablet": {
+    "title": "category result content",
+    "children": [
+      "flex-layout.row#category__breadcrumb",
+      "flex-layout.row#category__title",
+      "flex-layout.row#category__content-tablet",
+      "flex-layout.row#category__paragraph"
+    ],
+    "props": {
+      "blockClass": "category__results-content",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#category__content-tablet": {
+    "title": "category content container",
+    "children": ["flex-layout.col#category__results--content"]
+  }
+}

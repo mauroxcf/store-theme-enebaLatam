@@ -1,0 +1,54 @@
+{
+  "drawer#phone__category_result-filter": {
+    "title": "drawer category result filter",
+    "blocks": [
+      "drawer-header#phone__drawer-filter",
+      "drawer-trigger#phone__filter"
+    ],
+    "children": ["flex-layout.row#phone__category_result-filter"],
+    "props": {
+      "blockClass": "phone__drawer_filter",
+      "slideDirection": "leftToRight",
+      "maxWidth": 250
+    }
+  },
+  "drawer-header#phone__drawer-filter": {
+    "title": "filter drawer header",
+    "children": ["drawer-close-button"],
+    "props": {
+      "blockClass": "mobile__drawer-filter"
+    }
+  },
+  "drawer-trigger#phone__filter": {
+    "title": "filter drawer trigger",
+    "children": ["logo#category__filter"]
+  },
+  "flex-layout.row#phone__icon_filter-container": {
+    "title": "icon filter container",
+    "children": ["logo#category__filter"],
+    "props": {
+      "blockClass": "category_filter-icon"
+    }
+  },
+  "logo#category__filter": {
+    "title": "filter phone icon",
+    "props": {
+      "title": "filter",
+      "url": "assets/svg/departments/filterIconMobile.svg",
+      "blockClass": "filter-icon"
+    }
+  },
+  "flex-layout.row#phone__category_result-filter": {
+    "children": ["flex-layout.col#category__results--filter-phone"]
+  },
+  "flex-layout.col#category__results--filter-phone": {
+    "title": "category filter navigator",
+    "children": ["filter-navigator.v3#phone"],
+    "props": { "blockClass": "category__results--filter-phone" }
+  },
+  "filter-navigator.v3#phone": {
+    "props": {
+      "layout": "desktop"
+    }
+  }
+}

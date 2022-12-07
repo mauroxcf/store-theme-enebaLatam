@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#category__paragraph": {
+    "title": "category paragraph container",
+    "children": ["rich-text#category__paragraph"],
+    "props": {
+      "blockClass": "category__paragraph"
+    }
+  },
+  "rich-text#category__paragraph": {
+    "title": "category paragraph",
+    "props": {
+      "blockClass": "category__paragraph",
+      "text": "Si bien Steam comenzó como un simple proyecto de plataforma de juegos con solo unos pocos juegos de Steam, debido a varias innovaciones, estudios del consumidor y conveniencia general, ahora es una de las plataformas de videojuegos más destacadas del mercado. Alberga una gran selección de juegos de Steam baratos, DLC, packs de contenido y otros accesorios de juegos diversos que quizás quieras usar para mejorar tu experiencia mientras juegas. Si estás buscando algo relacionado con las [**claves del juego**](https://developers.vtex.com/vtex-developer-docs/docs/welcome), es muy probable que Steam lo tenga, solo echa un vistazo a todas las ofertas de juegos de Steam. <br /> <br /> La tienda de juegos de Steam ofrece a millones de jugadores en todo el mundo contenido de juegos de alta calidad, juegos de Steam baratos, foros comunitarios, herramientas de comunicación e incluso Steam Workshop. Permite a los jugadores compartir las modificaciones que crearon para varios juegos con toda la comunidad. Debido a estas razones, esta plataforma se aseguró con éxito una posición muy alta en el mundo de los juegos, rivalizada solo por unas pocas plataformas. Aquí encontrarás varios juegos nuevos de Steam a la venta, ¡así que siéntete libre de disfrutar y descubrir las mejores ofertas en claves de juegos de Steam!"
+    }
+  }
+}

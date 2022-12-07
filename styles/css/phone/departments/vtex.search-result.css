@@ -1,0 +1,9 @@
+.gallery--department__gallery-phone--general-grid {
+    margin: 0;
+    gap   : 1rem;
+}
+
+.galleryItem--department__gallery-phone--general-grid {
+    background-color: #1F0A4E;
+    padding         : 0;
+}
