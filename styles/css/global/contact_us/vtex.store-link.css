@@ -1,0 +1,17 @@
+.link--create_ticket {
+    margin         : 0;
+    font-size      : 15px !important;
+    font-weight    : 800;
+    color          : black;
+    padding-top    : 9px;
+    padding-bottom : 9px;
+    text-transform : none;
+    text-decoration: initial;
+    text-align     : center;
+}
+
+.link--contact_us-email--link {
+    text-decoration: initial;
+    color          : #FAD318;
+    font-size      : 13px !important;
+}

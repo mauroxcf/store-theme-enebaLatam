@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#phone__contact_us-container": {
+    "title": "contact us container",
+    "children": ["flex-layout.col#phone__contact_us-content"],
+    "props": {
+      "blockClass": "phone__contact_us-container"
+    }
+  },
+  "flex-layout.col#phone__contact_us-content": {
+    "title": "contact us content",
+    "children": [
+      "flex-layout.row#phone__contact_us-ticket--container",
+      "flex-layout.row#phone__contact_us-email--container"
+    ],
+    "props": {
+      "blockClass": "phone__contact_us-content"
+    }
+  }
+}

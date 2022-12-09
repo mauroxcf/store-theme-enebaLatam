@@ -1,0 +1,13 @@
+.flexCol--email-item--content {
+    gap: 0.5rem;
+}
+
+.flexCol--contact_us-email--content {
+    gap: 2.5rem;
+}
+
+.flexRowContent--ticket-link_button--container {
+    background-color: #FAD318;
+    justify-content : center;
+    max-width       : 300px;
+}
