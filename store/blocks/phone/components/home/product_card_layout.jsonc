@@ -13,7 +13,8 @@
     "children": [
       "flex-layout.col#product__image",
       "flex-layout.col#product__information",
-      "logo#product__button-like"
+      "add-to-list-btn"
+      /* "logo#product__button-like" */
     ],
     "props": {
       "preserveLayoutOnMobile": true,

@@ -1,7 +1,5 @@
 {
   "store.product": {
-    "children": [
-      
-    ]
+    "children": ["add-to-list-btn"]
   }
 }
