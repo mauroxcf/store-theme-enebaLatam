@@ -9,4 +9,5 @@
 .flexRowContent--ticket-link_button--container {
     background-color: #FAD318;
     justify-content : center;
+    max-width       : 300px;
 }

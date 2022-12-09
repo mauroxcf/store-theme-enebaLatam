@@ -1,0 +1,13 @@
+{
+  "flex-layout.col#desktop__contact_us-email--container": {
+    "title": "contact us email section container",
+    "children": ["flex-layout.row#desktop__contact_us-email--container"]
+  },
+  "flex-layout.row#desktop__contact_us-email--container": {
+    "title": "contact us email section inner container",
+    "children": ["flex-layout.col#contact_us-email--content"],
+    "props": {
+      "blockClass": "desktop__contact_us-email--container"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "flex-layout.col#desktop__contact_us-ticket--container": {
+    "title": "contact us ticket section container",
+    "children": ["flex-layout.row#desktop__contact_us-ticket--container"]
+  },
+  "flex-layout.row#desktop__contact_us-ticket--container": {
+    "title": "contact us ticket section inner container",
+    "children": ["flex-layout.col#desktop__contact_us-ticket--content"]
+  },
+  "flex-layout.col#desktop__contact_us-ticket--content": {
+    "title": "contact us ticket section content",
+    "children": [
+      "rich-text#ticket__title",
+      "rich-text#ticket__content",
+      "flex-layout.row#ticket-link_button"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "desktop__contact_us-ticket--content"
+    }
+  }
+}

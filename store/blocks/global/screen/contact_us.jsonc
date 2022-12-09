@@ -3,8 +3,8 @@
     "title": "contact us",
     "blocks": [
       "responsive-layout.phone#contact_us",
-      "responsive-layout.tablet#contact_us"
-      /* "responsive-layout.desktop#contact_us" */
+      "responsive-layout.tablet#contact_us",
+      "responsive-layout.desktop#contact_us"
     ]
   }
 }

@@ -1,0 +1,36 @@
+.flexRow--desktop__contact_us-container {
+    padding: 0 20px;
+}
+
+.flexRow--desktop__contact_us-container :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--desktop__contact_us-container {
+    padding     : 40px 0 60px;
+    min-height  : calc(100vh - 420px);
+    align-items : center;
+    max-width   : 1200px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.flexRowContent--desktop__contact_us-container :global(.vtex-rich-text-0-x-paragraph) {
+    padding: 0;
+    margin : 0;
+}
+
+.flexRowContent--desktop__contact_us-content {
+    align-items: center;
+}
+
+.flexRow--desktop__contact_us-email--container {
+    padding    : 0 60px;
+    margin-left: 200px;
+    max-width  : 380px;
+    border-left: solid 1px white;
+}
+
+.flexCol--desktop__contact_us-ticket--content {
+    gap: 2rem;
+}
