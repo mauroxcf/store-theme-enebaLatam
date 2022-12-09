@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#phone__contact_us-email--container": {
+    "title": "contact us email section container",
+    "children": ["flex-layout.col#contact_us-email--content"],
+    "props": {
+      "blockClass": "phone__contact_us-email--container"
+    }
+  }
+}

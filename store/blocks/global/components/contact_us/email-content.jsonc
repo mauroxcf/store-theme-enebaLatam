@@ -1,0 +1,124 @@
+{
+  "flex-layout.col#contact_us-email--content": {
+    "title": "contact us email section content",
+    "children": [
+      "flex-layout.row#email-business",
+      "flex-layout.row#email-legal",
+      "flex-layout.row#email-talent"
+    ],
+    "props": {
+      "blockClass": "contact_us-email--content"
+    }
+  },
+  "flex-layout.row#email-business": {
+    "title": "email business container",
+    "children": ["flex-layout.col#email-business"]
+  },
+  "flex-layout.col#email-business": {
+    "title": "email business content",
+    "children": [
+      "rich-text#business__title",
+      "rich-text#business__text",
+      "link#business__eneba"
+    ],
+    "props": {
+      "blockClass": "email-item--content"
+    }
+  },
+  "rich-text#business__title": {
+    "title": "business title",
+    "props": {
+      "text": "Desarrollo de Negocios",
+      "blockClass": "email__section-title"
+    }
+  },
+  "rich-text#business__text": {
+    "title": "business text",
+    "props": {
+      "text": "¿Quieres trabajar con nosotros o tienes preguntas relacionadas sobre el negocio? Contáctanos en:",
+      "blockClass": "email__section-text"
+    }
+  },
+  "link#business__eneba": {
+    "title": "business eneba",
+    "props": {
+      "href": "mailto:business@eneba.com",
+      "label": "business@eneba.com",
+      "blockClass": "contact_us-email--link"
+    }
+  },
+  "flex-layout.row#email-legal": {
+    "title": "email legal container",
+    "children": ["flex-layout.col#email-legal"]
+  },
+  "flex-layout.col#email-legal": {
+    "title": "email legal content",
+    "children": [
+      "rich-text#legal__title",
+      "rich-text#legal__text",
+      "link#legal__eneba"
+    ],
+    "props": {
+      "blockClass": "email-item--content"
+    }
+  },
+  "rich-text#legal__title": {
+    "title": "legal title",
+    "props": {
+      "text": "Departamento legal",
+      "blockClass": "email__section-title"
+    }
+  },
+  "rich-text#legal__text": {
+    "title": "legal text",
+    "props": {
+      "text": "Si tienes preguntas sobre asuntos legales, contáctanos en:",
+      "blockClass": "email__section-text"
+    }
+  },
+  "link#legal__eneba": {
+    "title": "legal eneba",
+    "props": {
+      "href": "mailto:legal@eneba.com",
+      "label": "legal@eneba.com",
+      "blockClass": "contact_us-email--link"
+    }
+  },
+  "flex-layout.row#email-talent": {
+    "title": "email talent container",
+    "children": ["flex-layout.col#email-talent"]
+  },
+  "flex-layout.col#email-talent": {
+    "title": "email talent content",
+    "children": [
+      "rich-text#talent__title",
+      "rich-text#talent__text",
+      "link#talent__eneba"
+    ],
+    "props": {
+      "blockClass": "email-item--content"
+    }
+  },
+  "rich-text#talent__title": {
+    "title": "talent title",
+    "props": {
+      "text": "Equipo de Talento",
+      "blockClass": "email__section-title"
+    }
+  },
+  "rich-text#talent__text": {
+    "title": "talent text",
+    "props": {
+      "text": "¿Buscando un nuevo trabajo? Ponte en contacto con nuestro equipo de Talento en:",
+      "blockClass": "email__section-text"
+    }
+  },
+  "link#talent__eneba": {
+    "title": "talent eneba",
+    "props": {
+      "href": "mailto:jobs@eneba.com",
+      "label": "jobs@eneba.com",
+      "blockClass": "contact_us-email--link"
+    }
+  }
+}

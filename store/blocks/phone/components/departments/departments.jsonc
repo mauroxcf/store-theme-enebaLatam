@@ -1,0 +1,38 @@
+{
+  "responsive-layout.phone#category__results-phone": {
+    "children": ["flex-layout.row#category__results-mobile"]
+  },
+  "flex-layout.row#category__results-mobile": {
+    "title": "category result container",
+    "children": [
+      "drawer#phone__category_result-filter",
+      "flex-layout.col#category__results-phone"
+    ],
+    "props": {
+      "blockClass": "category__results-container"
+    }
+  },
+  "flex-layout.col#category__results-phone": {
+    "title": "category result content",
+    "children": [
+      "flex-layout.row#category__breadcrumb",
+      "flex-layout.row#category__title-phone",
+      "flex-layout.row#category__results-content-phone",
+      "flex-layout.row#category__paragraph-phone"
+    ],
+    "props": {
+      "blockClass": "category__results-content-phone"
+    }
+  },
+  "flex-layout.row#category__title-phone": {
+    "title": "category title container",
+    "children": ["rich-text#category__title-phone"]
+  },
+  "rich-text#category__title-phone": {
+    "title": "category title",
+    "props": {
+      "text": "Comprar juegos",
+      "blockClass": "category__title-phone"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.container--layout--category__results-container {
+    margin-bottom: 2rem;
+}
+
+.searchResultContainer--category__results-container {
+    max-width: 1200px;
+    padding  : 0;
+}

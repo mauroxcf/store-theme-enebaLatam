@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#desktop__contact_us-container": {
+    "title": "contact us desktop container",
+    "children": ["flex-layout.col#desktop__contact_us-container"],
+    "props": {
+      "blockClass": "desktop__contact_us-container"
+    }
+  },
+  "flex-layout.col#desktop__contact_us-container": {
+    "title": "contact us desktop inner container",
+    "children": ["flex-layout.row#desktop__contact_us-content"]
+  },
+  "flex-layout.row#desktop__contact_us-content": {
+    "title": "contact us content",
+    "children": [
+      "flex-layout.col#desktop__contact_us-ticket--container",
+      "flex-layout.col#desktop__contact_us-email--container"
+    ],
+    "props": {
+      "blockClass": "desktop__contact_us-content"
+    }
+  }
+}

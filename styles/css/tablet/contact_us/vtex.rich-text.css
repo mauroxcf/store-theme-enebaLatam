@@ -1,0 +1,15 @@
+@media only screen and (min-width: 600px) {
+    .wrapper--ticket__title :global(.vtex-rich-text-0-x-paragraph) {
+        font-size     : 50px !important;
+        text-transform: uppercase;
+        font-weight   : 700;
+        line-height   : 1.1;
+        max-width     : 400px;
+    }
+
+    .paragraph--ticket__content {
+        padding  : 0;
+        margin   : 0;
+        font-size: 20px !important;
+    }
+}

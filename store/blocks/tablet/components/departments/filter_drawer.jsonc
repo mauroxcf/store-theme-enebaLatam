@@ -1,0 +1,15 @@
+{
+  "drawer#tablet__category_result-filter": {
+    "title": "drawer category result filter",
+    "blocks": [
+      "drawer-header#phone__drawer-filter",
+      "drawer-trigger#phone__filter"
+    ],
+    "children": ["flex-layout.row#phone__category_result-filter"],
+    "props": {
+      "blockClass": "phone__drawer_filter",
+      "slideDirection": "leftToRight",
+      "maxWidth": 250
+    }
+  }
+}

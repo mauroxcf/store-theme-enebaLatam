@@ -1,0 +1,17 @@
+{
+  "product-summary.shelf#product__shelf-context-plp-phone": {
+    "children": ["flex-layout.row#product__container-plp-phone"]
+  },
+  "flex-layout.row#product__container-plp-phone": {
+    "children": [
+      "flex-layout.col#product__image",
+      "flex-layout.col#product__information-no_add_button",
+      "add-to-list-btn"
+      /* "logo#product__button-like" */
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product__container"
+    }
+  }
+}
