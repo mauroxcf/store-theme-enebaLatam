@@ -1,0 +1,5 @@
+{
+  "responsive-layout.tablet#contact_us": {
+    "children": ["flex-layout.row#tablet__contact_us-container"]
+  }
+}

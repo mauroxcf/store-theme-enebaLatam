@@ -1,0 +1,14 @@
+.paragraph--ticket__content :global(.vtex-rich-text-0-x-link) {
+    text-decoration: initial;
+    color          : #FAD318;
+}
+
+.paragraph--email__section-title {
+    font-size  : 16px !important;
+    font-weight: 700;
+}
+
+.paragraph--email__section-text {
+    font-size: 13px !important;
+    color    : #ADA1C8;
+}

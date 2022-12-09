@@ -1,0 +1,32 @@
+{
+  "rich-text#ticket__title": {
+    "title": "ticket title",
+    "props": {
+      "blockClass": "ticket__title",
+      "text": "¿Problemas con la compra?"
+    }
+  },
+  "rich-text#ticket__content": {
+    "title": "ticket content paragraph",
+    "props": {
+      "blockClass": "ticket__content",
+      "text": "La mejor manera de resolverlo rápidamente es [**crear un ticket**](https://developers.vtex.com/vtex-developer-docs/docs/welcome)"
+    }
+  },
+  "flex-layout.row#ticket-link_button": {
+    "title": "link button container",
+    "children": ["link#create_ticket"],
+    "props": {
+      "blockClass": "ticket-link_button--container",
+      "colSizing": "auto"
+    }
+  },
+  "link#create_ticket": {
+    "title": "ticket button link",
+    "props": {
+      "href": "/resolution-center",
+      "label": "Crear ticket ahora",
+      "blockClass": "create_ticket"
+    }
+  }
+}

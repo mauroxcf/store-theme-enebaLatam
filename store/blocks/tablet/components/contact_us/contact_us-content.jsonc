@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#tablet__contact_us-container": {
+    "title": "contact us tablet container",
+    "children": ["flex-layout.col#tablet__contact_us-container"],
+    "props": {
+      "blockClass": "tablet__contact_us-container"
+    }
+  },
+  "flex-layout.col#tablet__contact_us-container": {
+    "title": "contact us tablet inner container",
+    "children": ["flex-layout.row#tablet__contact_us-content"]
+  },
+  "flex-layout.row#tablet__contact_us-content": {
+    "title": "contact us content",
+    "children": [
+      "flex-layout.col#tablet__contact_us-ticket--container",
+      "flex-layout.col#tablet__contact_us-email--container"
+    ],
+    "props": {
+      "blockClass": "tablet__contact_us-content"
+    }
+  }
+}
