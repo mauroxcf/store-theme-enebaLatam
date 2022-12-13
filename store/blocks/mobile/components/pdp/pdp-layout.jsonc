@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#mobile__pdp": {
+    "title": "pdp layout container",
+    "children": ["flex-layout.col#mobile__pdp"],
+    "props": {
+      "blockClass": "mobile__pdp"
+    }
+  },
+  "flex-layout.col#mobile__pdp": {
+    "title": "pdp layout content",
+    "children": [
+      "flex-layout.row#product__main_detail-container",
+      "flex-layout.row#product__check_price-container"
+      /* "flex-layout.row#product__other_offers-container",
+      "flex-layout.row#product__reviews-container",
+      "flex-layout.row#shelf__related_products-container",
+      "flex-layout.row#product__description-container" */
+    ]
+  }
+}

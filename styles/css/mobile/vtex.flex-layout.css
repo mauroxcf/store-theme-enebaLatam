@@ -1,0 +1,38 @@
+.flexRow--mobile__pdp {
+    margin-top    : 1rem;
+    padding-bottom: 100px;
+    padding-left  : 12px;
+    padding-right : 12px;
+}
+
+.flexCol--product__main_detail-container {
+    gap: 0.5rem;
+}
+
+.flexRowContent--product__main_detail-section--one {
+    gap: 1rem;
+}
+
+.flexCol--product__title_and_rating {
+    gap: 1rem;
+}
+
+.flexCol--product__rating :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 14px !important;
+    margin   : 0;
+}
+
+.flexCol--product__title_and_rating :global(.vtex-store-components-3-x-productNameContainer) {
+    color      : white;
+    font-size  : 1rem !important;
+    font-weight: 700;
+}
+
+.flexCol--product__add_wishlist :global(.vtex-button__label) {
+    padding: 0 !important;
+}
+
+.flexRowContent--product__genres-container {
+    justify-content: initial;
+    gap            : 0.5rem;
+}

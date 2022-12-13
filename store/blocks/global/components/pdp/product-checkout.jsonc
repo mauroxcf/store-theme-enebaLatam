@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#offer__title": {
+    "title": "offer title container",
+    "children": ["rich-text#offer__title"],
+    "props": {
+      "blockClass": "offer__title"
+    }
+  },
+  "rich-text#offer__title": {
+    "props": {
+      "text": "Oferta promocionada"
+    }
+  },
+  "flex-layout.row#product__checkout_or_cart": {
+    "title": "checkout or add to cart container",
+    "children": ["flex-layout.col#product__checkout_or_cart"]
+  },
+  "flex-layout.col#product__checkout_or_cart": {
+    "title": "checkout or add to cart inner container",
+    "children": ["product-price", "flex-layout.row#product__checkout-buttons"]
+  },
+  "flex-layout.row#product__checkout-buttons": {
+    "title": "checkout buttons content",
+    "children": ["buy-button"]
+  }
+}

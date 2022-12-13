@@ -1,0 +1,71 @@
+{
+  "flex-layout.col#pdp__image": {
+    "title": "pdp image content",
+    "children": ["product-images#pdp"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "product-images#pdp": {
+    "title": "pdp image summary",
+    "props": {
+      "aspectRatio": "1:1",
+      "displayMode": "first-image"
+    }
+  },
+  "flex-layout.col#product__title_and_rating": {
+    "title": "product title and rating information",
+    "children": [
+      /* "product-name", */
+      /* "vtex.product-list:product-name", */
+      "vtex.store-components:product-name",
+      "flex-layout.row#product__rating"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "width": "60%",
+      "blockClass": "product__title_and_rating"
+    }
+  },
+  "flex-layout.row#product__rating": {
+    "title": "rating container",
+    "children": ["flex-layout.col#product__rating"]
+  },
+  "flex-layout.col#product__rating": {
+    "title": "rating content",
+    "children": ["product-rating-summary", "rich-text#rating"],
+    "props": {
+      "blockClass": "product__rating"
+    }
+  },
+  "rich-text#rating": {
+    "title": "rating text",
+    "props": {
+      "text": "calificaciones"
+    }
+  },
+  "flex-layout.col#product__add_wishlist": {
+    "title": "product add button to wishlist",
+    "children": ["add-to-list-btn"],
+    "props": {
+      "width": "20%",
+      "blockClass": "product__add_wishlist"
+    }
+  },
+  "link#action_genre": {
+    "title": "link action genre",
+    "props": {
+      "href": "/action-game",
+      "label": "Acción",
+      "blockClass": "genre__button"
+    }
+  },
+  "link#fps_genre": {
+    "title": "link fps genre",
+    "props": {
+      "href": "/fps-game",
+      "label": "FPS/TPS",
+      "blockClass": "genre__button"
+    }
+  }
+}

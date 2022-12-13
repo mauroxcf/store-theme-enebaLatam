@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#product__main_detail-container": {
+    "title": "product main information",
+    "children": ["flex-layout.col#product__main_detail-container"]
+  },
+  "flex-layout.col#product__main_detail-container": {
+    "title": "main information inner container",
+    "children": [
+      "flex-layout.row#product__main_detail-section--one",
+      "flex-layout.row#product__main_detail-section--two"
+    ],
+    "props": {
+      "blockClass": "product__main_detail-container"
+    }
+  },
+  "flex-layout.row#product__main_detail-section--one": {
+    "title": "product image, title, rating and wish button",
+    "children": [
+      "flex-layout.col#pdp__image",
+      "flex-layout.col#product__title_and_rating",
+      "flex-layout.col#product__add_wishlist"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product__main_detail-section--one"
+    }
+  },
+  "flex-layout.row#product__main_detail-section--two": {
+    "title": "product genres",
+    "children": ["link#action_genre", "link#fps_genre"],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product__genres-container"
+    }
+  }
+}
