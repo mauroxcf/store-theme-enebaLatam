@@ -67,6 +67,10 @@
     max-width: none;
 }
 
+.currencyContainer {
+    font-size: 13px !important;
+}
+
 :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
     color: #FAD318;
 }

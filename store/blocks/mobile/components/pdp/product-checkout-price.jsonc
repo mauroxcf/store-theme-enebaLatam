@@ -8,6 +8,9 @@
     "children": [
       "flex-layout.row#offer__title",
       "flex-layout.row#product__checkout_or_cart"
-    ]
+    ],
+    "props": {
+      "blockClass": "check_price-container"
+    }
   }
 }

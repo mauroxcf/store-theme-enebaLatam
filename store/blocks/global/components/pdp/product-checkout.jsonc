@@ -8,12 +8,16 @@
   },
   "rich-text#offer__title": {
     "props": {
-      "text": "Oferta promocionada"
+      "text": "Oferta promocionada",
+      "blockClass": "offer__title-text"
     }
   },
   "flex-layout.row#product__checkout_or_cart": {
     "title": "checkout or add to cart container",
-    "children": ["flex-layout.col#product__checkout_or_cart"]
+    "children": ["flex-layout.col#product__checkout_or_cart"],
+    "props": {
+      "blockClass": "product__checkout_or_cart"
+    }
   },
   "flex-layout.col#product__checkout_or_cart": {
     "title": "checkout or add to cart inner container",
@@ -21,6 +25,44 @@
   },
   "flex-layout.row#product__checkout-buttons": {
     "title": "checkout buttons content",
-    "children": ["buy-button"]
+    "children": [
+      "flex-layout.col#pdp__buyNow-container",
+      "flex-layout.col#pdp__addToCart-container"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "blockClass": "product__checkout-buttons"
+    }
+  },
+  "flex-layout.col#pdp__buyNow-container": {
+    "title": "buy now button container",
+    "children": ["add-to-cart-button#pdp__buyNow-button"],
+    "props": {
+      "blockClass": "pdp__buyNow-container",
+      "width": "grow"
+    }
+  },
+  "add-to-cart-button#pdp__buyNow-button": {
+    "title": "button click to checkout",
+    "props": {
+      "isOneClickBuy": true,
+      "text": "Comprar ahora"
+    }
+  },
+  "flex-layout.col#pdp__addToCart-container": {
+    "title": "add to cart button container",
+    "children": ["add-to-cart-button#pdp__addToCart-button"],
+    "props": {
+      "blockClass": "pdp__addToCart-container"
+    }
+  },
+  "add-to-cart-button#pdp__addToCart-button": {
+    "title": "button add to cart",
+    "props": {
+      "isOneClickBuy": false,
+      "text": "",
+      "unavailableText": ""
+    }
   }
 }

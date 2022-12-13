@@ -15,6 +15,9 @@
       "flex-layout.row#product__reviews-container",
       "flex-layout.row#shelf__related_products-container",
       "flex-layout.row#product__description-container" */
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__pdp-content"
+    }
   }
 }

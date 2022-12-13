@@ -1,0 +1,15 @@
+.container--offer__title-text {
+    justify-content: center;
+}
+
+.wrapper--offer__title-text {
+    color: #FAD318;
+}
+
+.wrapper--offer__title-text :global(.vtex-rich-text-0-x-paragraph) {
+    font-size     : 12px !important;
+    margin        : 0;
+    padding       : 5px 0;
+    font-weight   : 800 !important;
+    text-transform: uppercase;
+}

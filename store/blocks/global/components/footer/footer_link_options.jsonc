@@ -30,7 +30,7 @@
   "link#footer__contact_us": {
     "title": "link contact us",
     "props": {
-      "href": "/contact_us",
+      "href": "/contact-us",
       "label": "Contáctanos",
       "blockClass": "footer__option",
       "displayMode": "anchor"
