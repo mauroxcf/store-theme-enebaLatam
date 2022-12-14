@@ -1,8 +1,10 @@
 .flexRow--mobile__pdp {
     margin-top    : 1rem;
     padding-bottom: 100px;
-    padding-left  : 12px;
-    padding-right : 12px;
+}
+
+.flexRow--mobile__pdp :global(.vtex-store-components-3-x-container) {
+    padding: 0;
 }
 
 .flexCol--mobile__pdp-content {
@@ -10,7 +12,9 @@
 }
 
 .flexCol--product__main_detail-container {
-    gap: 0.5rem;
+    gap          : 0.5rem;
+    padding-left : 20px;
+    padding-right: 20px;
 }
 
 .flexRowContent--product__main_detail-section--one {
@@ -83,4 +87,27 @@
 
 .flexCol--pdp__addToCart-container :global(.vtex-add-to-cart-button-0-x-buttonText) {
     font-size: 0;
+}
+
+.flexRow--product__key_activation-container {
+    padding-left : 20px;
+    padding-right: 20px;
+}
+
+.flexCol--product__key_activation-content {
+    gap: 1rem;
+}
+
+.flexRowContent--key-logo_and_text {
+    justify-content: initial;
+    gap            : 1rem;
+}
+
+.flexCol--key__text-content :global(.vtex-rich-text-0-x-paragraph) {
+    margin: 0;
+}
+
+.flexRowContent--product__system_works {
+    border-top : 1px solid #32117D;
+    padding-top: 10px;
 }

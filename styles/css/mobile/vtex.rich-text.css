@@ -13,3 +13,47 @@
     font-weight   : 800 !important;
     text-transform: uppercase;
 }
+
+.paragraph--pdp__key_section-Title {
+    font-size  : 1rem !important;
+    font-weight: 700;
+}
+
+.paragraph--pdp__key_section-text {
+    font-size: 12px !important;
+    color    : rgba(255, 255, 255, 0.6);
+}
+
+.strong--pdp__key_section-text {
+    color: white;
+}
+
+.paragraph--pdp__key_section-specialText {
+    font-size: 12px !important;
+    color    : #FAD318;
+}
+
+.link--pdp__key_section-text {
+    text-decoration: initial;
+    color          : #FAD318;
+}
+
+.paragraph--pdp__key_section-specialLastText {
+    font-size: 12px !important;
+    color    : #00CF9F;
+}
+
+.paragraph--pdp__system_work-text {
+    margin   : 0;
+    font-size: 12px !important;
+    color    : rgba(255, 255, 255, 0.6);
+}
+
+.strong--pdp__system_work-text {
+    color: white;
+}
+
+.link--pdp__system_work-text {
+    text-decoration: initial;
+    color          : #FAD318;
+}

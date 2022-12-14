@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#product__key_activation-container": {
+    "title": "product key activation container",
+    "children": ["flex-layout.col#product__key_activation-content"],
+    "props": {
+      "blockClass": "product__key_activation-container"
+    }
+  },
+  "flex-layout.col#product__key_activation-content": {
+    "title": "product key activation content",
+    "children": [
+      "flex-layout.row#product__key_activation-country",
+      "flex-layout.row#product__key_activation-cloudService",
+      "flex-layout.row#product__key_activation-code",
+      "flex-layout.row#product__system_works"
+    ],
+    "props": {
+      "blockClass": "product__key_activation-content"
+    }
+  }
+}
