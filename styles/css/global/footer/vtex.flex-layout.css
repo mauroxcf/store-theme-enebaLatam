@@ -4,6 +4,12 @@
     background-color: #1F0A4E;
 }
 
+.flexRowContent--footer__content {
+    max-width   : 1200px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
 .flexRowContent--footer__options {
     flex-wrap      : wrap;
     justify-content: space-between;
@@ -18,12 +24,18 @@
     gap: 1.125rem;
 }
 
-.flexRowContent--footer__payments-container {
-    justify-content : center;
-    padding         : 0.313rem;
-    overflow-x      : hidden;
+.flexRow--footer__payments-container {
     background-color: white;
-    flex-wrap       : wrap;
+}
+
+.flexRowContent--footer__payments-container {
+    justify-content: center;
+    padding        : 0.313rem;
+    overflow-x     : hidden;
+    flex-wrap      : wrap;
+    max-width      : 1200px;
+    margin-left    : auto;
+    margin-right   : auto;
 }
 
 .flexRow--footer__partners-container {
@@ -35,4 +47,10 @@
 
 .flexRowContent--partners__logos-container {
     justify-content: center;
+}
+
+@media only screen and (min-width: 1080px) {
+    .flexRowContent--footer__payments-container {
+        justify-content: left;
+    }
 }

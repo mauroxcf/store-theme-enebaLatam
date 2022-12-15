@@ -19,6 +19,9 @@
 
 .menuContainerNav--desktop__menu-items :global(.vtex-menu-2-x-submenu) {
     justify-content: initial;
+    max-width      : 1200px;
+    margin-left    : auto;
+    margin-right   : auto;
 }
 
 .menuContainer--desktop__menu-items {
