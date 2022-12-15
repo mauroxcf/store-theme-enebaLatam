@@ -1,0 +1,25 @@
+/* related products section container */
+
+.flexRowContent--shelfRelatedProducts-container :global(.vtex-shelf-1-x-shelfContentContainer) {
+    max-width: 1200px;
+    margin   : 0 auto 50px;
+}
+
+.flexRowContent--shelfRelatedProducts-container :global(.vtex-slider-0-x-sliderFrame) {
+    transform     : translateX(0px) !important;
+    flex-direction: column;
+    width         : 100% !important;
+    gap           : 1rem;
+}
+
+.flexRowContent--shelfRelatedProducts-container :global(.vtex-shelf-1-x-slide) {
+    width           : 100% !important;
+    background-color: #1F0A4E;
+    align-self      : center;
+}
+
+.flexRowContent--shelfRelatedProducts-container :global(.vtex-shelf-1-x-title) {
+    font-size      : 18px;
+    font-weight    : 700;
+    justify-content: left;
+}

@@ -1,0 +1,16 @@
+{
+  "product-summary.shelf#product__shelf-context-pdp-mobile": {
+    "children": ["flex-layout.row#product__container-pdp-mobile"]
+  },
+  "flex-layout.row#product__container-pdp-mobile": {
+    "children": [
+      "flex-layout.col#product__image",
+      "flex-layout.col#product__information-no_add_button",
+      "add-to-list-btn"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product__container"
+    }
+  }
+}

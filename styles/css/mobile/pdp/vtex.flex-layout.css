@@ -126,6 +126,12 @@
     padding-top: 10px;
 }
 
+/* related products section container */
+.flexRow--shelfRelatedProducts-container {
+    padding-left : 20px;
+    padding-right: 20px;
+}
+
 /* reviews section container */
 
 .flexRowContent--product__reviews-container {

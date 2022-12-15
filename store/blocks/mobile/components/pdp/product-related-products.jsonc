@@ -1,9 +1,14 @@
 {
   "flex-layout.row#shelf__related_products-container": {
     "title": "related products container",
-    "children": ["shelf.relatedProducts"]
-  }
-  /* "shelf.relatedProducts#pdp__related_products": {
+    "children": ["shelf.relatedProducts#pdp__related_products"],
+    "props": {
+      "blockClass": "shelfRelatedProducts-container"
+    }
+  },
+  "shelf.relatedProducts#pdp__related_products": {
+    /* "blocks": ["product-summary.shelf#product__shelf-context-phone"], */
+    "blocks": ["product-summary.shelf#product__shelf-context-pdp-mobile"],
     "props": {
       "recommendation": "view",
       "productList": {
@@ -11,5 +16,5 @@
         "itemsPerPage": 3
       }
     }
-  } */
+  }
 }
