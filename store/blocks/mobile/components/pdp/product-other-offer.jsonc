@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#product__key_activation-container": {
+  /* "flex-layout.row#product__key_activation-container": {
     "title": "product key activation container",
     "children": ["flex-layout.col#product__key_activation-content"],
     "props": {
@@ -17,8 +17,8 @@
     "props": {
       "blockClass": "product__key_activation-content"
     }
-  }
-  /* "flex-layout.row#product__key_activation-container": {
+  } */
+  "flex-layout.row#product__key_activation-container": {
     "title": "product key activation container",
     "children": [
       "flex-layout.col#product__key_activation-country",
@@ -34,27 +34,18 @@
   },
   "flex-layout.col#product__key_activation-country": {
     "title": "key activation country",
-    "children": ["flex-layout.row#product__key_activation-country"],
-    "props": {
-      "width": "50%"
-    }
+    "children": ["flex-layout.row#product__key_activation-country"]
   },
   "flex-layout.col#product__key_activation-cloudService": {
     "title": "key activation cloud service",
-    "children": ["flex-layout.row#product__key_activation-cloudService"],
-    "props": {
-      "width": "50%"
-    }
+    "children": ["flex-layout.row#product__key_activation-cloudService"]
   },
   "flex-layout.col#product__key_activation-code": {
     "title": "key activation digital code",
-    "children": ["flex-layout.row#product__key_activation-code"],
-    "props": {
-      "width": "50%"
-    }
+    "children": ["flex-layout.row#product__key_activation-code"]
   },
   "flex-layout.col#product__system_works": {
     "title": "product work system",
     "children": ["flex-layout.row#product__system_works"]
-  } */
+  }
 }
