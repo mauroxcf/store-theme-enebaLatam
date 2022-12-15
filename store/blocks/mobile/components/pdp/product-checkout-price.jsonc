@@ -1,7 +1,10 @@
 {
   "flex-layout.row#product__check_price-container": {
     "title": "checkout price container",
-    "children": ["flex-layout.col#product__check_price-container"]
+    "children": ["flex-layout.col#product__check_price-container"],
+    "props": {
+      "blockClass": "check_price-container"
+    }
   },
   "flex-layout.col#product__check_price-container": {
     "title": "checkout price inner container",
@@ -10,7 +13,7 @@
       "flex-layout.row#product__checkout_or_cart"
     ],
     "props": {
-      "blockClass": "check_price-container"
+      "blockClass": "check_price-content"
     }
   }
 }

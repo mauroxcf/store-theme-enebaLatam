@@ -45,6 +45,13 @@
     gap            : 0.5rem;
 }
 
+.flexCol--check_price-content {
+    /* max-width   : 633px;
+    margin-left : auto;
+    margin-right: auto; */
+    padding: 0;
+}
+
 .flexRow--offer__title {
     background-color: #330e82;
 }
@@ -94,6 +101,12 @@
     padding-right: 20px;
 }
 
+/* .flexRowContent--product__key_activation-container {
+    display       : flex;
+    flex-direction: row;
+    flex-wrap     : wrap;
+} */
+
 .flexCol--product__key_activation-content {
     gap: 1rem;
 }
@@ -110,4 +123,45 @@
 .flexRowContent--product__system_works {
     border-top : 1px solid #32117D;
     padding-top: 10px;
+}
+
+/* reviews section container */
+
+.flexRowContent--product__reviews-container {
+    margin-top: 1.5rem;
+}
+
+.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-container) {
+    padding-left : 0;
+    padding-right: 0;
+}
+
+.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+    padding: 0 20px;
+    border : none;
+}
+
+.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+    padding: 0 20px;
+}
+
+.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) {
+    padding: 0 20px;
+}
+
+.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy) {
+    padding: 0 20px;
+}
+
+.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewComment) {
+    background-color: #32117D;
+    padding         : 16px 20px;
+    border          : none;
+    margin-bottom   : 4px;
+}
+
+@media only screen and (min-width: 500px) {
+    .flexCol--check_price-content {
+        padding: 0 20px;
+    }
 }
