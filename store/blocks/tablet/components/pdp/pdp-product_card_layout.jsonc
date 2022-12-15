@@ -1,0 +1,17 @@
+{
+  "product-summary.shelf#product__shelf-context-pdp-tablet": {
+    "title": "shelf product summary pdp tablet",
+    "children": ["flex-layout.col#product__container-pdp-tablet"]
+  },
+  "flex-layout.col#product__container-pdp-tablet": {
+    "title": "product card layout container",
+    "children": [
+      "flex-layout.col#product__image",
+      "flex-layout.col#product__information-no_add_button"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product__container"
+    }
+  }
+}

@@ -12,9 +12,9 @@
       "flex-layout.row#product__main_detail-container",
       "flex-layout.row#product__check_price-container",
       "flex-layout.row#product__key_activation-container",
+      "flex-layout.col#product__system_works",
       "flex-layout.row#shelf__related_products-container",
       "flex-layout.row#product__reviews-container"
-      /* "flex-layout.row#product__description-container" */
     ],
     "props": {
       "blockClass": "mobile__pdp-content"

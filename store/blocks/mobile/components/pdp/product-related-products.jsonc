@@ -1,20 +1,22 @@
 {
   "flex-layout.row#shelf__related_products-container": {
-    "title": "related products container",
-    "children": ["shelf.relatedProducts#pdp__related_products"],
+    "title": "related products responsive container",
+    "children": [
+      "responsive-layout.phone#phone__shelfRelated_products",
+      "responsive-layout.tablet#tablet__shelfRelated_products"
+    ],
     "props": {
-      "blockClass": "shelfRelatedProducts-container"
+      "blockClass": "shelf__related_products-container",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
     }
   },
-  "shelf.relatedProducts#pdp__related_products": {
-    /* "blocks": ["product-summary.shelf#product__shelf-context-phone"], */
-    "blocks": ["product-summary.shelf#product__shelf-context-pdp-mobile"],
-    "props": {
-      "recommendation": "view",
-      "productList": {
-        "titleText": "Los jugadores también han visto",
-        "itemsPerPage": 3
-      }
-    }
+  "responsive-layout.phone#phone__shelfRelated_products": {
+    "title": "related products phone container",
+    "children": ["flex-layout.row#phone__shelfRelatedProducts-container"]
+  },
+  "responsive-layout.tablet#tablet__shelfRelated_products": {
+    "title": "related products tablet container",
+    "children": ["flex-layout.row#tablet__shelfRelatedProducts-container"]
   }
 }

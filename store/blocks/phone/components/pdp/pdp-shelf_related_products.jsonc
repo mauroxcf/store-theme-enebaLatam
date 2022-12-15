@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#phone__shelfRelatedProducts-container": {
+    "title": "related products container",
+    "children": ["shelf.relatedProducts#pdp__related_products"],
+    "props": {
+      "blockClass": "shelfRelatedProducts-container"
+    }
+  },
+  "shelf.relatedProducts#pdp__related_products": {
+    "blocks": ["product-summary.shelf#product__shelf-context-pdp-phone"],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "arrows": false,
+        "titleText": "Los jugadores también han visto",
+        "itemsPerPage": 3
+      }
+    }
+  }
+}

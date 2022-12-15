@@ -6,10 +6,7 @@
 }
 
 .flexRowContent--shelfRelatedProducts-container :global(.vtex-slider-0-x-sliderFrame) {
-    transform     : translateX(0px) !important;
-    flex-direction: column;
-    width         : 100% !important;
-    gap           : 1rem;
+    gap: 1rem;
 }
 
 .flexRowContent--shelfRelatedProducts-container :global(.vtex-shelf-1-x-slide) {
@@ -22,4 +19,12 @@
     font-size      : 18px;
     font-weight    : 700;
     justify-content: left;
+}
+
+@media only screen and (max-width: 639px) {
+    .flexRowContent--shelfRelatedProducts-container :global(.vtex-slider-0-x-sliderFrame) {
+        transform     : translateX(0px) !important;
+        flex-direction: column;
+        width         : 100% !important;
+    }
 }

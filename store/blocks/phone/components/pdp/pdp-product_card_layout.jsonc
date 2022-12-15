@@ -1,8 +1,8 @@
 {
-  "product-summary.shelf#product__shelf-context-pdp-mobile": {
-    "children": ["flex-layout.row#product__container-pdp-mobile"]
+  "product-summary.shelf#product__shelf-context-pdp-phone": {
+    "children": ["flex-layout.row#product__container-pdp-phone"]
   },
-  "flex-layout.row#product__container-pdp-mobile": {
+  "flex-layout.row#product__container-pdp-phone": {
     "children": [
       "flex-layout.col#product__image",
       "flex-layout.col#product__information-no_add_button",

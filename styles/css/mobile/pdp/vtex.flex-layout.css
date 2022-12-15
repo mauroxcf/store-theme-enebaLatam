@@ -121,6 +121,11 @@
     margin: 0;
 }
 
+.flexRow--product__system_works {
+    padding-left : 20px;
+    padding-right: 20px;
+}
+
 .flexRowContent--product__system_works {
     border-top : 1px solid #32117D;
     padding-top: 10px;
@@ -130,6 +135,10 @@
 .flexRow--shelfRelatedProducts-container {
     padding-left : 20px;
     padding-right: 20px;
+}
+
+.flexRowContent--shelf__related_products-container {
+    justify-content: initial;
 }
 
 /* reviews section container */
