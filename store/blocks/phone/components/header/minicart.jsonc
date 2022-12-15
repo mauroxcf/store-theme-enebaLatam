@@ -61,11 +61,7 @@
   },
   "flex-layout.col#minicart__footer": {
     "title": "minicart footer content",
-    "children": [
-      "minicart-summary",
-      "rich-text#promotion__text",
-      "minicart-checkout-button"
-    ]
+    "children": ["minicart-summary", "minicart-checkout-button"]
   },
   "minicart-product-list": {
     "title": "minicart product list",
@@ -78,12 +74,6 @@
   "minicart-summary": {
     "title": "minicart summary",
     "blocks": ["checkout-summary.compact#minicart"]
-  },
-  "rich-text#promotion__text": {
-    "title": "promotion title",
-    "props": {
-      "text": "No olvides participar en las promociones de dia sin IVA"
-    }
   },
   "minicart-checkout-button": {
     "title": "minicart checkout button",
