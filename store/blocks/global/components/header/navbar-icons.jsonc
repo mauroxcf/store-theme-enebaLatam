@@ -42,5 +42,14 @@
       "width": "24",
       "blockClass": "header-icon"
     }
+  },
+  "logo#colombia": {
+    "title": "colombia logo",
+    "props": {
+      "title": "colombia",
+      "url": "assets/svg/header/colombia.svg",
+      "width": "16",
+      "blockClass": "header-icon"
+    }
   }
 }
