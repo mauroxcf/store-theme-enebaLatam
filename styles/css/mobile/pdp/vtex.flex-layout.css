@@ -96,10 +96,6 @@
 }
 
 /* pdp key activation section */
-.flexRow--product__key_activation-container {
-    padding-left : 20px;
-    padding-right: 20px;
-}
 
 .flexRowContent--product__key_activation-container {
     display       : flex;
@@ -121,21 +117,12 @@
     margin: 0;
 }
 
-.flexRow--product__system_works {
-    padding-left : 20px;
-    padding-right: 20px;
-}
-
 .flexRowContent--product__system_works {
     border-top : 1px solid #32117D;
     padding-top: 10px;
 }
 
 /* related products section container */
-.flexRow--shelfRelatedProducts-container {
-    padding-left : 20px;
-    padding-right: 20px;
-}
 
 .flexRowContent--shelf__related_products-container {
     justify-content: initial;
@@ -153,20 +140,7 @@
 }
 
 .flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
-    padding: 0 20px;
-    border : none;
-}
-
-.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
-    padding: 0 20px;
-}
-
-.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) {
-    padding: 0 20px;
-}
-
-.flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy) {
-    padding: 0 20px;
+    border: none;
 }
 
 .flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewComment) {
@@ -178,6 +152,39 @@
 
 @media only screen and (min-width: 500px) {
     .flexCol--check_price-content {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .flexRow--product__key_activation-container {
+        padding-left : 20px;
+        padding-right: 20px;
+    }
+
+    .flexRow--product__system_works {
+        padding-left : 20px;
+        padding-right: 20px;
+    }
+
+    .flexRow--shelfRelatedProducts-container {
+        padding-left : 20px;
+        padding-right: 20px;
+    }
+
+    .flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+        padding: 0 20px;
+    }
+
+    .flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+        padding: 0 20px;
+    }
+
+    .flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) {
+        padding: 0 20px;
+    }
+
+    .flexRowContent--product__reviews-container :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy) {
         padding: 0 20px;
     }
 }

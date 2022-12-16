@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#desktop__product_main_detail-container": {
+    "title": "product main information",
+    "children": [
+      "flex-layout.col#desktop__product_main_detail-image",
+      "flex-layout.col#desktop__product_main_detail-information",
+      "flex-layout.col#desktop__product_add_wishlist"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "desktop__product_main_detail-container"
+    }
+  },
+  "flex-layout.col#desktop__product_main_detail-image": {
+    "title": "product image",
+    "children": ["product-images#pdp"],
+    "props": {
+      "blockClass": "desktop__product_main_detail-image"
+    }
+  },
+  "flex-layout.col#desktop__product_main_detail-information": {
+    "title": "product title, ratings, genres, system and key information",
+    "children": [
+      "flex-layout.col#desktop__product__title_and_rating",
+      "flex-layout.row#product__genres",
+      "flex-layout.row#product__key_activation-container",
+      "flex-layout.col#product__system_works"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "desktop__product_main_detail-information",
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#desktop__product__title_and_rating": {
+    "title": "product title and rating information",
+    "children": [
+      "vtex.store-components:product-name",
+      "flex-layout.row#product__rating"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "width": "60%",
+      "blockClass": "product__title_and_rating"
+    }
+  },
+  "flex-layout.col#desktop__product_add_wishlist": {
+    "title": "product add button to wishlist",
+    "children": ["add-to-list-btn"],
+    "props": {
+      "blockClass": "product__add_wishlist"
+    }
+  }
+}

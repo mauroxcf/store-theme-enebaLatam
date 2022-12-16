@@ -7,7 +7,7 @@
     "title": "main information inner container",
     "children": [
       "flex-layout.row#product__main_detail-section--one",
-      "flex-layout.row#product__main_detail-section--two"
+      "flex-layout.row#product__genres"
     ],
     "props": {
       "blockClass": "product__main_detail-container"
@@ -16,9 +16,9 @@
   "flex-layout.row#product__main_detail-section--one": {
     "title": "product image, title, rating and wish button",
     "children": [
-      "flex-layout.col#pdp__image",
-      "flex-layout.col#product__title_and_rating",
-      "flex-layout.col#product__add_wishlist"
+      "flex-layout.col#mobile__pdp-image",
+      "flex-layout.col#mobile__product-title_and_rating",
+      "flex-layout.col#mobile__product_add_wishlist"
     ],
     "props": {
       "colSizing": "auto",
@@ -26,13 +26,31 @@
       "blockClass": "product__main_detail-section--one"
     }
   },
-  "flex-layout.row#product__main_detail-section--two": {
-    "title": "product genres",
-    "children": ["link#action_genre", "link#fps_genre"],
+  "flex-layout.col#mobile__pdp-image": {
+    "title": "pdp image content",
+    "children": ["product-images#pdp"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#mobile__product-title_and_rating": {
+    "title": "product title and rating information",
+    "children": [
+      "vtex.store-components:product-name",
+      "flex-layout.row#product__rating"
+    ],
     "props": {
       "colSizing": "auto",
-      "preserveLayoutOnMobile": true,
-      "blockClass": "product__genres-container"
+      "width": "60%",
+      "blockClass": "product__title_and_rating"
+    }
+  },
+  "flex-layout.col#mobile__product_add_wishlist": {
+    "title": "product add button to wishlist",
+    "children": ["add-to-list-btn"],
+    "props": {
+      "width": "20%",
+      "blockClass": "product__add_wishlist"
     }
   }
 }

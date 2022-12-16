@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#desktop__shelfRelatedProducts-container": {
+    "title": "related products container",
+    "children": ["shelf.relatedProducts#desktop__pdp-RelatedProducts"],
+    "props": {
+      "blockClass": "shelfRelatedProducts-container",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "shelf.relatedProducts#desktop__pdp-RelatedProducts": {
+    "blocks": ["product-summary.shelf#product__shelf-context-pdp-tablet"],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "arrows": false,
+        "titleText": "Los jugadores también han visto",
+        "itemsPerPage": 5
+      }
+    }
+  }
+}

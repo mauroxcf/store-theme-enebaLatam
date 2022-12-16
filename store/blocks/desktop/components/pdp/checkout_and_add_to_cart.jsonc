@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#desktop__product_checkout_or_cart": {
+    "title": "checkout or add to cart container",
+    "children": ["flex-layout.col#desktop__product__checkout_or_cart"],
+    "props": {
+      "blockClass": "product__checkout_or_cart"
+    }
+  },
+  "flex-layout.col#desktop__product__checkout_or_cart": {
+    "title": "checkout or add to cart inner container",
+    "children": [
+      "product-price",
+      "flex-layout.col#desktop__pdp_buyNow-container",
+      "flex-layout.col#desktop__pdp_addToCart-container"
+    ],
+    "props": {
+      "blockClass": "pdp__checkout-content"
+    }
+  },
+  "flex-layout.col#desktop__pdp_buyNow-container": {
+    "title": "buy now button container",
+    "children": ["add-to-cart-button#pdp__buyNow-button"],
+    "props": {
+      "blockClass": "pdp__buyNow-container"
+    }
+  },
+  "flex-layout.col#desktop__pdp_addToCart-container": {
+    "title": "add to cart button container",
+    "children": ["add-to-cart-button#desktop__pdp_addToCart-button"]
+  },
+  "add-to-cart-button#desktop__pdp_addToCart-button": {
+    "title": "button add to cart",
+    "props": {
+      "isOneClickBuy": false,
+      "text": "",
+      "unavailableText": ""
+    }
+  }
+}

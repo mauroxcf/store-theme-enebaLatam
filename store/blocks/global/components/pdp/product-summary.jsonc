@@ -1,30 +1,9 @@
 {
-  "flex-layout.col#pdp__image": {
-    "title": "pdp image content",
-    "children": ["product-images#pdp"],
-    "props": {
-      "width": "20%"
-    }
-  },
   "product-images#pdp": {
     "title": "pdp image summary",
     "props": {
       "aspectRatio": "1:1",
       "displayMode": "first-image"
-    }
-  },
-  "flex-layout.col#product__title_and_rating": {
-    "title": "product title and rating information",
-    "children": [
-      /* "product-name", */
-      /* "vtex.product-list:product-name", */
-      "vtex.store-components:product-name",
-      "flex-layout.row#product__rating"
-    ],
-    "props": {
-      "colSizing": "auto",
-      "width": "60%",
-      "blockClass": "product__title_and_rating"
     }
   },
   "flex-layout.row#product__rating": {
@@ -44,12 +23,13 @@
       "text": "calificaciones"
     }
   },
-  "flex-layout.col#product__add_wishlist": {
-    "title": "product add button to wishlist",
-    "children": ["add-to-list-btn"],
+  "flex-layout.row#product__genres": {
+    "title": "product genres",
+    "children": ["link#action_genre", "link#fps_genre"],
     "props": {
-      "width": "20%",
-      "blockClass": "product__add_wishlist"
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product__genres-container"
     }
   },
   "link#action_genre": {

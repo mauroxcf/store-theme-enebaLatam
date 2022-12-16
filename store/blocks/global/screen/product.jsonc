@@ -1,8 +1,8 @@
 {
   "store.product": {
     "children": [
-      "responsive-layout.mobile#mobile__pdp"
-      /* "responsive-layout.desktop#desktop__pdp" */
+      "responsive-layout.mobile#mobile__pdp",
+      "responsive-layout.desktop#desktop__pdp"
     ]
   }
 }
