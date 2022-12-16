@@ -10,7 +10,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/svg/logoeneba.svg",
+      "url": "assets/svg/header/logoeneba.svg",
       "width": "100",
       "blockClass": "header__logo-icon"
     }
@@ -19,7 +19,8 @@
     "title": "like logo",
     "props": {
       "title": "Heart",
-      "url": "assets/svg/heartIconMobile.svg",
+      "href": "/wishlist",
+      "url": "assets/svg/header/heartIconMobile.svg",
       "width": "24",
       "blockClass": "header-icon"
     }
@@ -28,7 +29,7 @@
     "title": "login logo",
     "props": {
       "title": "Login",
-      "url": "assets/svg/loginIconMobile.svg",
+      "url": "assets/svg/header/loginIconMobile.svg",
       "width": "24",
       "blockClass": "header-icon"
     }
@@ -37,7 +38,7 @@
     "title": "search logo",
     "props": {
       "title": "Search",
-      "url": "assets/svg/searchIconMobile.svg",
+      "url": "assets/svg/header/searchIconMobile.svg",
       "width": "24",
       "blockClass": "header-icon"
     }
