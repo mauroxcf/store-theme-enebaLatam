@@ -1,0 +1,158 @@
+{
+  "flex-layout.row#product__key_activation-country": {
+    "title": "key activation country",
+    "children": ["logo#check_green", "flex-layout.col#key_region-text"],
+    "props": {
+      "blockClass": "key-logo_and_text",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "logo#check_green": {
+    "title": "green check svg",
+    "props": {
+      "title": "green check",
+      "url": "assets/svg/pdp/green_check.svg",
+      "width": 35,
+      "height": 40,
+      "blockClass": "pdp__key_section-icon"
+    }
+  },
+  "flex-layout.col#key_region-text": {
+    "title": "region title and text country",
+    "children": [
+      "rich-text#pdp__regionTitle",
+      "rich-text#pdp__countryText",
+      "rich-text#pdp__restrictionText"
+    ],
+    "props": {
+      "blockClass": "key__text-content"
+    }
+  },
+  "rich-text#pdp__regionTitle": {
+    "title": "region title",
+    "props": {
+      "text": "Latinoamérica",
+      "blockClass": "pdp__key_section-Title"
+    }
+  },
+  "rich-text#pdp__countryText": {
+    "title": "country text",
+    "props": {
+      "text": "Se puede activar en **Colombia**",
+      "blockClass": "pdp__key_section-text"
+    }
+  },
+  "rich-text#pdp__restrictionText": {
+    "title": "restriction text",
+    "props": {
+      "text": "Ver restricción",
+      "blockClass": "pdp__key_section-specialText"
+    }
+  },
+  "flex-layout.row#product__key_activation-cloudService": {
+    "title": "key activation cloud service",
+    "children": ["logo#steam", "flex-layout.col#key_cloudService-text"],
+    "props": {
+      "blockClass": "key-logo_and_text",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "logo#steam": {
+    "title": "steam svg",
+    "props": {
+      "title": "steam",
+      "url": "assets/svg/pdp/steam.svg",
+      "width": 35,
+      "height": 35,
+      "blockClass": "pdp__key_section-icon"
+    }
+  },
+  "flex-layout.col#key_cloudService-text": {
+    "title": "region cloud service text",
+    "children": ["rich-text#pdp__cloudTitle", "rich-text#pdp__cloudText"],
+    "props": {
+      "blockClass": "key__text-content"
+    }
+  },
+  "rich-text#pdp__cloudTitle": {
+    "title": "cloud service title",
+    "props": {
+      "text": "Steam",
+      "blockClass": "pdp__key_section-Title"
+    }
+  },
+  "rich-text#pdp__cloudText": {
+    "title": "cloud service text",
+    "props": {
+      "text": "Se puede activar en [Steam](https://store.steampowered.com/login). Revisa su [Guía de activación](https://store.steampowered.com/login).",
+      "blockClass": "pdp__key_section-text"
+    }
+  },
+  "flex-layout.row#product__key_activation-code": {
+    "title": "key activation digital code",
+    "children": ["logo#key_white", "flex-layout.col#key_code-text"],
+    "props": {
+      "blockClass": "key-logo_and_text",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "logo#key_white": {
+    "title": "white key svg",
+    "props": {
+      "title": "white key",
+      "url": "assets/svg/pdp/white_key.svg",
+      "width": 35,
+      "height": 40,
+      "blockClass": "pdp__key_section-icon"
+    }
+  },
+  "flex-layout.col#key_code-text": {
+    "title": "digital code text",
+    "children": [
+      "rich-text#pdp__codeTitle",
+      "rich-text#pdp__codeText",
+      "rich-text#pdp__code-lastText"
+    ],
+    "props": {
+      "blockClass": "key__text-content"
+    }
+  },
+  "rich-text#pdp__codeTitle": {
+    "title": "code title",
+    "props": {
+      "text": "Código Digital",
+      "blockClass": "pdp__key_section-Title"
+    }
+  },
+  "rich-text#pdp__codeText": {
+    "title": "code text",
+    "props": {
+      "text": "Esta es una edición digital del producto (CD-KEY)",
+      "blockClass": "pdp__key_section-text"
+    }
+  },
+  "rich-text#pdp__code-lastText": {
+    "title": "code last text",
+    "props": {
+      "text": "Entrega inmediata",
+      "blockClass": "pdp__key_section-specialLastText"
+    }
+  },
+  "flex-layout.row#product__system_works": {
+    "title": "product work system",
+    "children": ["rich-text#pdp__system_work-text"],
+    "props": {
+      "blockClass": "product__system_works"
+    }
+  },
+  "rich-text#pdp__system_work-text": {
+    "title": "game work systems",
+    "props": {
+      "text": "Funciona en: **Windows**   [Consulta los requisitos](#system-requirements)",
+      "blockClass": "pdp__system_work-text"
+    }
+  }
+}

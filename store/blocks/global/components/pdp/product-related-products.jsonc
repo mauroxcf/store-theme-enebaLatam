@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#shelf__related_products-container": {
+    "title": "related products responsive container",
+    "children": [
+      "responsive-layout.phone#phone__shelfRelated_products",
+      "responsive-layout.tablet#tablet__shelfRelated_products",
+      "responsive-layout.desktop#tablet__shelfRelated_products"
+    ],
+    "props": {
+      "blockClass": "shelf__related_products-container",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "responsive-layout.phone#phone__shelfRelated_products": {
+    "title": "related products phone container",
+    "children": ["flex-layout.row#phone__shelfRelatedProducts-container"]
+  },
+  "responsive-layout.tablet#tablet__shelfRelated_products": {
+    "title": "related products tablet container",
+    "children": ["flex-layout.row#tablet__shelfRelatedProducts-container"]
+  },
+  "responsive-layout.desktop#tablet__shelfRelated_products": {
+    "title": "related products desktop container",
+    "children": ["flex-layout.row#desktop__shelfRelatedProducts-container"]
+  }
+}

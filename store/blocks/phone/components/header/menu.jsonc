@@ -19,7 +19,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/svg/logoeneba.svg",
+      "url": "assets/svg/header/logoeneba.svg",
       "width": "100",
       "blockClass": "menu_logo-icon"
     }

@@ -1,0 +1,13 @@
+{
+  "flex-layout.col#desktop__product_check_price-container": {
+    "title": "checkout price container",
+    "children": [
+      "flex-layout.row#offer__title",
+      "flex-layout.row#desktop__product_checkout_or_cart"
+    ],
+    "props": {
+      "blockClass": "desktop__check_price-content",
+      "preventVerticalStretch": true
+    }
+  }
+}

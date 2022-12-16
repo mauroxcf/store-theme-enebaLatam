@@ -1,3 +1,4 @@
 :global(.vtex-store__template) {
-    --dark-purple: #330e82;
+    color     : white;
+    word-break: break-word;
 }

@@ -5,9 +5,11 @@
 }
 
 .paragraph--product__summary-region {
-    color: #00CF9F;
+    color : #00CF9F;
+    margin: 0;
 }
 
 .paragraph--product__summary-at {
-    color: rgba(255, 255, 255, 0.5);
+    color : rgba(255, 255, 255, 0.5);
+    margin: 0;
 }

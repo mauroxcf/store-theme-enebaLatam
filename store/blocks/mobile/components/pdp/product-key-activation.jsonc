@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#product__key_activation-container": {
+    "title": "product key activation container",
+    "children": [
+      "flex-layout.col#product__key_activation-country",
+      "flex-layout.col#product__key_activation-cloudService",
+      "flex-layout.col#product__key_activation-code"
+    ],
+    "props": {
+      "blockClass": "product__key_activation-container",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#product__key_activation-country": {
+    "title": "key activation country",
+    "children": ["flex-layout.row#product__key_activation-country"]
+  },
+  "flex-layout.col#product__key_activation-cloudService": {
+    "title": "key activation cloud service",
+    "children": ["flex-layout.row#product__key_activation-cloudService"]
+  },
+  "flex-layout.col#product__key_activation-code": {
+    "title": "key activation digital code",
+    "children": ["flex-layout.row#product__key_activation-code"]
+  }
+}
