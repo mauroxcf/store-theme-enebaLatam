@@ -1,0 +1,6 @@
+{
+  "responsive-layout.mobile#mobile__pdp": {
+    "title": "mobile pdp layout",
+    "children": ["flex-layout.row#mobile__pdp"]
+  }
+}

@@ -7,6 +7,10 @@
     height: 25px;
 }
 
+:global(.vtex-minicart-2-x-popupChildrenContainer) {
+    background-color: #5825CC;
+}
+
 :global(.vtex-minicart-2-x-closeIconButton) {
     color: white;
 }
@@ -22,4 +26,8 @@
 
 .minicartCheckoutButton--checkout__button :global(.vtex-button__label) {
     font-size: 0;
+}
+
+:global(.vtex-product-list-0-x-price) {
+    color: white;
 }

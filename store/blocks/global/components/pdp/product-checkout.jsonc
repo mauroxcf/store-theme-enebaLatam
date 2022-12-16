@@ -1,0 +1,37 @@
+{
+  "flex-layout.row#offer__title": {
+    "title": "offer title container",
+    "children": ["rich-text#offer__title"],
+    "props": {
+      "blockClass": "offer__title"
+    }
+  },
+  "rich-text#offer__title": {
+    "props": {
+      "text": "Oferta promocionada",
+      "blockClass": "offer__title-text"
+    }
+  },
+  "add-to-cart-button#pdp__buyNow-button": {
+    "title": "button click to checkout",
+    "props": {
+      "isOneClickBuy": true,
+      "text": "Comprar ahora"
+    }
+  },
+  "flex-layout.col#pdp__addToCart-container": {
+    "title": "add to cart button container",
+    "children": ["add-to-cart-button#pdp__addToCart-button"],
+    "props": {
+      "blockClass": "pdp__addToCart-container"
+    }
+  },
+  "add-to-cart-button#pdp__addToCart-button": {
+    "title": "button add to cart",
+    "props": {
+      "isOneClickBuy": false,
+      "text": "",
+      "unavailableText": ""
+    }
+  }
+}

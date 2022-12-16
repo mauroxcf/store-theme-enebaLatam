@@ -67,6 +67,14 @@
     max-width: none;
 }
 
+.currencyContainer {
+    font-size: 13px !important;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+    color: #FAD318;
+}
+
 @media only screen and (min-width: 1025px) {
     :global(.vtex-store-components-3-x-logoImage--header__logo-icon) {
         width: 155px;

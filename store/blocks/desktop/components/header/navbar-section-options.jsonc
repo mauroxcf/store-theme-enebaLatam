@@ -16,7 +16,8 @@
     "children": ["flex-layout.row#options__one"],
     "props": {
       "blockClass": "options__one-container",
-      "width": "grow"
+      "verticalAlign": "middle"
+      /* "width": "grow" */
     }
   },
   "flex-layout.row#options__one": {
@@ -33,18 +34,18 @@
   },
   "flex-layout.col#logo-desktop": {
     "title": "navbar logo",
+    "children": ["logo#main__logo"],
     "props": {
       "verticalAlign": "middle"
-    },
-    "children": ["logo#main__logo"]
+    }
   },
   "flex-layout.col#searchbar-desktop": {
     "title": "navbar searchbar",
+    "children": ["search-bar#header__search"],
     "props": {
-      "verticalAlign": "middle",
+      /* "verticalAlign": "middle", */
       "width": "grow"
-    },
-    "children": ["search-bar#header__search"]
+    }
   },
   "flex-layout.col#options__two": {
     "title": "options two container",
@@ -56,13 +57,21 @@
   "flex-layout.row#options__two": {
     "title": "options two inner container",
     "children": [
-      "locale-switcher",
+      "flex-layout.row#option__currency",
+      /* "locale-switcher", */
       "logo#main__heart",
       "minicart.v2",
       "login#navbar__login-desktop"
     ],
     "props": {
       "blockClass": "options__two",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#option__currency": {
+    "title": "static currency colombia",
+    "children": ["logo#colombia", "rich-text#colombia__currency"],
+    "props": {
       "colSizing": "auto"
     }
   }

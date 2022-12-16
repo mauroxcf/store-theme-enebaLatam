@@ -1,0 +1,48 @@
+.flexCol--desktop__product_main_detail-information {
+    gap: 1rem;
+}
+
+.flexRow--desktop__pdp {
+    margin-top    : 1rem;
+    padding-bottom: 100px;
+}
+
+.flexRowContent--desktop__pdp {
+    max-width   : 1200px;
+    margin-left : auto;
+    margin-right: auto;
+    gap         : 1rem;
+}
+
+.flexRow--desktop__pdp :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexCol--desktop__pdp-content {
+    gap: 1rem;
+}
+
+.flexRowContent--desktop__product_main_detail-container {
+    justify-content: flex-start;
+    gap            : 1rem;
+}
+
+.flexCol--desktop__check_price-content {
+    min-width: 350px;
+}
+
+.flexCol--pdp__checkout-content {
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 1399px) {
+    .flexColChild--desktop__product_main_detail-image {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .flexColChild--desktop__product_main_detail-image {
+        max-width: 224px;
+    }
+}

@@ -4,8 +4,8 @@
 }
 
 .flexRowContent--desktop__navbar-options {
-    padding-left   : 1rem;
-    padding-right  : 1rem;
+    /* padding-left   : 1rem;
+    padding-right  : 1rem; */
     margin-top     : 1rem;
     margin-bottom  : 1rem;
     gap            : 1rem;
@@ -20,6 +20,10 @@
 .flexRowContent--options__one {
     justify-content: initial !important;
     gap            : 1rem;
+}
+
+.flexRowContent--options__one :global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: 464px;
 }
 
 .flexRowContent--desktop__navbar-options :global(.vtex-login-2-x-label) {
@@ -40,8 +44,15 @@
     background-color: #330e82;
 }
 
-.flexRowContent--header__desktop :global(.vtex-flex-layout-0-x-flexColChild):first-child {
+/* .flexRowContent--header__desktop :global(.vtex-flex-layout-0-x-flexColChild):first-child {
     width     : 100%;
     max-width : 1200px;
     align-self: center;
+} */
+
+.flexRow--desktop__navbar-options {
+    width       : 100%;
+    max-width   : 1200px;
+    margin-left : auto;
+    margin-right: auto;
 }

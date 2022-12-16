@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#product__reviews-container": {
+    "title": "product reviews container",
+    "children": ["product-reviews"],
+    "props": {
+      "blockClass": "product__reviews-container"
+    }
+  }
+}

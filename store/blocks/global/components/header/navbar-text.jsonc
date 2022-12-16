@@ -52,5 +52,11 @@
     "props": {
       "text": "Software"
     }
+  },
+  "rich-text#colombia__currency": {
+    "title": "region colombia title",
+    "props": {
+      "text": "Español Latinoamericano | COP"
+    }
   }
 }

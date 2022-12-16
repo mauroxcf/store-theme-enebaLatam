@@ -1,0 +1,51 @@
+{
+  "product-images#pdp": {
+    "title": "pdp image summary",
+    "props": {
+      "aspectRatio": "1:1",
+      "displayMode": "first-image"
+    }
+  },
+  "flex-layout.row#product__rating": {
+    "title": "rating container",
+    "children": ["flex-layout.col#product__rating"]
+  },
+  "flex-layout.col#product__rating": {
+    "title": "rating content",
+    "children": ["product-rating-summary", "rich-text#rating"],
+    "props": {
+      "blockClass": "product__rating"
+    }
+  },
+  "rich-text#rating": {
+    "title": "rating text",
+    "props": {
+      "text": "calificaciones"
+    }
+  },
+  "flex-layout.row#product__genres": {
+    "title": "product genres",
+    "children": ["link#action_genre", "link#fps_genre"],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product__genres-container"
+    }
+  },
+  "link#action_genre": {
+    "title": "link action genre",
+    "props": {
+      "href": "/action-game",
+      "label": "Acción",
+      "blockClass": "genre__button"
+    }
+  },
+  "link#fps_genre": {
+    "title": "link fps genre",
+    "props": {
+      "href": "/fps-game",
+      "label": "FPS/TPS",
+      "blockClass": "genre__button"
+    }
+  }
+}

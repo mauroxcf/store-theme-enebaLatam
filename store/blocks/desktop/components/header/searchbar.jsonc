@@ -6,7 +6,8 @@
       "openAutocompleteOnFocus": true,
       "placeholder": "",
       "hasIconLeft": false,
-      "autocompleteFullWidth": true
+      "autocompleteFullWidth": true,
+      "containerMode": "container"
     }
   },
   "autocomplete-result-list.v2": {
