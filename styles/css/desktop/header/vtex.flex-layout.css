@@ -4,8 +4,6 @@
 }
 
 .flexRowContent--desktop__navbar-options {
-    /* padding-left   : 1rem;
-    padding-right  : 1rem; */
     margin-top     : 1rem;
     margin-bottom  : 1rem;
     gap            : 1rem;
@@ -44,15 +42,13 @@
     background-color: #330e82;
 }
 
-/* .flexRowContent--header__desktop :global(.vtex-flex-layout-0-x-flexColChild):first-child {
-    width     : 100%;
-    max-width : 1200px;
-    align-self: center;
-} */
-
 .flexRow--desktop__navbar-options {
     width       : 100%;
     max-width   : 1200px;
     margin-left : auto;
     margin-right: auto;
+}
+
+.flexRowContent--header__option_currency {
+    justify-content: flex-start;
 }

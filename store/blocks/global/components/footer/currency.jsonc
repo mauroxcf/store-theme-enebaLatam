@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#footer__option_currency": {
+    "title": "static currency colombia",
+    "children": ["logo#colombia", "rich-text#colombia__currency"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer__option_currency"
+    }
+  }
+}

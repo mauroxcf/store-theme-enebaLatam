@@ -1,0 +1,9 @@
+.wrapper--colombia__currency {
+    margin-left : 4px;
+    margin-right: 16px;
+    cursor      : pointer;
+}
+
+.paragraph--colombia__currency:hover {
+    color: #FAD318;
+}
