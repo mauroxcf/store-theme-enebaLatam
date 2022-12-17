@@ -28,7 +28,7 @@
 /* Searchbar drawer */
 .drawerHeader--phone__drawer-searchbar {
     justify-content: space-between;
-    border         : solid black 1px;
+    border-bottom  : solid black 1px;
 }
 
 .drawerHeader--phone__drawer-searchbar :global(.vtex-store-drawer-0-x-closeIconButton) {
