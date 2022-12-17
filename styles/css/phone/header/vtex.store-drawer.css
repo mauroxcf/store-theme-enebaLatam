@@ -1,6 +1,5 @@
-.openIconContainer {
-    color     : #ffff;
-    align-self: center;
+.drawer--phone__drawer-searchbar {
+    max-width: initial !important;
 }
 
 .drawerContent--phone__drawer_login {
