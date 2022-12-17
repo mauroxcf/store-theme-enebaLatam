@@ -58,7 +58,6 @@
     "title": "options two inner container",
     "children": [
       "flex-layout.row#option__currency",
-      /* "locale-switcher", */
       "logo#main__heart",
       "minicart.v2",
       "login#navbar__login-desktop"
@@ -72,7 +71,8 @@
     "title": "static currency colombia",
     "children": ["logo#colombia", "rich-text#colombia__currency"],
     "props": {
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass": "header__option_currency"
     }
   }
 }
