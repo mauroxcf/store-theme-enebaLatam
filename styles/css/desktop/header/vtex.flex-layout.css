@@ -21,7 +21,8 @@
 }
 
 .flexRowContent--options__one :global(.vtex-store-components-3-x-searchBarContainer) {
-    max-width: 464px;
+    /*  max-width: 464px; */
+    max-width: 550px;
 }
 
 .flexRowContent--desktop__navbar-options :global(.vtex-login-2-x-label) {

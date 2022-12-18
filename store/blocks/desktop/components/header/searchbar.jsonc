@@ -3,7 +3,6 @@
     "title": "searchbar",
     "blocks": ["autocomplete-result-list.v2#desktop__search"],
     "props": {
-      "openAutocompleteOnFocus": true,
       "placeholder": "",
       "hasIconLeft": false,
       "autocompleteFullWidth": true,
@@ -14,8 +13,8 @@
     "title": "search bar autocomplete",
     "blocks": ["product-summary"],
     "props": {
-      "productLayout": "VERTICAL",
-      "autocompleteWidth": "100%"
+      "productLayout": "HORIZONTAL",
+      "hideTitles": true
     }
   }
 }

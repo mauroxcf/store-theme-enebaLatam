@@ -16,8 +16,8 @@
     "children": ["flex-layout.row#options__one"],
     "props": {
       "blockClass": "options__one-container",
-      "verticalAlign": "middle"
-      /* "width": "grow" */
+      "verticalAlign": "middle",
+      "width": "grow"
     }
   },
   "flex-layout.row#options__one": {
