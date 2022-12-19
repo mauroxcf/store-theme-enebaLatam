@@ -42,7 +42,7 @@
     "props": {
       "colSizing": "auto",
       "width": "60%",
-      "blockClass": "product__title_and_rating"
+      "blockClass": "desktop__product_title_and_rating"
     }
   },
   "flex-layout.col#desktop__product_add_wishlist": {

@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1024px) {
+    .flexRowContent--phone__searchbar-container .stretchChildrenWidth:first-child {
+        justify-content: flex-start;
+    }
+}

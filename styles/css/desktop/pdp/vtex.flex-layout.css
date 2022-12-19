@@ -27,6 +27,16 @@
     gap            : 1rem;
 }
 
+.flexCol--desktop__product_title_and_rating {
+    gap: 1rem;
+}
+
+.flexCol--desktop__product_title_and_rating :global(.vtex-store-components-3-x-productNameContainer) {
+    color      : white;
+    font-size  : 26px !important;
+    font-weight: 700;
+}
+
 .flexCol--desktop__check_price-content {
     min-width: 350px;
 }

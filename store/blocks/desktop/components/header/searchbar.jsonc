@@ -1,21 +1,20 @@
 {
   "search-bar#header__search": {
     "title": "searchbar",
-    "blocks": ["autocomplete-result-list.v2"],
+    "blocks": ["autocomplete-result-list.v2#desktop__search"],
     "props": {
-      "openAutocompleteOnFocus": true,
       "placeholder": "",
       "hasIconLeft": false,
       "autocompleteFullWidth": true,
       "containerMode": "container"
     }
   },
-  "autocomplete-result-list.v2": {
+  "autocomplete-result-list.v2#desktop__search": {
     "title": "search bar autocomplete",
     "blocks": ["product-summary"],
     "props": {
-      "productLayout": "VERTICAL",
-      "autocompleteWidth": "100%"
+      "productLayout": "HORIZONTAL",
+      "hideTitles": true
     }
   }
 }

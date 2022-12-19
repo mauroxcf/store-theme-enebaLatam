@@ -39,15 +39,16 @@
       "openAutocompleteOnFocus": true,
       "placeholder": "",
       "hasIconLeft": false,
-      "autoFocus": true
+      "autoFocus": true,
+      "containerMode": "container"
     }
   },
   "autocomplete-result-list.v2#search-phone": {
     "title": "autocomplete phone",
     "blocks": ["product-summary"],
     "props": {
-      "productLayout": "VERTICAL",
-      "autocompleteWidth": "100%"
+      "productLayout": "HORIZONTAL",
+      "hideTitles": true
     }
   }
 }

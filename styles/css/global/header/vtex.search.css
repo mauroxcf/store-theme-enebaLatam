@@ -1,0 +1,81 @@
+.close-btn {
+    display: none;
+}
+
+.biggy-autocomplete-wrapper {
+    width: 100%;
+}
+
+.biggy-autocomplete {
+    background-color: #5825CC;
+    flex-direction  : column;
+}
+
+.itemListList {
+    border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
+}
+
+.itemListItem {
+    border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
+}
+
+.itemListLink {
+    border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
+}
+
+.itemListSubItemLink {
+    border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
+}
+
+.tileListItem {
+    flex-direction: column;
+}
+
+.information {
+    width         : 100%;
+    flex-direction: row;
+}
+
+.currencyContainer {
+    color: #FAD318;
+}
+
+.tileListSeeMore {
+    color: white;
+}
+
+.itemListSubItemLink:hover {
+    background-color: #330e82 !important;
+}
+
+.itemListLink:hover {
+    background-color: #330e82 !important;
+}
+
+.element:hover {
+    background-color: #330e82 !important;
+}
+
+.tileListFooter {
+    display        : flex;
+    height         : 60px;
+    justify-content: center;
+    align-items    : center;
+    padding        : 0 20px;
+}
+
+.tileListSeeMore:hover {
+    background-color: #330e82 !important;
+}
+
+.tileListSeeMore {
+    width          : 100%;
+    max-width      : 400px;
+    height         : fit-content;
+    border         : solid 1px white;
+    padding        : 8px 0;
+    font-weight    : 700;
+    text-decoration: none;
+    height         : auto;
+    line-height    : initial;
+}
