@@ -43,3 +43,39 @@
 .tileListSeeMore {
     color: white;
 }
+
+.itemListSubItemLink:hover {
+    background-color: #330e82 !important;
+}
+
+.itemListLink:hover {
+    background-color: #330e82 !important;
+}
+
+.element:hover {
+    background-color: #330e82 !important;
+}
+
+.tileListFooter {
+    display        : flex;
+    height         : 60px;
+    justify-content: center;
+    align-items    : center;
+    padding        : 0 20px;
+}
+
+.tileListSeeMore:hover {
+    background-color: #330e82 !important;
+}
+
+.tileListSeeMore {
+    width          : 100%;
+    max-width      : 400px;
+    height         : fit-content;
+    border         : solid 1px white;
+    padding        : 8px 0;
+    font-weight    : 700;
+    text-decoration: none;
+    height         : auto;
+    line-height    : initial;
+}
