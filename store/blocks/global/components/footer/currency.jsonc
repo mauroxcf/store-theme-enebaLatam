@@ -4,7 +4,8 @@
     "children": ["logo#colombia", "rich-text#colombia__currency"],
     "props": {
       "colSizing": "auto",
-      "blockClass": "footer__option_currency"
+      "blockClass": "footer__option_currency",
+      "preserveLayoutOnMobile": true
     }
   }
 }

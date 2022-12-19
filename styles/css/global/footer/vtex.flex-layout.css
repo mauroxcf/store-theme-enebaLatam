@@ -56,6 +56,10 @@
     padding-left   : 1rem;
 }
 
+.flexRowContent--footer__option_currency :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 12px !important;
+}
+
 @media only screen and (min-width: 1080px) {
     .flexRowContent--footer__payments-container {
         justify-content: left;

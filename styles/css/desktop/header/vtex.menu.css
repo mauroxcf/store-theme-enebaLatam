@@ -36,10 +36,17 @@
 }
 
 .menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContent) {
-    font-size: 14px;
-    cursor   : pointer;
+    font-size  : 14px;
+    cursor     : pointer;
+    white-space: normal;
 }
 
 .menuContainer--desktop__menu-items :global(.vtex-menu-2-x-styledLinkContent):hover {
     color: yellow;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1224px) {
+    .menuContainerNav--desktop__submenu-lvl1 {
+        padding-left: 12px;
+    }
 }

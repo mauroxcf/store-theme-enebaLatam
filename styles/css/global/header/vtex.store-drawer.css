@@ -2,3 +2,10 @@
     color     : #ffff;
     align-self: center;
 }
+
+.closeIconButton {
+    height  : 38px;
+    position: absolute;
+    top     : 0;
+    right   : 0;
+}
