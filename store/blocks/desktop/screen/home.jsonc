@@ -4,10 +4,18 @@
     "children": [
       "responsive-layout.desktop#home__banner-desktop",
       "flex-layout.row#recommendations-shelf",
+      "whatsapp-button",
       "flex-layout.row#best_games-shelf",
       "flex-layout.row#gif_cards-shelf",
       "flex-layout.row#next_game-shelf",
       "flex-layout.row#buy_now-shelf"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "vtex-logo-rlz.png",
+      "phone": "300506060",
+      "message": "VTEX university RLZ"
+    }
   }
 }
