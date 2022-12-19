@@ -21,7 +21,6 @@
 }
 
 .flexRowContent--options__one :global(.vtex-store-components-3-x-searchBarContainer) {
-    /*  max-width: 464px; */
     max-width: 550px;
 }
 
@@ -52,4 +51,10 @@
 
 .flexRowContent--header__option_currency {
     justify-content: flex-start;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1224px) {
+    .flexRowContent--desktop__navbar-menu {
+        padding-left: 1rem;
+    }
 }
