@@ -1,7 +1,4 @@
 {
-  "responsive-layout.tablet#category__results-tablet": {
-    "children": ["flex-layout.row#category__results-tablet"]
-  },
   "flex-layout.row#category__results-tablet": {
     "title": "category result container tablet",
     "children": [

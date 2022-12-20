@@ -1,7 +1,4 @@
 {
-  "responsive-layout.phone#category__results-phone": {
-    "children": ["flex-layout.row#category__results-mobile"]
-  },
   "flex-layout.row#category__results-mobile": {
     "title": "category result container",
     "children": [

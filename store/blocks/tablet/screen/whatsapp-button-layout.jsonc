@@ -1,0 +1,12 @@
+{
+  "whatsapp-button#tablet__whatsapp-button": {
+    "title": "tablet whatsapp button",
+    "props": {
+      "logo": "assets/img/whatsapp.png",
+      "phone": "300506060",
+      "message": "VTEX university RLZ",
+      "width": 60,
+      "height": 60
+    }
+  }
+}

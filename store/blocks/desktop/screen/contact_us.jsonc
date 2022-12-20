@@ -1,5 +1,9 @@
 {
   "responsive-layout.desktop#contact_us": {
-    "children": ["flex-layout.row#desktop__contact_us-container"]
+    "title": "contact us responsive desktop",
+    "children": [
+      "flex-layout.row#desktop__contact_us-container",
+      "whatsapp-button#desktop__whatsapp-button"
+    ]
   }
 }

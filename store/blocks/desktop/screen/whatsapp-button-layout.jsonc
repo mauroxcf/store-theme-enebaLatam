@@ -1,0 +1,10 @@
+{
+  "whatsapp-button#desktop__whatsapp-button": {
+    "title": "desktop whatsapp button",
+    "props": {
+      "logo": "assets/img/whatsapp.png",
+      "phone": "300506060",
+      "message": "VTEX university RLZ"
+    }
+  }
+}
