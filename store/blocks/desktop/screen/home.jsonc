@@ -13,7 +13,7 @@
   },
   "whatsapp-button": {
     "props": {
-      "logo": "vtex-logo-rlz.png",
+      "logo": "assets/img/whatsapp.png",
       "phone": "300506060",
       "message": "VTEX university RLZ"
     }
