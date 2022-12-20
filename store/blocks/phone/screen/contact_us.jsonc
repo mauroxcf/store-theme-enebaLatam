@@ -1,5 +1,9 @@
 {
   "responsive-layout.phone#contact_us": {
-    "children": ["flex-layout.row#phone__contact_us-container"]
+    "title": "contact us responsive mobile",
+    "children": [
+      "flex-layout.row#phone__contact_us-container",
+      "whatsapp-button#phone__whatsapp-button"
+    ]
   }
 }

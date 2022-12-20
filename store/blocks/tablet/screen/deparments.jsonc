@@ -1,0 +1,9 @@
+{
+  "responsive-layout.tablet#category__results-tablet": {
+    "title": "responsive category results tablet",
+    "children": [
+      "flex-layout.row#category__results-tablet",
+      "whatsapp-button#tablet__whatsapp-button"
+    ]
+  }
+}
