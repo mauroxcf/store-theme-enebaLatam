@@ -1,5 +1,6 @@
 {
   "store.product": {
+    "title": "store layout",
     "children": [
       "responsive-layout.mobile#mobile__pdp",
       "responsive-layout.desktop#desktop__pdp"

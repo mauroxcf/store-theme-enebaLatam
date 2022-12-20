@@ -1,6 +1,9 @@
 {
   "responsive-layout.desktop#desktop__pdp": {
     "title": "desktop pdp layout",
-    "children": ["flex-layout.row#desktop__pdp-container"]
+    "children": [
+      "flex-layout.row#desktop__pdp-container",
+      "whatsapp-button#desktop__whatsapp-button"
+    ]
   }
 }
