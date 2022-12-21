@@ -1,0 +1,70 @@
+{
+  "list-context.bullet-group": {
+    "children": ["slider-layout#bullet__group"],
+    "title": "custom bullet",
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/svg/home/action.svg",
+          "titleBullet": "Acción",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/svg/home/adventure.svg",
+          "titleBullet": "Aventuras",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/svg/home/fps.svg",
+          "titleBullet": "FPS/TPS",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/svg/home/rpg.svg",
+          "titleBullet": "RPG",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/svg/home/indie.svg",
+          "titleBullet": "Indie",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/svg/home/simulation.svg",
+          "titleBullet": "Simulación",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/svg/home/strategy.svg",
+          "titleBullet": "Estrategia",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet__group": {
+    "title": "bullet group slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite": true
+    }
+  }
+}

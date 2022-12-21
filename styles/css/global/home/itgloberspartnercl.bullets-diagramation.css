@@ -1,3 +1,7 @@
 .bullet__item--title {
   color: white;
 }
+
+.bulletGroup-container :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+  display: none;
+}
