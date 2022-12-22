@@ -39,3 +39,10 @@
     border        : none;
     flex-direction: row-reverse;
 }
+
+.drawerHeader--phone__drawer-searchbar .closeIconButton {
+    height  : 38px;
+    position: absolute;
+    top     : 0;
+    right   : 0;
+}
