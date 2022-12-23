@@ -1,9 +1,24 @@
 {
   "flex-layout.row#category__breadcrumb": {
     "title": "breadcrumb container",
-    "children": ["breadcrumb.search"]
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": "breadcrumb__container-plp"
+    }
   },
   "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#product__breadcrumb": {
+    "title": "breadcrumb container",
+    "children": ["breadcrumb"],
+    "props": {
+      "blockClass": "breadcrumb__container-pdp"
+    }
+  },
+  "breadcrumb": {
     "props": {
       "showOnMobile": true
     }

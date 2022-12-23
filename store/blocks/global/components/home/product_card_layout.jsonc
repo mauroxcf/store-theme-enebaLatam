@@ -18,7 +18,10 @@
       "rich-text#product__summary-at",
       "product-selling-price",
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__information"
+    }
   },
   "flex-layout.col#product__information-no_add_button": {
     "title": "product information content no add button",
@@ -27,7 +30,10 @@
       "rich-text#product__summary-region",
       "rich-text#product__summary-at",
       "product-selling-price"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__information-no_add_button"
+    }
   },
   "rich-text#product__summary-region": {
     "title": "region text",

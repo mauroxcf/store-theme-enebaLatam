@@ -28,3 +28,26 @@
 :global(.vtex-product-summary-2-x-containerNormal) {
     max-width: none !important;
 }
+
+.bullet__item {
+    background-color: #5825CC;
+    height          : 140px;
+    padding         : 15px 5px 0;
+    box-shadow      : 0 7px 15px 0 rgb(0 0 0 / 20%);
+    transition      : background 150ms ease-in-out;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    text-align      : center;
+    cursor          : pointer;
+    min-width       : 98px;
+    max-width       : 152.28px;
+    width           : 100%;
+}
+
+.bullet__item--title {
+    text-decoration: none;
+    font-size      : 13px;
+    font-weight    : 800;
+    color          : white;
+}

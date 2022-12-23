@@ -4,7 +4,9 @@
     "props": {
       "logo": "assets/img/whatsapp.png",
       "phone": "300506060",
-      "message": "VTEX university RLZ"
+      "message": "VTEX university RLZ",
+      "width": 40,
+      "height": 40
     }
   }
 }

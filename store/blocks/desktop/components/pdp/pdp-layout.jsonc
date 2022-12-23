@@ -5,7 +5,10 @@
   },
   "flex-layout.col#desktop__pdp-container": {
     "title": "pdp layout inner container",
-    "children": ["breadcrumb.search", "flex-layout.row#desktop__pdp-content"],
+    "children": [
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#desktop__pdp-content"
+    ],
     "props": {
       "blockClass": "desktop__pdp-container"
     }
@@ -25,6 +28,7 @@
     "title": "pdp layout content",
     "children": [
       "flex-layout.row#desktop__product_main_detail-container",
+      "modal-trigger#desktop__product-add-to-cart-info",
       "flex-layout.row#shelf__related_products-container",
       "flex-layout.row#product__reviews-container"
     ],

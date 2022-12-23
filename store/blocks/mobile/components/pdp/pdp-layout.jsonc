@@ -9,7 +9,9 @@
   "flex-layout.col#mobile__pdp": {
     "title": "pdp layout content",
     "children": [
+      "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__main_detail-container",
+      "modal-trigger#desktop__product-add-to-cart-info",
       "flex-layout.row#product__check_price-container",
       "flex-layout.row#product__key_activation-container",
       "flex-layout.col#product__system_works",

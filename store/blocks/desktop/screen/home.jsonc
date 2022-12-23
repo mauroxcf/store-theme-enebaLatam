@@ -8,7 +8,8 @@
       "flex-layout.row#best_games-shelf",
       "flex-layout.row#gif_cards-shelf",
       "flex-layout.row#next_game-shelf",
-      "flex-layout.row#buy_now-shelf"
+      "flex-layout.row#buy_now-shelf",
+      "list-context.bullet-group"
     ]
   }
 }
