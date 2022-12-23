@@ -1,0 +1,29 @@
+{
+  "modal-trigger#desktop__product-add-to-cart-info": {
+    "title": "modal trigger add to cart info",
+    "children": [
+      "rich-text#modal-trigger__add-to-cart-info",
+      "modal-layout#desktop__product-add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "rich-text#modal-trigger__add-to-cart-info": {
+    "title": "modal text",
+    "props": {
+      "text": "Click me"
+    }
+  },
+  "modal-layout#desktop__product-add-to-cart-info": {
+    "title": "modal layout add to cart info",
+    "children": ["modal-header#product-add-to-cart-info", "add-to-cart-info"]
+  },
+  "modal-header#product-add-to-cart-info": {
+    "title": "modal header close",
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 16
+    }
+  }
+}

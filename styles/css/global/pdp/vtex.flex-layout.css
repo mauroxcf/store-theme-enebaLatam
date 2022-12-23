@@ -4,6 +4,12 @@
     gap            : 0.5rem;
 }
 
+.flexRowContent--breadcrumb__container-pdp {
+    max-width   : 1200px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
 /* wishlist icon */
 .flexCol--product__add_wishlist :global(.vtex-button__label) {
     padding: 0 !important;
@@ -173,12 +179,4 @@
     padding         : 16px 20px;
     border          : none;
     margin-bottom   : 4px;
-}
-
-@media only screen and (max-width: 639px) {
-    .flexRowContent--shelfRelatedProducts-container :global(.vtex-slider-0-x-sliderFrame) {
-        transform     : translateX(0px) !important;
-        flex-direction: column;
-        width         : 100% !important;
-    }
 }
