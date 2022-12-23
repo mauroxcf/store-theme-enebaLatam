@@ -1,3 +1,9 @@
 .flexRowContent--category__results-container {
     margin-bottom: 2rem;
 }
+
+.flexRowContent--breadcrumb__container-plp {
+    max-width   : 1200px;
+    margin-left : auto;
+    margin-right: auto;
+}
