@@ -1,0 +1,7 @@
+.resultsItem {
+    color: white;
+}
+
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
+    color: white;
+}
