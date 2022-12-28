@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#desktop__custom_search_bar": {
+    "title": "custom search bar container",
+    "children": ["flex-layout.col#desktop__custom_search_bar"],
+    "props": {
+      "blockClass": "custom_search_bar-container"
+    }
+  },
+  "flex-layout.col#desktop__custom_search_bar": {
+    "title": "custom search bar content",
+    "children": ["rich-text#custom_search_bar__title", "department-search"],
+    "props": {
+      "blockClass": "custom_search_bar-content"
+    }
+  },
+  "rich-text#custom_search_bar__title": {
+    "title": "custom search bar title",
+    "props": {
+      "text": "Busca por departamento",
+      "font": "t-heading-3"
+    }
+  }
+}
