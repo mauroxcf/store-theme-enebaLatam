@@ -1,5 +1,8 @@
 {
   "store.custom#contact_us": {
     "path": "/contact-us"
+  },
+  "store.custom#blog": {
+    "path": "/blog"
   }
 }

@@ -115,7 +115,9 @@ vtex link
 
 1. [add-to-cart-info](https://github.com/mauroxcf/itgloberspartnercl-add-to-cart-info)
 2. [bullets-diagramation](https://github.com/mauroxcf/itgloberspartnercl-bullets-diagramation)
-3. [whatsapp-button](https://github.com/mauroxcf/itgloberspartnercl-whatsapp-button/tree/feature-whatsapp-custom-app)
+3. [whatsapp-button](https://github.com/mauroxcf/itgloberspartnercl-whatsapp-button)
+4. [custom-department-search](https://github.com/mauroxcf/itgloberspartnercl-custom-department-search)
+5. [html-pdf](https://github.com/mauroxcf/itgloberspartnercl-html-pdf)
 
 ## Autors ✒️
 
