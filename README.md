@@ -110,6 +110,8 @@ vtex link
 42. "itgloberspartnercl.whatsapp-button"
 43. "itgloberspartnercl.bullets-diagramation"
 44. "itgloberspartnercl.add-to-cart-info"
+45. "itgloberspartnercl.custom-department-search"
+46. "itgloberspartnercl.pdf-reader"
 
 ## Custom Apps
 
