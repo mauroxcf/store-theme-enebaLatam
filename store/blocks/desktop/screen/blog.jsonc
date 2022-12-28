@@ -1,0 +1,6 @@
+{
+  "responsive-layout.desktop#pdf-reader": {
+    "title": "pdf reader",
+    "children": ["flex-layout.row#desktop__pdf-reader"]
+  }
+}

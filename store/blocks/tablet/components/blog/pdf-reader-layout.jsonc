@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#tablet__pdf-reader": {
+    "title": "pdf reader container",
+    "children": ["pdf-reader#tablet__pdf-reader"],
+    "props": {
+      "blockClass": "pdf-reader-container"
+    }
+  },
+  "pdf-reader#tablet__pdf-reader": {
+    "title": "pdf reader custom component",
+    "props": {
+      "pdfUrl": "assets/documents/test.pdf",
+      "width": 600,
+      "height": 800
+    }
+  }
+}
