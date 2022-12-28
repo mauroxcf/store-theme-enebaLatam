@@ -1,0 +1,10 @@
+{
+  "store.custom#blog": {
+    "title": "blog used has pdf reader",
+    "blocks": [
+      "responsive-layout.phone#pdf-reader",
+      "responsive-layout.tablet#pdf-reader",
+      "responsive-layout.desktop#pdf-reader"
+    ]
+  }
+}
