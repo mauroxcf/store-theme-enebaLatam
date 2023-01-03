@@ -3,6 +3,7 @@
     "title": "home tablet",
     "children": [
       "responsive-layout.tablet#home__banner-tablet",
+      "flex-layout.row#quick-order",
       "flex-layout.row#recommendations-shelf",
       "whatsapp-button#tablet__whatsapp-button",
       "flex-layout.row#best_games-shelf",
