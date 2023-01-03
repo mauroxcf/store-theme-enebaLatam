@@ -3,6 +3,7 @@
     "title": "home layout desktop",
     "children": [
       "responsive-layout.desktop#home__banner-desktop",
+      "flex-layout.row#quick-order",
       "flex-layout.row#recommendations-shelf",
       "whatsapp-button#desktop__whatsapp-button",
       "flex-layout.row#best_games-shelf",
