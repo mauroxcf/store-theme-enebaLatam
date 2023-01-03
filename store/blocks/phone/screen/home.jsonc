@@ -4,6 +4,7 @@
     "children": [
       "responsive-layout.phone#home__banner-phone",
       "flex-layout.row#popular_cards",
+      "flex-layout.row#quick-order",
       "flex-layout.row#recommendations-shelf",
       "whatsapp-button#phone__whatsapp-button",
       "flex-layout.row#best_games-shelf",

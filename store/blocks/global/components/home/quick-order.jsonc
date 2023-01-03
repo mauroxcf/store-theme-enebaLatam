@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#quick-order": {
+    "title": "quick order checkout container",
+    "children": ["quick-order"],
+    "props": {
+      "blockClass": "quickOrder__container"
+    }
+  }
+}

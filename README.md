@@ -112,6 +112,7 @@ vtex link
 44. "itgloberspartnercl.add-to-cart-info"
 45. "itgloberspartnercl.custom-department-search"
 46. "itgloberspartnercl.pdf-reader"
+47. "itgloberspartnercl.quick-order"
 
 ## Custom Apps
 
@@ -120,6 +121,7 @@ vtex link
 3. [whatsapp-button](https://github.com/mauroxcf/itgloberspartnercl-whatsapp-button)
 4. [custom-department-search](https://github.com/mauroxcf/itgloberspartnercl-custom-department-search)
 5. [html-pdf](https://github.com/mauroxcf/itgloberspartnercl-html-pdf)
+6. [quick-order](https://github.com/mauroxcf/itgloberspartnercl-quick-order)
 
 ## Autors ✒️
 
