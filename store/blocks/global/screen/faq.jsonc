@@ -1,0 +1,6 @@
+{
+  "store.custom#faq": {
+    "title": "faq used has custom special diagramation",
+    "blocks": ["custom-grid"]
+  }
+}

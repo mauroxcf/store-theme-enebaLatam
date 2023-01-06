@@ -4,5 +4,8 @@
   },
   "store.custom#blog": {
     "path": "/blog"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
   }
 }

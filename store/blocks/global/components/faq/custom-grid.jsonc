@@ -1,0 +1,43 @@
+{
+  "custom-grid": {
+    "title": "custom editable grid",
+    "children": [
+      "rich-text#custom-grid-1",
+      "rich-text#custom-grid-2",
+      "flex-layout.row#custom-grid-3",
+      "rich-text#custom-grid-4"
+    ]
+  },
+  "rich-text#custom-grid-1": {
+    "title": "grid item 1",
+    "props": {
+      "text": "Grilla 1"
+    }
+  },
+  "rich-text#custom-grid-2": {
+    "title": "grid item 2",
+    "props": {
+      "text": "Grilla 2"
+    }
+  },
+  "flex-layout.row#custom-grid-3": {
+    "title": "grid item 3",
+    "children": ["flex-layout.col#custom-grid-3"]
+  },
+  "flex-layout.col#custom-grid-3": {
+    "title": "inner item 3",
+    "children": ["rich-text#custom-grid-3"]
+  },
+  "rich-text#custom-grid-3": {
+    "title": "grid item 3",
+    "props": {
+      "text": "Grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4": {
+    "title": "grid item 4",
+    "props": {
+      "text": "Grilla 4"
+    }
+  }
+}

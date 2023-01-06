@@ -113,6 +113,7 @@ vtex link
 45. "itgloberspartnercl.custom-department-search"
 46. "itgloberspartnercl.pdf-reader"
 47. "itgloberspartnercl.quick-order"
+48. "itgloberspartnercl.custom-grid"
 
 ## Custom Apps
 
@@ -122,6 +123,7 @@ vtex link
 4. [custom-department-search](https://github.com/mauroxcf/itgloberspartnercl-custom-department-search)
 5. [html-pdf](https://github.com/mauroxcf/itgloberspartnercl-html-pdf)
 6. [quick-order](https://github.com/mauroxcf/itgloberspartnercl-quick-order)
+7. [custom-grid](https://github.com/mauroxcf/itgloberspartnercl-custom-diagramation-template)
 
 ## Autors ✒️
 
