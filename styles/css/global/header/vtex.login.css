@@ -2,3 +2,8 @@
     width : 24px;
     height: 25px;
 }
+
+:global(.vtex-login-2-x-button) button:hover {
+    border-color    : #FAD318;
+    background-color: #1F0A4E;
+}
